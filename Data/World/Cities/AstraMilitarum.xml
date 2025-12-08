@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<city actionsTitle="GUI/Edicts">
+	<traits>
+		<trait name="ImperialSplendour" requiredUpgrade="AstraMilitarum/ImperialSplendour"/>
+	</traits>
+</city>

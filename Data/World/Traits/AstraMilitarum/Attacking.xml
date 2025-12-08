@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait rankMax="2"
+       visible="0">
+    <modifiers>
+        <modifier>
+            <effects>
+                <rangedAccuracy addMax="1.5"
+                              addMin="0.5"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

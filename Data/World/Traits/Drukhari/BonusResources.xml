@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" icon="Actions/Drukhari/BonusResources" category="Buff" visibilityCategory="Tile">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<building>
+					<noTrait name="Headquarters"/>
+				</building>
+			</conditions>
+			<effects>
+				<production mul="0.25"/>
+				<food mul="0.50"/>
+				<ore mul="0.50"/>
+				<energy mul="0.50"/>
+				<research mul="0.50"/>
+				<influence mul="0.50"/>
+				<loyalty mul="0.50"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

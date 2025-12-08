@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>		
+		<unit mesh="Units/SpaceMarines/StormtalonGunship"
+				material="Units/SpaceMarines/StormtalonGunship"
+				idleAnimation="Units/SpaceMarines/StormtalonGunshipIdle"
+				idleAnimationCount="2"
+				idleContinuously="1"
+				position="0 0 64"
+				scale="1.1 1.1 1.1"
+				normalWeight="1.0"
+				explosionsBone="Hull"
+				uvAnimated="0"/>
+	</model>
+	<weapons>
+		<weapon name="TwinLinkedAssaultCannon">
+			<model>
+				<projectileWeapon muzzleBone=".TwinLinkedAssaultCannon"/>
+			</model>			
+		</weapon>
+		<weapon name="SkyhammerMissileLauncher">
+			<model>
+				<missileWeapon muzzleBone=".SkyhammerMissileLauncher"
+						muzzleCount="2"
+						fireInterval="0.5"/>
+			</model>	
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="7"/> <!-- %armor base armor=11/11/11 -->
+				<cargoSlotsRequired base="0"/>
+				<energyUpkeep base="3.0"/> <!-- %energyUpkeep base tier=7 factor=1 -->
+				<energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
+				<hitpointsMax base="16.0"/> <!-- %hitpointsMax base armor=11/11/11 wounds=2 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax base="4"/>
+				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<requisitionsCost base="30.0"/> <!-- %requisitionsCost base tier=7 factor=0.5 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseAircraftScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action
+						animation="Units/SpaceMarines/StormtalonGunshipIdle1"
+						beginFire="0.2"
+						endFire="2.4"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/SpaceMarines/StormtalonGunshipDie"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0.1"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action sound="Units/SpaceMarines/StormtalonGunshipMove"
+						soundCount="3"/>
+			</model>
+		</move>
+		<jink consumedActionPoints="0" consumedMovement="0" requiredActionPoints="0" cooldown="3">
+			<model>
+				<action sound="Actions/ChargeUp"/>
+			</model>
+			<conditions>
+				<unit>
+					<notAttackedThisTurn/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="SpaceMarines/JinkUp"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</jink>
+		<scout consumedActionPoints="0" consumedMovement="0"
+				cooldown="3"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/Scan"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="3">
+							<modifiers>
+								<modifier>
+									<effects>
+										<reveal/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</scout>
+		<genericUnitAbility cooldown="2"
+					 consumedActionPoints="0"
+					 consumedMovement="0"
+					 requiredActionPoints="0"
+				icon="Actions/SpaceMarines/StormtalonMark"
+				name="SpaceMarines/SpaceMark">
+			<model>
+				<action animation=""
+						sound="Actions/SpaceMark"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="2" lineOfSight="1">
+					<conditions>
+						<unit>
+							<enemy/>
+							<noTrait name="Fortification"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="SpaceMarines/StormtalonMark"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<traits>
+		<trait name="SpaceMarines/FlyerSight" requiredUpgrade="SpaceMarines/FlyerSight"/>
+		<trait name="SpaceMarines/ChapterMarking" requiredUpgrade="SpaceMarines/MultiChapter"/>
+		<trait name="SpaceMarines/MultiChapter" requiredUpgrade="SpaceMarines/MultiChapter"/>
+		<trait name="AndTheyShallKnowNoFear"/>
+		<trait name="CeramitePlating" requiredUpgrade="SpaceMarines/CeramitePlating"/>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
+		<trait name="Flyer"/>
+		<!-- <trait name="Hover"/> -->
+		<trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
+		<trait name="StrafingRun"/>
+		<trait name="Vehicle"/>
+	</traits>
+</unit>

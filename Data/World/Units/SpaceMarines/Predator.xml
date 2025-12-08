@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>		
+		<unit mesh="Units/SpaceMarines/Predator"
+				material="Units/SpaceMarines/Predator"
+				idleAnimation="Units/SpaceMarines/PredatorIdle"
+				idleAnimationCount="2"
+				scale="1.1 1.1 1.1"
+				explosionsBone="Hull"
+				uvAnimated="1"/>
+	</model>
+	<weapons>
+		<weapon name="TwinLinkedLascannon">
+			<model>
+				<beamWeapon mesh="Weapons/SpaceMarines/PredatorLasTurret"
+						material="Weapons/SpaceMarines/PredatorTwinLinkedLascannon"
+						bone=".BarrelAttachment"
+						muzzleBone=".BarrelMuzzle"/>
+			</model>
+		</weapon>
+		<weapon name="TwinLinkedLascannonPredator"
+				requiredUpgrade="SpaceMarines/LowTierScale2">
+			<model>
+				<beamWeapon mesh="Weapons/SpaceMarines/PredatorLasTurret"
+						material="Weapons/SpaceMarines/PredatorTwinLinkedLascannon"
+						bone=".BarrelAttachment"
+						muzzleBone=".BarrelMuzzle"/>
+			</model>
+		</weapon>
+		<weapon name="None" requiredUpgrade="SpaceMarines/SmokeLauncher">
+			<model>
+				<projectileWeapon mesh="Weapons/SpaceMarines/DozerHunter+"
+						material="Units/SpaceMarines/RazorbackDozer+"
+						bone="Hull"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=13/11/10 -->
+				<hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=13/11/10 wounds=3 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax base="3"/>
+				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
+				<requisitionsCost base="60.0"/> <!-- %requisitionsCost base tier=7 factor=1 -->
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="SpaceMarines/LowTierScale2">
+            <effects>
+                <requisitionsUpkeep add="1"/>
+            </effects>
+        </modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/SpaceMarines/PredatorAttack"
+						beginFire="0.33"
+						endFire="2.8"/>
+			</model>		
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/SpaceMarines/PredatorDie"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action animation="Units/SpaceMarines/PredatorMove"
+						sound="Units/SpaceMarines/TankMove"
+						soundCount="3"/>
+			</model>		
+		</move>
+		<createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="5"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="SpaceMarines/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="1" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+		<orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
+			<model>
+				<action sound="Actions/DropPod"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="40"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</orbitalDeployment>
+		<genericUnitAbility name="SpaceMarines/RangeReduction"
+							icon="Traits/SpaceMarines/RangeReduction"
+							cooldown="3"
+							consumedMovement="0"
+							consumedActionPoints="0"
+							requiredActionPoints="0"
+							requiredMovement="0">
+			<model>
+				<action sound="Actions/Omniscope"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="SpaceMarines/RangeReduction"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<traits>
+		<trait name="SpaceMarines/AssignImperial" requiredUpgrade="SpaceMarines/ChapterAssign"/>
+		<trait name="SpaceMarines/ImperialFists"/>
+		<trait name="AndTheyShallKnowNoFear"/>
+		<trait name="DozerBlade" requiredUpgrade="SpaceMarines/SmokeLauncher"/>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
+		<trait name="Killshot"/>
+		<trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
+		<trait name="Tank"/>
+		<trait name="Vehicle"/>
+	</traits>
+</unit>

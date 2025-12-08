@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visibilityCategory="Building">
+	<modifiers>
+		<modifier>
+			<effects>
+				<requisitions mul="0.20"/>
+				<energy mul="0.20"/>
+				<research mul="0.20"/>
+				<influence mul="0.20"/>				
+				<loyalty mul="0.20"/>
+				<production mul="0.05"/>		
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

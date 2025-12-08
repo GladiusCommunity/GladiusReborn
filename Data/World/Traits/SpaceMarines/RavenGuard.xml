@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<trait alwaysVisible="1" category="Buff">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <overwatching/>
+                </unit>
+            </conditions>
+            <effects>
+                <attacks mul="0.33"/>
+            </effects>
+        </modifier>
+        <modifier requiredUpgrade="SpaceMarines/StormravenGunship">
+			<conditions>
+				<unit>
+					<movedThisTurn/>
+				</unit>
+			</conditions>
+			<effects>
+				<invulnerableDamageReduction min="0.17"/>
+			</effects>
+        </modifier>
+    </modifiers>
+</trait>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>		
+		<unit mesh="Units/SpaceMarines/Vindicator"
+				material="Units/SpaceMarines/Vindicator"
+				idleAnimation=""
+				idleAnimationCount="0"
+				scale="1.5 1.5 1.5"
+				explosionsBone="Hull"
+				uvAnimated="1"/>
+	</model>
+	<weapons>
+		<weapon name="DemolisherCannon">
+			<model>
+				<projectileWeapon muzzleBone=".DemolisherCannonMuzzle"
+						fireInterval="0.7"/>
+			</model>		
+		</weapon>
+		<weapon
+			name="None"
+			enabled="0">
+			<model>
+				<weapon mesh="Weapons/SiegeShield"
+						material="Weapons/SiegeShield"
+						bone="Hull"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="10"/> <!-- %armor base armor=13/11/10 -->
+				<hitpointsMax base="72.0"/> <!-- %hitpointsMax base armor=13/11/10 wounds=3 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax base="3"/>
+				<productionCost base="60.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<requisitionsUpkeep base="8.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
+				<requisitionsCost base="160.0"/> <!-- %requisitionsCost base tier=7 factor=1 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/SpaceMarines/VindicatorAttack"
+						beginFire="0.6"
+						endFire="2.1"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/SpaceMarines/VindicatorDie"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0"/>
+			</model>
+		</die>
+		<move>
+			<model>
+				<action animation="Units/SpaceMarines/VindicatorMove"
+						sound="Units/SpaceMarines/TankMove"
+						soundCount="3"/>
+			</model>
+		</move>
+		<createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="5"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="SpaceMarines/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="1" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+		<orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
+			<model>
+				<action sound="Actions/DropPod"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="40"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</orbitalDeployment>
+		<genericUnitAbility name="SpaceMarines/ShieldUp" icon="Traits/SpaceMarines/ShieldUp"
+				cooldown="3"
+				requiredActionPoints="0"
+			    requiredMovement="1"
+				consumedMovement="0"
+				consumedActionPoints="0">
+			<model>
+				<action sound="Actions/ArmourUp"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<notMovedThisTurn/>
+											<faction name="SpaceMarines"/>
+											<trait name="SpaceMarines/ImperialFists"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait name="SpaceMarines/ShieldUp" duration="1"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<conditions>
+										<unit>
+											<allied/>
+											<notMovedThisTurn/>
+											<faction name="SpaceMarines"/>
+											<trait name="SpaceMarines/MultiChapter"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait name="SpaceMarines/ShieldUp" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="SpaceMarines/RangeReduction"
+							icon="Traits/SpaceMarines/RangeReduction"
+							cooldown="3"
+							consumedMovement="0"
+							consumedActionPoints="0"
+							requiredActionPoints="0"
+							requiredMovement="0">
+			<model>
+				<action sound="Actions/Omniscope"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="SpaceMarines/RangeReduction"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<traits>
+		<trait name="SpaceMarines/AssignImperial" requiredUpgrade="SpaceMarines/ChapterAssign"/>
+		<trait name="DozerBlade"/>
+		<trait name="SpaceMarines/CoverDestroyer"/>
+		<trait name="SpaceMarines/ImperialFists"/>
+		<trait name="AndTheyShallKnowNoFear"/>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
+		<trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
+		<trait name="Tank"/>
+		<trait name="Vehicle"/>
+	</traits>
+</unit>

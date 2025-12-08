@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visibilityCategory="Building" icon="Actions/AstraMilitarumGrowthEdict">
+	<modifiers>
+		<modifier>
+			<effects>
+				<growth mul="0.15"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/ProductionEdict2">
+			<effects>
+				<growth mul="0.15"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/ProductionEdict3">
+			<effects>
+				<growth mul="0.15"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

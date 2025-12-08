@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" icon="Actions/Sig">
+	<modifiers>
+		<modifier>
+		<conditions>
+				<encounter>
+					<opponent match="Any">	
+						<trait name="MonstrousCreature"/>
+					</opponent>
+				</encounter>
+		</conditions>
+			<effects>
+				<damage mul="0.33"/>
+			</effects>
+		</modifier>		
+	</modifiers>
+</trait>

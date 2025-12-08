@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="1" category="Buff">
+	<modifiers>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+						<trait name="Flyer"/>
+				</unit>
+			</conditions>
+			<effects>
+				<preventEnemyOverwatch add="1"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+						<trait name="Skimmer"/>
+				</unit>
+			</conditions>
+			<effects>
+				<preventEnemyOverwatch add="1"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<sight add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

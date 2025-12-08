@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/SpaceMarines/IronDoctrine" visible="1">
+	<modifiers>
+		<!-- Визуальная часть, чтобы доктрина отображалась на юнитах -->
+		<modifier visible="0">
+			<effects>
+				<accuracy add="1"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<effects>
+				<accuracy add="-1"/>
+			</effects>
+		</modifier>
+		<!-- Визуальная часть, чтобы доктрина отображалась на юнитах -->
+
+		<!-- ОБРАТНАЯ ДЕГРОДА -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<trait name="Vehicle"/>
+					<hitpointsFraction greater="0.33" less="0.66"/>
+				</unit>
+			</conditions>
+			<effects>
+				<movementMax add="1"/>
+			</effects>
+		</modifier> <!-- Отмена Дебафа от Дегроды -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<trait name="Vehicle"/>
+					<hitpointsFraction greater="0.33" less="0.66"/>
+				</unit>
+			</conditions>
+			<effects>
+				<movementMax add="1"/>
+			</effects>
+		</modifier> <!-- Бафф от доктрины(Обратная Дегрода) -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<trait name="Vehicle"/>
+					<hitpointsFraction less="0.33"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier> <!-- Отмена Дебафа от Дегроды -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<trait name="Vehicle"/>
+					<hitpointsFraction less="0.33"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier> <!-- Бафф от доктрины(Обратная Дегрода) -->
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<trait name="Vehicle"/>
+					<hitpointsFraction less="0.33"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier>
+		<!-- ОБРАТНАЯ ДЕГРОДА -->
+
+		<modifier requiredUpgrade="SpaceMarines/Predator" visible="0">
+			<conditions>
+				<unit>
+					<trait name="Shaken"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier> <!-- Отмена Дебафа от Морали -->
+		<modifier requiredUpgrade="SpaceMarines/Predator" visible="0">
+			<conditions>
+				<unit>
+					<trait name="Shaken"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier> <!-- Бафф от доктрины(Обратная Мораль) -->
+		<modifier requiredUpgrade="SpaceMarines/Predator" visible="0">
+			<conditions>
+				<unit>
+					<trait name="Broken"/>
+				</unit>
+			</conditions>
+			<effects>
+				<damageTaken mul="-0.17"/>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier> <!-- Отмена Дебафа от Морали -->
+		<modifier requiredUpgrade="SpaceMarines/Predator" visible="0">
+			<conditions>
+				<unit>
+					<trait name="Broken"/>
+				</unit>
+			</conditions>
+			<effects>
+				<damageTaken mul="-0.17"/>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier> <!-- Бафф от доктрины(Обратная Мораль) -->
+	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<hitpoints add="4"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<trait name="Fortification"/>
+				</unit>
+			</conditions>
+			<effects>
+				<hitpoints add="4"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<type name="SpaceMarines/ScoutBiker"/>
+				</unit>
+			</conditions>
+			<effects>
+				<hitpoints add="4"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="SpaceMarines/Dreadnought">
+			<conditions>
+				<unit>
+					<trait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<hitpoints add="4"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="SpaceMarines/Dreadnought" visible="0">
+			<conditions>
+				<unit>
+					<trait name="Fortification"/>
+				</unit>
+			</conditions>
+			<effects>
+				<hitpoints add="4"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="SpaceMarines/Dreadnought" visible="0">
+			<conditions>
+				<unit>
+					<type name="SpaceMarines/ScoutBiker"/>
+				</unit>
+			</conditions>
+			<effects>
+				<hitpoints add="4"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>
+
+
+
+
+
+
+					
+					

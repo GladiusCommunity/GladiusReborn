@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement1">
+	<model>
+		<unit mesh="Units/SpaceMarines/LandRaider"
+				material="Units/SpaceMarines/LandRaider"
+				idleAnimation="Units/SpaceMarines/LandRaiderIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				scale="1.5 1.5 1.5"
+				explosionsBone="BloodBone"
+				uvAnimated="1"/>
+	</model>
+	<weapons>
+		<weapon name="OnslaughtGatlingCannonLand" count="2">
+			<model>
+				<projectileWeapon muzzleBone=".Lascannon"
+						muzzleCount="4"/>
+			</model>
+		</weapon>
+		<weapon name="TwinLinkedHeavyBolter" count="1">
+			<model>
+				<projectileWeapon muzzleBone=".HeavyBolter"
+						muzzleCount="2"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="9"/> <!-- %armor base armor=14/14/14 -->
+				<cargoSlots base="3"/> <!-- %cargoSlots base capacity=10 -->
+				<hitpointsMax base="72.0"/> <!-- %hitpointsMax base armor=14/14/14 wounds=4 -->
+				<moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+				<movementMax base="4"/>
+				<productionCost base="60.0"/> <!-- %productionCost base tier=10 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<requisitionsUpkeep base="8.0"/> <!-- %requisitionsUpkeep base tier=10 factor=1 -->
+				<requisitionsCost base="160.0"/> <!-- %requisitionsCost base tier=10 factor=1 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/SpaceMarines/LandRaiderAttack"
+						beginFire="0.5"
+						endFire="2.8"/>
+			</model>		
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/SpaceMarines/LandRaiderDie"
+						sound="Units/LargeVehicleDie"
+						soundCount="3"
+						soundDelay="0"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action animation="Units/SpaceMarines/LandRaiderMove"
+						sound="Units/SpaceMarines/LandRaiderMove"
+						soundCount="1"/>
+			</model>		
+		</move>
+		<createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="5"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="SpaceMarines/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="1" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+		<orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
+			<model>
+				<action sound="Actions/DropPod"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="40"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</orbitalDeployment>
+		<genericUnitAbility name="SpaceMarines/LandCruiser" icon="Traits/SpaceMarines/LandCruiser"
+				passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="2">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="SpaceMarines/LandCruiser" rank="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="2">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="SpaceMarines/WitchDestruction"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="SpaceMarines/TemplarPresence" icon="Traits/SpaceMarines/TemplarPresence"
+				passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="2">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="SpaceMarines/TemplarPresence"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<traits>
+		<trait name="SpaceMarines/AssignTemplars" requiredUpgrade="SpaceMarines/ChapterAssign"/>
+		<trait name="SpaceMarines/BlackTemplars"/>
+		<trait name="AndTheyShallKnowNoFear"/>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
+		<trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
+		<trait name="Tank"/>
+		<trait name="Transport"/>
+		<trait name="Vehicle"/>
+	</traits>
+</unit>

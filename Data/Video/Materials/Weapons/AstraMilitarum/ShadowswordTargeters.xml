@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Weapons/AstraMilitarum/ShadowswordTargetersDiffuse"/>
+		<texture name="Weapons/AstraMilitarum/ShadowswordTargetersNormal"/>
+		<texture name="Weapons/AstraMilitarum/ShadowswordTargetersSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

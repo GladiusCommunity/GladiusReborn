@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/SpaceMarines/RazorbackDozer+Diffuse"/>
+		<texture name="Units/SpaceMarines/RazorbackDozer+Normal"/>
+		<texture name="Units/SpaceMarines/RazorbackDozer+SIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

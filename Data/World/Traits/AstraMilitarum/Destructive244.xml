@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" alwaysVisible="1">
+	<onCombatOpponentModifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<noAttacking/>
+						<noTrait name="AstraMilitarum/ArmiusMilitarum"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<addTrait name="AstraMilitarum/ArmiusMilitarum2" duration="1"/>
+			</effects>
+		</modifier>
+	</onCombatOpponentModifiers>
+</trait>

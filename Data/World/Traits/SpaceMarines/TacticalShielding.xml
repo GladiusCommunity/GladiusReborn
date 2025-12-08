@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="1" category="Buff" icon="Traits/SpaceMarines/TacticalShielding">
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<accuracy add="1"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<effects>
+				<accuracy add="-1"/>
+			</effects>
+		</modifier>
+            <!-- <чтобы трейт имел видимость в трее у юнита> -->
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<attacking/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damageTaken mul="-0.33"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<overwatching/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damageTaken mul="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<onCombatSelfModifiers>
+		<modifier visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<attacking/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+				<removeTrait name="SpaceMarines/TacticalShielding"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<overwatching/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<addTrait name="SpaceMarines/TacticalShielding"/>
+			</effects>
+		</modifier>
+	</onCombatSelfModifiers>
+</trait>
+  					<!-- <opponent> -->
+						<!-- <noAttacking/> -->
+					<!-- </opponent> -->

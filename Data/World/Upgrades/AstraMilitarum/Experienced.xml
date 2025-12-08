@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="3" visible="1">
+	<requiredUpgrades>
+		<upgrade name="AstraMilitarum/TempestusScion"/>
+		<upgrade name="AstraMilitarum/FieldOrdnanceBattery"/>
+	</requiredUpgrades>
+</upgrade>

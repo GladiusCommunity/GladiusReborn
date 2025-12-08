@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/SpaceMarines/RavenguardDoctrine" visible="1">
+	<modifiers>
+		<!-- Визуальная часть, чтобы доктрина отображалась на юнитах -->
+		<modifier visible="0">
+			<effects>
+				<accuracy add="1"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<effects>
+				<accuracy add="-1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+		<!-- Визуальная часть, чтобы доктрина отображалась на юнитах -->
+	<onEnemyKilledSelf>
+		<area affects="Unit">
+			<modifiers>
+				<modifier>
+					<effects>
+						<movement add="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+		<area affects="Unit">
+			<modifiers>
+				<modifier requiredUpgrade="SpaceMarines/PrimarisInceptor">
+					<effects>
+						<movement add="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+	</onEnemyKilledSelf>
+</trait>
+
+
+
+
+
+
+					
+					

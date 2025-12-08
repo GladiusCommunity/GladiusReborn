@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/SpaceMarines/HellfireDreadnought"
+				material="Units/SpaceMarines/HellfireDreadnought"
+				idleAnimation="Units/SpaceMarines/DreadnoughtIdle"
+				idleAnimationCount="3"
+				normalWeight="0.1"
+				scale="1.5 1.5 1.5"
+				syncMovementSounds="1"
+				explosionsBone="Hull"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="TwinLinkedLascannonDred">
+			<model>
+				<beamWeapon muzzleBone=".MuzzleBone" muzzleCount="2"/>		
+			</model>
+		</weapon>
+		<weapon name="KrakMissileLauncherDred" slotName="KrakMissileLauncher">
+			<model>
+				<missileWeapon mesh="Weapons/SpaceMarines/DreadnoughtMissileLauncher"
+						material="Weapons/SpaceMarines/Blank"
+						bone="Hull"
+						muzzleBone=".BarrelMuzzle"
+						fireInterval="1"
+						muzzleCount="2"
+						missileScale="0.6"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
+				<hitpointsMax base="42.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
+				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+				<meleeAttacks base="3"/>
+				<strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
+				<!-- <meleeInitiative base="4"/> -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax base="3"/>
+				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
+				<requisitionsCost base="60.0"/> <!-- %requisitionsCost base tier=7 factor=1 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/SpaceMarines/DreadnoughtAttack"
+						beginFire="0.5"
+						endFire="2.667"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/SpaceMarines/DreadnoughtDie"
+						sound="Units/LargeArmoredDie"
+						soundCount="4"
+						soundDelay="0.9"
+						voiceSound="Units/MediumVehicleDie"
+						voiceSoundCount="3"
+						voiceSoundDelay="0"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/SpaceMarines/DreadnoughtMove"
+						sound="Units/SpaceMarines/DreadnoughtMove"
+						soundCount="2"/>
+			</model>				
+		</move>
+		<createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="5"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="SpaceMarines/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="1" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+		<orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
+			<model>
+				<action sound="Actions/DropPod"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="40"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</orbitalDeployment>
+		<genericUnitAbility consumedActionPoints="0"
+				consumedMovement="0"
+				cooldown="3"
+				requiredUpgrade="SpaceMarines/LowTierScale2"
+				icon="Traits/SpaceMarines/DreadForge"
+				name="SpaceMarines/DreadForge">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="-0.1"/>
+										<addTrait name="SpaceMarines/DreadForge" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<traits>
+		<trait name="SpaceMarines/AssignIron" requiredUpgrade="SpaceMarines/ChapterAssign"/>
+		<trait name="SpaceMarines/IronHands"/>
+		<trait name="AndTheyShallKnowNoFear"/>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
+		<trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
+		<trait name="Vehicle"/>
+		<trait name="Walker"/>
+	</traits>
+</unit>

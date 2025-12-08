@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement1">
+	<model>
+		<unit mesh="Units/AstraMilitarum/Harakoni+"
+				material="Units/AstraMilitarum/Harakoni+"
+				idleAnimation="Units/AstraMilitarum/TempestusScionIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1.1 1.1 1.1"
+				bloodBone="BloodBone"
+				walker="1"/>
+	</model>
+	<group size="7" rowSize="3" memberDeltaX="70" memberDeltaY="70"/>
+	<weapons>
+		<weapon name="HotShotLasgunM">
+			<model>
+				<beamWeapon muzzleBone=".Muzzle"
+						fireInterval="0.3"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=4+ -->
+				<foodUpkeep base="4.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
+				<foodCost base="40.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+				<hitpointsMax base="2.5"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4+ -->
+				<meleeAttacks base="1.0"/>
+				<oreCost base="40.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+				<movementMax base="3"/>
+				<productionCost base="48.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<rangedAccuracy base="7"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/TempestusScionAttack"
+						beginFire="1.0" endFire="2.0"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/TempestusScionDie"
+						animationCount="2"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.6"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/TempestusScionMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<mediPack cooldown="5" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+					<noTrait name="SpaceMarines/SalamandersFireEnemy"/>
+				</unit>
+			</conditions>
+			<modifiers>
+			<modifier requiredUpgrade="AstraMilitarum/RecoveryGear" visible="1">
+				<effects>
+					<cooldown add="-2"/>
+				</effects>
+			</modifier>
+			</modifiers>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>		
+	</actions>
+	<traits>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="Stubborn"/>
+		<trait name="RecoveryGear" requiredUpgrade="AstraMilitarum/RecoveryGear"/>
+		<trait name="AstraMilitarum/Infantry"/>
+		<trait name="AstraMilitarum/VoxCasterDies3Morale" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		<trait name="AstraMilitarum/ValkyrieTactics" requiredUpgrade="AstraMilitarum/SkystrikeMissile"/>
+		<trait name="AstraMilitarum/WeStandTogetherScion" requiredUpgrade="AstraMilitarum/WeStandTogether"/>
+		<trait name="AstraMilitarum/DisciplineHeavy"/>
+	</traits>
+</unit>

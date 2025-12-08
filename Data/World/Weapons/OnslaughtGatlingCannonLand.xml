@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Weapons/OnslaughtGatlingCannon">
+	<model>
+		<projectileWeapon fireSound="Weapons/AssaultCannon"
+				fireSoundCount="4"/>
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="3"/>
+				<rangedArmorPenetration add="0"/> <!-- %rangedArmorPenetration add armorPiercing=- -->
+				<rangedDamage add="5"/> <!-- %rangedDamage add strength=5 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="2"/>
+	<traits>
+		<trait name="BoltWeapon"/>
+		<trait name="HeavyWeapon"/>
+		<trait name="SpaceMarines/BoltDamage" requiredUpgrade="SpaceMarines/BoltDamage"/>
+		<trait name="Rending"/>
+		<trait name="Blast"/>
+	</traits>
+</weapon>

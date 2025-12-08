@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/CADIASTANDS">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<trait name="AstraMilitarum/OfficerBomber"/>
+					<trait name="AstraMilitarum/OfficerScion"/>
+					<trait name="AstraMilitarum/OfficerTech"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy add="1"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/TempestusScion"/>
+				</unit>
+		</conditions>
+			<effects>
+				<moraleLossFactor add="-0.33"/>
+				<armorPenetration add="1"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/TechpriestEnginseer"/>
+				</unit>
+		</conditions>
+			<effects>
+				<moraleLossFactor add="-0.33"/>
+				<armor add="1"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AirDiscipline" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/MarauderBomber"/>
+				</unit>
+		</conditions>
+			<effects>
+				<accuracy add="1"/>
+				<rangedDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

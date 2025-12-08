@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="AstraMilitarum/Heroes" value="Shrine of the Aquila"/>
+	<entry name="AstraMilitarum/HeroesDescription" value="Building that produces heroes and psykers as well as generates influence and increases loyalty."/>
+	<entry name="AstraMilitarum/HeroesFlavor" value="Far more than a mere statue, this great metal eagle was cast from the molten remains of space-faring vessels, and serves as an inspiration for those nearby. The Imperial troops that fight under the Aquila's ceaseless vigil find a new determination welling in their hearts, knowing that they are the last in a line of heroes that stretches across the stars."/>
+	<entry name="AstraMilitarum/Psykers" value="Psyker Coven"/>
+	<entry name="AstraMilitarum/PsykersDescription" value="Sub Building that allows to produce psykers in Aquilla shrines."/>
+	<entry name="AstraMilitarum/PsykersFlavor" value="Whilst the warpstorm rages, the peacetime use of psykers—as astropaths, for long-range communication—is pointless. Similarly, without being able to reach the Black Ships, unwanted psykers can't be transported to Terra for sacrifice at the Golden Throne. Instead, most are executed, with a select few drafted into Imperial service as Sanctioned Psykers."/>
+	
+	
+</language>

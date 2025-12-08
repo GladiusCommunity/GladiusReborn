@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Traits/Summon">
+	<perTurnModifiers>
+		<modifier>
+			<effects>
+				<removeUnit/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

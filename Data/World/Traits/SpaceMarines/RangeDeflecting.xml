@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/SpaceMarines/RangeDeflecting">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAttacks mul="-0.33"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+				<unit match="Any">
+					<trait name="MonstrousCreature"/>
+				</unit>
+			</conditions>
+			<effects>
+				<movementMax mul="-0.67"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

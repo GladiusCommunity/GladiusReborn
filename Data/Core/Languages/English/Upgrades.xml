@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+    <entry name="AstraMilitarum/ProductionEdict" value="<string name='Actions/AstraMilitarumProductionEdict'/>"/>
+	<entry name="AstraMilitarum/ProductionEdictDescription" value="<string name='Actions/AstraMilitarumProductionEdictDescription'/>"/>
+	<entry name="AstraMilitarum/ProductionEdictFlavor" value="<string name='Actions/AstraMilitarumProductionEdictFlavor'/>"/>
+
+	<entry name="AstraMilitarum/ProductionEdict2" value="Mass construction"/>
+	<entry name="AstraMilitarum/ProductionEdict2Description" value="Edicts that increases the production output of the labour corps in the city and increases growth rate."/>
+	<entry name="AstraMilitarum/ProductionEdict2Flavor" value="Edict, Departmento Munitorum: to all manufactory overseers: servitors are required to be run continuously for this cycle. Burnouts / fatalities are to be replaced from the lower ranks of the penal and labour corps."/>
+
+	<entry name="AstraMilitarum/ProductionEdict3" value="Mass construction 2"/>
+	<entry name="AstraMilitarum/ProductionEdict3Description" value="Edicts that increases the production output of the labour corps in the city and increases growth rate."/>
+	
+	<entry name="SpaceMarines/EmperorsClaims" value="<string name='Upgrades/EmperorsClaims'/>"/>
+	<entry name="SpaceMarines/EmperorsClaimsDescription" value="<string name='Upgrades/EmperorsClaimsDescription'/>"/>
+
+	<entry name="SpaceMarines/EmperorsSpecialisation" value="<string name='Upgrades/EmperorsSpecialisation'/>"/>
+	<entry name="SpaceMarines/EmperorsSpecialisationDescription" value="<string name='Upgrades/EmperorsSpecialisationDescription'/>"/>
+	
+	<entry name="AstraMilitarum/MarauderDestroyer" value="<string name='Units/AstraMilitarum/MarauderDestroyer'/>"/>
+	<entry name="AstraMilitarum/MarauderDestroyerDescription" value="<string name='Units/AstraMilitarum/MarauderDestroyerDescription'/>"/>
+	<entry name="AstraMilitarum/MarauderDestroyerFlavor" value="<string name='Units/AstraMilitarum/MarauderDestroyerFlavor'/>"/>
+	
+	<entry name="AstraMilitarum/ArmoredSentinel" value="<string name='Units/AstraMilitarum/ArmoredSentinel'/>"/>
+	<entry name="AstraMilitarum/ArmoredSentinelDescription" value="<string name='Units/AstraMilitarum/ArmoredSentinelDescription'/>"/>
+	<entry name="AstraMilitarum/ArmoredSentinelFlavor" value="<string name='Units/AstraMilitarum/ArmoredSentinelFlavor'/>"/>
+	
+	<entry name="AstraMilitarum/Kasrkin" value="Kasrkin"/>
+	<entry name="AstraMilitarum/KasrkinDescription" value="Elite infantry unit of the Astra Militarum."/>
+	<entry name="AstraMilitarum/KasrkinFlavor" value="When veteran Guardsmen flee, the Kasrkin stand. When victory is near, the Kasrkin seize it. When the Archenemy attacks, the Kasrkin Elite are the rock upon which traitors shall break."/>
+	
+	<entry name="AstraMilitarum/BlastDamage" value="<string name='Traits/AstraMilitarum/BlastDamage'/>"/>
+	<entry name="AstraMilitarum/BlastDamageDescription" value="Increases the armour penetration of grenade, missile and blast weapons."/>
+	<entry name="AstraMilitarum/BlastDamageFlavor" value="<string name='Traits/AstraMilitarum/BlastDamageFlavor'/>"/>
+	
+	<entry name="AstraMilitarum/HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="AstraMilitarum/HammerOfWrathDescription" value="Grants Scout Sentinels, Armored Sentinels, Kasrkins and Bullgryns the ability to perform more devastating attacks."/>
+	<entry name="AstraMilitarum/HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	
+	
+	<entry name="SpaceMarines/AssTerminator" value="Assault Terminators"/>
+	<entry name="SpaceMarines/AssTerminatorDescription" value="Elite tactical formation of the Adeptus Astartes."/>
+	<entry name="SpaceMarines/AssTerminatorFlavor" value="Wielding the most ferocious weapons their Chapter can provide, these elite Veterans quickly overwhelm all who stand before them."/>
+	
+	
+	<entry name="Tau/HammerheadGunshipmk2" value="TX7-M2 Hammerhead Gunship"/>
+	<entry name="Tau/HammerheadGunshipmk2Description" value="Skimmer tank unit with powerfull weaponry."/>
+	<entry name="Tau/HammerheadGunshipmk2Flavor" value="Hammerhead Gunships glide into battle like predatory beasts. As they advance, their massive turret armaments traverse smoothly, railguns and ion cannons sweeping left and right as they hunt for targets. The moment a suitable victim presents itself, firing solutions are calculated in the blink of an eye. Power surges as gravitic stabilisers kick in with a bass hum and the Hammerheads loose the lethal fury of their arsenal upon the foe."/>
+	
+	<entry name="SpaceMarines/FortressOfRedemptionMissileSilo" value="Missile Silos"/>
+	<entry name="SpaceMarines/FortressOfRedemptionMissileSiloDescription" value="Grants Fortresses of Redemption and Land raider a krakstorm missile silos."/>
+	<entry name="SpaceMarines/FortressOfRedemptionMissileSiloFlavor" value="<string name='Weapons/KrakstormMissileSiloFlavor'/>"/>
+	
+    <entry name="Tau/UtopiaBonus2" value="<string name='Traits/Tau/UtopiaBonus2'/>"/>
+	<entry name="Tau/UtopiaBonus2Description" value="<string name='Traits/Tau/UtopiaBonus2Description'/>"/>
+	<entry name="Tau/UtopiaBonus2Flavor" value="<string name='Traits/Tau/UtopiaBonus2Flavor'/>"/>
+	
+	<entry name="ChaosSpaceMarines/HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosSpaceMarines/HammerOfWrathDescription" value="Grants Daemon Princes, Defilers, Forgefiends, Greater Brass Scorpions, Helbrutes, Maulerfiends, Venomcrawlers, Obliterators and Warp Talons the ability to perform more devastating attacks."/>
+	<entry name="ChaosSpaceMarines/HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	
+	<entry name="Eldar/HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="Eldar/HammerOfWrathDescription" value="Grants Shining Spears, Farseer Skyrunners, Avatar of Khaine, War Walkers, Wraithblades and Wraithknights the ability to perform more devastating attacks."/>
+	<entry name="Eldar/HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	
+	<entry name="Eldar/Wraithguards" value="<string name='Units/Eldar/Wraithguards'/>"/>
+	<entry name="Eldar/WraithguardsDescription" value="<string name='Units/Eldar/WraithguardsDescription'/>"/>
+	<entry name="Eldar/WraithguardsFlavor" value="<string name='Units/Eldar/WraithguardsFlavor'/>"/>
+	
+	<entry name="AdeptusMechanicus/SkorpiusDuneriderMk2" value="<string name='Units/AdeptusMechanicus/SkorpiusDuneriderMk2'/>"/>
+	<entry name="AdeptusMechanicus/SkorpiusDuneriderMk2Description" value="<string name='Units/AdeptusMechanicus/SkorpiusDuneriderMk2Description'/>"/>
+	<entry name="AdeptusMechanicus/SkorpiusDuneriderMk2Flavor" value="<string name='Units/AdeptusMechanicus/SkorpiusDuneriderMk2Flavor'/>"/>
+
+	<entry name="BanebladeLascannon" value="Engine overload"/>
+	<entry name="BanebladeLascannonDescription" value="Gives all Astra Militarum vehicles +1 max movement."/>
+
+	<entry name="AstraMilitarum/AwakenTheMachine" value="&lt;string name='Upgrades/AwakenTheMachine'/&gt;"/>
+	<entry name="AstraMilitarum/AwakenTheMachineDescription" value="&lt;string name='Upgrades/AwakenTheMachineDescription'/&gt;"/>
+	<entry name="AstraMilitarum/AwakenTheMachineFlavor" value="&lt;string name='Upgrades/AwakenTheMachineFlavor'/&gt;"/>
+
+    <entry name="HammerOfWrath" value="Hammer of Wrath/Smoke Launcher"/>
+	<entry name="HammerOfWrathDescription" value="Grants Hammer of Wrath to Chaos units (Fiends, Obliterator, Helbrute, Defiler, Scorpion, Crawler, Daemon Prince, Warp Claw) and Smokescreen to Defiler, Land Raider and Chaos Rhino."/>
+
+	<entry name="EmperorsClaims" value="Unity of the Emperor"/>
+	<entry name="EmperorsClaimsDescription" value="Increases the resource output of non-headquarters buildings of the same type on a tile. Decreases the output of non-headquarters buildings of differing types on a tile."/>
+
+	<entry name="EmperorsSpecialisation" value="In unity there is strength"/>
+	<entry name="EmperorsSpecialisationDescription" value="Increases the resource output of non-headquarters buildings of the same type on a tile."/>
+
+	<entry name="SpaceMarines/ResBonus1" value="In unity there is strength"/>
+	<entry name="SpaceMarines/ResBonus1Description" value="Increases the resource output of non-headquarters buildings of the same type on a tile."/>
+
+	<entry name="SpaceMarines/ResBonus2" value="Increased collection"/>
+	<entry name="SpaceMarines/ResBonus2Description" value="Increases the percent received from outposts."/>
+
+	<entry name="SpaceMarines/UnityDropPod" value="Astartes support"/>
+	<entry name="SpaceMarines/UnityDropPodDescription" value="Allows you to summon a Land Raider and Centurion from the Astartes fleet."/>
+
+	<entry name="SpaceMarines/LasCannonDoctrine" value="LasCannon Doctrine"/>
+	<entry name="SpaceMarines/LasCannonDoctrineDescription" value="Increases the accuracy of twin linked LasCannons."/>
+
+    <entry name="AwakenTheMachine" value="Support of the Imperium"/>
+	<entry name="AwakenTheMachineDescription" value="Enhances the vehicle's awakening effect (+1 accuracy and +1 armor penetration) and grants psykers the ability to curse enemy units."/>
+    <entry name="AwakenTheMachineFlavor" value="BaneBlade, Rogal Dorn = +1 max move. Sentinels = +1 max vision. Leman Russ, Devil Dog, Basilisk, Airplanes = +1 armor penetration."/>
+
+	<entry name="AstraMilitarum/Psykers" value="Wyrdvane Psykers"/>
+	<entry name="AstraMilitarum/PsykersDescription" value="Psyker unit that specializes in debuffs."/>
+	<entry name="AstraMilitarum/PsykersFlavor" value="Wyrdvane Psykers transform the howling might of the Warp into a deadly weapon of Imperial supremacy. They are formed from those Scholastica Psykana inductees not able to control their burgeoning powers without guidance and aid. As individuals, such psykers are unpredictable and unsafe. Yet working in concert, these deadly mutants can be a valuable asset."/>
+
+	<entry name="AstraMilitarum/WeStandTogether" value="We stand together!"/>
+    <entry name="AstraMilitarum/WeStandTogetherDescription" value="Increases the group size of Astra Militarum infantry units, except Bullgryns."/>
+    <entry name="AstraMilitarum/WeStandTogetherFlavor" value="The campaign’s senior commander has designated the upcoming battle as so vital that they will funnel all of their resources and assets into securing victory, forgoing frugal logistical management in favour of overwhelming force."/>
+
+	<entry name="AstraMilitarum/Scouting" value="Scout specialists"/>
+	<entry name="AstraMilitarum/ScoutingDescription" value="Allows Ratlings and Scout Sentinels to reveal tiles in an area around them, and also gives them the ability to move through forests and ruins without penalty."/>
+
+	<entry name="AstraMilitarum/Experienced" value="Experienced Eye"/>
+	<entry name="AstraMilitarum/ExperiencedDescription" value="Grants the ability to spot enemy units when attacked by Field Artillery and Tempestus, thereby increasing ranged damage against them."/>
+
+	<entry name="AstraMilitarum/RecoveryGear" value="&lt;string name='Traits/RecoveryGear'/&gt;"/>
+	<entry name="AstraMilitarum/RecoveryGearDescription" value="Decrease cooldown from a medpack,increases healing by 4hp from the Omnissiah's Blessing (Tech-Priest) and accelerates the recovery of health points for Astra Militarum units."/>
+	<entry name="AstraMilitarum/RecoveryGearFlavor" value="&lt;string name='Traits/RecoveryGearFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarum/VoidShieldGeneratorDescription" value="Grants the ability to upgrade imperial strongpoint and install a void shield generator that provides range damage reduction for allied Astra Militarum units."/>
+
+	<entry name="AstraMilitarum/VoxCaster" value="Relentless"/>
+    <entry name="AstraMilitarum/VoxCasterDescription" value="The death of nearby infantry does not reduce morale and enhances the Astra Militarum vehicles, giving them +17% damage."/>
+
+	<entry name="AstraMilitarum/AirDiscipline" value="Air Discipline"/>
+    <entry name="AstraMilitarum/AirDisciplineDescription" value="Allows aircraft to receive bonuses from officer and general auras."/>
+
+	<entry name="AstraMilitarum/SkystrikeMissile" value="Heavenly Strike"/>
+	<entry name="AstraMilitarum/SkystrikeMissileDescription" value="Gives the Valkyrie the ability to highlight ground targets, increasing infantry damage, deploy Kasrkin and Tempestus giving them +1 max movement and ignor overwatch, and gives the Lightning Strike the ability to fire missiles at air targets."/>
+	<entry name="AstraMilitarum/SkystrikeMissileFlavor" value="The not-so-well-known Skystrike support group worked wonders on the battlefield, destroying xenos aircraft and landing strike troops right into the heart of the swarm.."/>
+
+	<entry name="AstraMilitarum/AdditionalHeavyBolters" value="Additional heavy weapons"/>
+	<entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Allows additional Heavy Bolters to be mounted on the Baneblade, Devil Hound, Rogal Dorn battle tank, Valkyrie, gives Basilisks the ability to reduce armor and increases the damage of the Victorious Cannon on the Leman Russ tank."/>
+	<entry name="AstraMilitarum/AdditionalHeavyBoltersFlavor" value="&lt;string name='Weapons/HeavyBolterFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarum/SastraMilitaries" value="Military forces of Militarum"/>
+    <entry name="AstraMilitarum/SastraMilitariesDescription" value="Gives Astra Militarum infantry bonuses that make them stronger in combat. Guardsmen have 100% second-range attacks, separate heavy weapons do not lose accuracy after moving, Tempestus ability +1 attack range, Ratlings +1 max movement, Bykryns reduce max movement with attack, Psykers +1 ability duration."/>
+
+	<entry name="SpaceMarines/PredatorLascannon" value="Additional weapons"/>
+	<entry name="SpaceMarines/PredatorLascannonDescription" value="Gives Predators an additional twin-linked lascannon, but increases upkeep by 1. Grants Redemption Fortresses and Aquila Megacannons additional heavy bolters."/>
+	<entry name="SpaceMarines/PredatorLascannonFlavor" value="&lt;string name='Weapons/HeavyBolterFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarum/Baneblade" value="<string name='Units/AstraMilitarum/Shadowsword'/>"/>
+	<entry name="AstraMilitarum/BanebladeDescription" value="<string name='Units/AstraMilitarum/ShadowswordDescription'/>"/>
+	<entry name="AstraMilitarum/BanebladeFlavor" value="<string name='Units/AstraMilitarum/ShadowswordFlavor'/>"/>
+
+	<entry name="AstraMilitarum/DisciplineMove" value="Discipline above all else"/>
+	<entry name="AstraMilitarum/DisciplineMoveDescription" value="All officers gain +1 to the radius of the Discipline aura. All infantry within the aura's radius do not suffer a penalty to movement in forests, ruins, and rivers. Heavy weapons units gain an ability that increases damage to air targets."/>
+	<entry name="AstraMilitarum/DisciplineMoveFlavor" value="Every soldier who lost faith in the Emperor lost himself."/>
+
+	<entry name="AstraMilitarum/MixCover" value="Shelter from fire"/>
+	<entry name="AstraMilitarum/MixCoverDescription" value="Infantry begins to take cover from fire behind allied Astra Militarum vehicles, receiving 33% ranged damage reduction."/>
+
+	<entry name="AstraMilitarum/PsykersPower" value="Witchcraft"/>
+	<entry name="AstraMilitarum/PsykersPowerDescription" value="Psykers gain the ability to use their abilities without spending actions."/>
+
+	<entry name="SpaceMarines/BolterDiscipline" value="Bolter Discipline"/>
+	<entry name="SpaceMarines/BolterDisciplineDescription" value="Gives the Tactical a new trait - if the unit remains stationary, they fire Rapid Fire weapons with increased attacks at all ranges."/>
+	<entry name="SpaceMarines/BolterDisciplineFlavor" value="To a Space Marine, the boltgun is more than a weapon—it is an instrument of Mankind’s divinity, the bringer of death to his foes."/>
+
+	<entry name="SpaceMarines/MultiChapter" value="&lt;string name='Traits/SpaceMarines/MultiChapter'/&gt;"/>
+	<entry name="SpaceMarines/MultiChapterDescription" value="Allows basic Space Marine units to benefit from the abilities and doctrines of different Chapters, and provides a marker that increases the damage of Chapter units to a target."/>
+	<entry name="SpaceMarines/MultiChapterFlavor" value="&lt;string name='Traits/SpaceMarines/MultiChapterFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/IronHands1" value="Iron Hands Scout Biker"/>
+	<entry name="SpaceMarines/IronHands1Description" value="Mobile reconnaissance unit of the Chapter of the Iron Hands."/>
+	<entry name="SpaceMarines/IronHands1Flavor" value="&lt;string name='Units/SpaceMarines/ScoutBikerFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/OrbitalUpgrade" value="Advanced Scanning"/>
+	<entry name="SpaceMarines/OrbitalUpgradeDescription" value="Reduces reload time and increases scanning radius."/>
+	<entry name="SpaceMarines/OrbitalUpgradeFlavor" value="&lt;string name='Actions/OrbitalScanFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/AdvancedPool" value="Fermentation Gathering"/>
+	<entry name="SpaceMarines/AdvancedPoolDescription" value="Increases resources collected from the 'Fermentation Pool' terrain feature."/>
+	<entry name="SpaceMarines/AdvancedPoolFlavor" value="&lt;string name='Features/FermentationPoolFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/FortressSupreme" value="Supreme Fortress"/>
+	<entry name="SpaceMarines/FortressSupremeDescription" value="Allows you to mount additional Bolters and a Lascannon on your Space Marine HQ, and restores health to your HQ and Redemption Fortresses every turn.."/>
+	<entry name="SpaceMarines/FortressSupremeFlavor" value="Each Chapter of the Adeptus Astartes contains a mighty fortress-monastery, a sanctuary where new generations of Space Marines are trained and where the Chapter's secrets are kept."/>
+
+	<entry name="SpaceMarines/NoFear" value="Fearless"/>
+	<entry name="SpaceMarines/NoFearDescription" value="Reduces morale loss and grants immunity to fear and pinning for Space Marine infantry units."/>
+	<entry name="SpaceMarines/NoFearFlavor" value="&lt;string name='Traits/AndTheyShallKnowNoFear'/&gt;"/>
+
+	<entry name="SpaceMarines/ChapterMasters" value="Chapter Masters"/>
+	<entry name="SpaceMarines/ChapterMastersDescription" value="Adds new abilities to heroes. Librarian gains the ability to 'Levitate', Captain - 'Captain's Armor' (Reduces ranged attacks of adjacent units), Chaplain - 'Aura of Fortitude' (Increases ranged damage reduction and cannot be targeted by attacks from overwatch), and allows heroes to receive bonuses from doctrines of different Orders."/>
+	<entry name="SpaceMarines/ChapterMastersFlavor" value="'They will become my best warriors, completely devoted to me, as if I were molding them from clay and burning them in the crucible of war.'"/>
+
+    <entry name="SpaceMarines/LandSpeederDescription" value="Unlocks the RavenGuard Doctrine and a mobile hover vehicle that can even travel on water."/>
+    <entry name="SpaceMarines/PrimarisInvaderATVDescription" value="Unlocks the Black Templars Doctrine and a fast vehicle armed with a gatling gun."/>
+    <entry name="SpaceMarines/ThunderfireCannonDescription" value="Unlocks the Iron Hands Doctrine and a cannon that provides long-range fire support."/>
+    <entry name="SpaceMarines/WhirlwindDescription" value="Unlocks the Salamanders Doctrine and an artillery tank with an arsenal of missiles to pound enemy positions from a long distance."/>
+    <entry name="SpaceMarines/PrimarisAggressorDescription" value="Unlocks the Imperial Fists Doctrine and a close combat anti-infantry unit armed with Flamestorm Gauntlets."/>
+    <entry name="SpaceMarines/ApothecaryDescription" value="Upgrades Doctrine and unlocks an infantry unit that heals allied infantry."/>
+    <entry name="SpaceMarines/DreadnoughtDescription" value="Upgrades Doctrine and unlocks a heavy walker that crushes foes."/>
+    <entry name="SpaceMarines/PredatorDescription" value="Upgrades Doctrine and unlocks an Astartes main battle tank."/>
+    <entry name="SpaceMarines/PrimarisInceptorDescription" value="Upgrades Doctrine and unlocks a powerful close combat unit equipped with jump packs."/>
+    <entry name="SpaceMarines/StormSpeederThunderstrikeDescription" value="Upgrades Doctrine and unlocks a fast assault vehicle with powerful anti-tank weapons."/>
+    <entry name="SpaceMarines/PrimarisHellblasterDescription" value="Upgrades the Chapter trait and unlocks heavy armor-piercing rifle infantry."/>
+    <entry name="SpaceMarines/DevastatorSpaceMarineDescription" value="Upgrades the Chapter trait and unlocks infantry armed to combat heavy combat vehicles."/>
+    <entry name="SpaceMarines/AssaultTerminatorDescription" value="Upgrades the Chapter trait and unlocks heavy melee infantry with powerful weapons and shields."/>
+    <entry name="SpaceMarines/RedemptorDreadnoughtDescription" value="Upgrades the Chapter trait and unlocks a powerful walker with a wide arsenal of weapons."/>
+    <entry name="SpaceMarines/StormravenGunshipDescription" value="Upgrades the Chapter's trait and unlocks heavily armed and armored air transports."/>
+
+    <entry name="SpaceMarines/LowTierScale" value="Legion Reinforcements"/>
+    <entry name="SpaceMarines/LowTierScaleDescription" value="Adds +3 max health to Scout Motor Squad and Bolter Discipline, +1 attack range to Hunters, Shield to Space Marine Assault Squads, Signum ability for Scouts, adds a Storm Bolter to Cleaver, a shield to Tactical Squads, and Intercessors gain a new 'Forge Flame' trait that deals damage over time and blocks all healing."/>
+    <entry name="SpaceMarines/LowTierScaleFlavor" value="Almost every Space Marine created since the First Founding has nineteen specialized implants, but their Primaris brethren have three more unique organs."/>
+
+    <entry name="SpaceMarines/LowTierScale2" value="Frame of Loyalty"/>
+    <entry name="SpaceMarines/LowTierScale2Description" value="Adds additional heavy weapons to the Predator and Landspeeder, a new 'Thunderbolt' ability to the Dreadnought, a 'Pointer' ability to the Whirlwind, increases the max health of Apothecaries, and makes Intercessors cheaper."/>
+    <entry name="SpaceMarines/LowTierScale2Flavor" value="Almost every Space Marine created since the First Founding has nineteen specialized implants, but their Primaris brethren have three more unique organs."/>
+
+    <entry name="SpaceMarines/ChapterAssign" value="Organized Armies"/>
+    <entry name="SpaceMarines/ChapterAssignDescription" value="Space Marine Chapter units gain a new trait that increases damage to targets attacked by other Chapters."/>
+    <entry name="SpaceMarines/ChapterAssignFlavor" value="Originally, Chapters were the organizational unit of the Thunder Warriors army. During the Great Crusade, the Space Marines were divided into Legions, which in turn were made up of Companies."/>
+
+    <entry name="SpaceMarines/FlyerSight" value="Astartes X-Ray"/>
+    <entry name="SpaceMarines/FlyerSightDescription" value="Increases the sight radius of Space Marine Flyers and Skimmers, and prevents Flyers from being targeted by enemy overwatch attacks."/>
+    <entry name="SpaceMarines/FlyerSightFlavor" value="&lt;string name='Traits/SpaceMarines/FlyerSightFlavor'/&gt;"/>
+
+    <entry name="SpaceMarines/NoLosses" value="No Losses"/>
+    <entry name="SpaceMarines/NoLossesDescription" value="Reduces morale loss for infantry units and they gain a new ability that reduces morale loss for allies."/>
+    <entry name="SpaceMarines/NoLossesFlavor" value="In a galaxy shrouded in darkness, we must become the light. In times when the tides of despair rise high, we must rise higher. In an age when reason and hope flee, we must stand to the death."/>
+
+	<entry name="SpaceMarines/TacticalSolution" value="Tactical Decisions"/>
+	<entry name="SpaceMarines/TacticalSolutionDescription" value="Reduces cooldown for Scan, Fortress of Redemption, and Orbital Bombardment."/>
+    <entry name="SpaceMarines/TacticalSolutionFlavor" value="Chapters are monastic in nature, with most Space Marines' Chapters being limited to their entire world, and only interacting with outsiders in battle."/>
+
+	<entry name="SpaceMarines/DoctrineMasters" value="Emperor's Order"/>
+	<entry name="SpaceMarines/DoctrineMastersDescription" value="Reduces cooldown for doctrines of all Orders."/>
+
+	<entry name="SpaceMarines/Heroes" value="&lt;string name='Units/SpaceMarines/Captain'/&gt;"/>
+	<entry name="SpaceMarines/HeroesDescription" value="&lt;string name='Units/SpaceMarines/CaptainDescription'/&gt;"/>
+	<entry name="SpaceMarines/HeroesFlavor" value="&lt;string name='Units/SpaceMarines/CaptainFlavor'/&gt;"/>
+
+	<entry name="Drukhari/Heroes" value="&lt;string name='Units/Drukhari/Archon'/&gt;"/>
+	<entry name="Drukhari/HeroesDescription" value="&lt;string name='Units/Drukhari/ArchonDescription'/&gt;"/>
+	<entry name="Drukhari/HeroesFlavor" value="&lt;string name='Units/Drukhari/ArchonFlavor'/&gt;"/>
+
+	<entry name="ChaosSpaceMarines/Heroes" value="&lt;string name='Units/ChaosSpaceMarines/ChaosLord'/&gt;"/>
+	<entry name="ChaosSpaceMarines/HeroesDescription" value="&lt;string name='Units/ChaosSpaceMarines/ChaosLordDescription'/&gt;"/>
+	<entry name="ChaosSpaceMarines/HeroesFlavor" value="&lt;string name='Units/ChaosSpaceMarines/ChaosLordFlavor'/&gt;"/>
+
+	<entry name="Necrons/Heroes" value="&lt;string name='Units/Necrons/Lord'/&gt;"/>
+	<entry name="Necrons/HeroesDescription" value="&lt;string name='Units/Necrons/LordLordDescription'/&gt;"/>
+	<entry name="Necrons/HeroesFlavor" value="&lt;string name='Units/Necrons/LordFlavor'/&gt;"/>
+
+	<entry name="Orks/Heroes" value="&lt;string name='Units/Orks/Warboss'/&gt;"/>
+	<entry name="Orks/HeroesDescription" value="&lt;string name='Units/Orks/WarbossDescription'/&gt;"/>
+	<entry name="Orks/HeroesFlavor" value="&lt;string name='Units/Orks/WarbossFlavor'/&gt;"/>
+
+	<entry name="Tau/Heroes" value="&lt;string name='Units/Tau/CadreFireblade'/&gt;"/>
+	<entry name="Tau/HeroesDescription" value="&lt;string name='Units/Tau/CadreFirebladeDescription'/&gt;"/>
+	<entry name="Tau/HeroesFlavor" value="&lt;string name='Units/Tau/CadreFirebladeFlavor'/&gt;"/>
+
+	<entry name="Eldar/Heroes" value="&lt;string name='Units/Eldar/Autarch'/&gt;"/>
+	<entry name="Eldar/HeroesDescription" value="&lt;string name='Units/Eldar/AutarchDescription'/&gt;"/>
+	<entry name="Eldar/HeroesFlavor" value="&lt;string name='Units/Eldar/AutarchFlavor'/&gt;"/>
+
+    <entry name="AstraMilitarumAircraftProductionEdict" value="Energy Order"/>
+    <entry name="AstraMilitarumAircraftProductionEdictDescription" value="Edicts increasing Voidport city output and energy production."/>
+    <entry name="AstraMilitarumAircraftProductionEdictFlavor" value="Edict, Departmento Munitorum: To all Voidport Masters. Workers' sleep cycles are halved until further notice, and production targets are increased. Arbitrators have been dispatched to all sectors to ensure compliance."/>
+
+
+	<entry name="Missing" value="Missing"/>
+</language>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<addTrait name="SpaceMarines/TacticalShielding"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>
+  					<!-- <opponent> -->
+						<!-- <noAttacking/> -->
+					<!-- </opponent> -->

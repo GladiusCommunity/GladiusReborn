@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/RapidFire">
+	<modifiers>
+		<modifier>
+			<effects>
+				<rangedAttacks mul="0.50"/>
+			</effects>
+		</modifier>		
+	</modifiers>
+</trait>

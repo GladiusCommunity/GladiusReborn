@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Weapons/PlasmaExterminatorStandard">
+	<modifiers>
+		<modifier>
+			<effects>
+				<additionalMembersHit add="0.5"/>
+			</effects>
+		</modifier>
+        <modifier>
+			<conditions>
+				<encounter>
+					<opponent match="Any">
+						<trait name="Fortification"/>
+						<trait name="Vehicle"/>
+                        <trait name="MonstrousCreature"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<armorPenetration mul="0.17"/>
+                <damage mul="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

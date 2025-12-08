@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" rankMax="2">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Infantry"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.33"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/Thunderbolt"/>
+				</unit>
+		</conditions>
+			<effects>
+				<moraleLossFactor add="-0.33"/>
+				<armorPenetration add="1"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/Valkyrie"/>
+				</unit>
+		</conditions>
+			<effects>
+				<accuracy add="1"/>
+				<moraleLossFactor add="-0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

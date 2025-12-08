@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem material="Effects/PowerWeapon"
+                      relativeParticles="1"
+                      variationCount="2 2">
+    <updateQueues>
+        <updateQueue name="Parallel3"/>
+    </updateQueues>
+    <emitters>
+        <sphereEmitter interval="0.25"
+                       particleLifeTimeMax="1.5"
+                       particleLifeTimeMin="1.5"
+                       particleSizeMax="48 48"
+                       particleSizeMin="48 48"
+                       particleSizeSquared="1"
+                       particleVelocityMax="0"
+                       particleVelocityMin="0"
+                       spawns="1"/>
+    </emitters>
+    <affectors>
+        <colorAffector>
+            <colors>
+                <color progress="0.0"
+                       value="1 1 1 0.5"/>
+                <color progress="0.5"
+                       value="0 0.61 1 1"/>
+                <color progress="1.0"
+                       value="0.42 0.07 1 0"/>
+            </colors>
+        </colorAffector>
+        <scaleAffector>
+            <scales>
+                <scale progress="0.0"
+                       value="0.1 0.1 0.1"/>
+                <scale progress="1.0"
+                       value="2.0 2.0 2.0"/>
+            </scales>
+        </scaleAffector>
+    </affectors>
+</simpleParticleSystem>

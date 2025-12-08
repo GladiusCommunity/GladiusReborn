@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<entry name="AstraMilitarumProductionEdict" value="<string name='Actions/AstraMilitarumProductionEdict'/>"/>
+	<entry name="AstraMilitarumProductionEdictDescription" value="Increases the production output."/>
+	<entry name="AstraMilitarumProductionEdictFlavor" value="<string name='Actions/AstraMilitarumProductionEdictFlavor'/>"/>
+	
+	<entry name="Road" value="Road"/>
+	<entry name="RoadDescription" value="Unit is travelling along a road, increasing their movement."/>
+	
+	<entry name="AstraMilitarum/BlastDamage" value="Improved Frag Casings"/>
+	<entry name="AstraMilitarum/BlastDamageDescription" value="Increases the armour penetration and add Melta Bombs to kasrkins."/>
+	<entry name="AstraMilitarum/BlastDamageFlavor" value="By using a more advanced engraving protocol on the casing, the lethality of explosive is much improved."/>
+	
+	<entry name="Superchargedlascells" value="Super charged las-cells"/>
+	<entry name="SuperchargedlascellsDescription" value="Increases the armour penetration and damage."/>
+	<entry name="SuperchargedlascellsFlavor" value="With advanced cell shielding - and said to harbour bellicose spirits - hot-shot lasguns can be overcharged to deadly effect."/>
+	
+	<entry name="CADIASTANDS" value="Cadia Stands!"/>
+	<entry name="CADIASTANDSDescription" value="Increases the FeelNoPain damage reduction."/>
+	<entry name="CADIASTANDSFlavor" value="While even a single Cadian soldier refuses to yield, the fortress world is still said to stand firm."/>
+	
+	<entry name="Targetlock" value="Stabilising Anchor"/>
+	<entry name="TargetlockDescription" value="Increases the ranged accuracy if the unit has not moved this turn."/>
+	<entry name="TargetlockDamageFlavor" value="The Earth Cast scientist Bork'an designed Anchor to lock into place once deployed, allowing them to divert all their reactor power to their weaponry."/>
+	
+	<entry name="Crux" value="Crux Terminators"/>
+	<entry name="CruxDescription" value="Increases the damage reduction vs Super Heavy if did not use action point."/>
+	<entry name="CruxFlavor" value="When facing largest enemies, Emperor’s sons draw upon their gene-sire’s titanic might, their resilience terrible to behold."/>
+	
+	<entry name="Tau/VolleyFire" value="<string name='Actions/Tau/VolleyFire'/>"/>
+	<entry name="Tau/VolleyFireDescription" value="Increases the ranged attacks."/>
+	<entry name="Tau/VolleyFireFlavor" value="<string name='Actions/Tau/VolleyFireFlavor'/>"/>
+	
+		<entry name="Tau/UtopiaBonus2" value="In Diversity, Unity"/>
+	<entry name="Tau/UtopiaBonus2Description" value="Increases the loyalty bonus from new building types."/>
+	<entry name="Tau/UtopiaBonus2Flavor" value="The ideal T’au city is an example to all others, displaying a perfect balance of the various castes of the T’au race with their client and auxiliary races, all living in harmony."/>
+	
+	<entry name="Items/Banner" value="<string name='Items/Banner'/>"/>
+	<entry name="Items/BannerDescription" value="<string name='Items/BannerDescription'/>"/>
+	<entry name="Items/BannerFlavor" value="<string name='Items/BannerFlavor'/>"/>
+	
+	<entry name="WireWeed1" value="<string name='Features/WireWeed'/>"/>
+	<entry name="WireWeed1Description" value="Deals damage each turn."/>
+	<entry name="WireWeed1Flavor" value="<string name='Features/WireWeedFlavor'/>"/>
+	
+	<entry name="ChaosSpaceMarines/IconOfDespair" value="<string name='Actions/ChaosSpaceMarines/IconOfDespair'/>"/>
+	<entry name="ChaosSpaceMarines/IconOfDespairDescription" value="Increases the melee damage reduction when attacked by enemies."/>
+	<entry name="ChaosSpaceMarines/IconOfDespairFlavor" value="<string name='Actions/ChaosSpaceMarines/IconOfDespairFlavor'/>"/>
+	
+	<entry name="Sig" value="Potent Shadowtoxin"/>
+	<entry name="SigDescription" value="Increase damage against monstrous creatures."/>
+	<entry name="SigFlavor" value="A few rare poisons contain virulent acidic compounds, ferrogangrenous venoms or even inorganic nanophages, which swiftly break down the most formidable of armour hides."/>
+	
+	<entry name="RelicPlating" value="Relic Plating"/>
+	<entry name="RelicPlatingDescription" value="Increases the damage reduction."/>
+	<entry name="RelicPlatingFlavor" value="Occasionally a crew will achieve an empathic relationship with the machine spirit of their battle tank. When such a crew perishes, their remains may be interred within their vehicle, spirits lingering protectively to drive away the baleful energies of the void."/>
+	
+	<entry name="SpaceMarines/BolterDiscipline2" value="Vanguard Bolter Discipline"/>
+	<entry name="SpaceMarines/BolterDiscipline2Description" value="Increase attacks of range weapons."/>
+	<entry name="SpaceMarines/BolterDiscipline2Flavor" value="To a Space Marine, the boltgun is more than a weapon—it is an instrument of Mankind’s divinity, the bringer of death to his foes."/>
+
+	<entry name="SpaceMarines/EmperorsClaims" value="Unity of the Emperor"/>
+	<entry name="SpaceMarines/EmperorsClaimsDescription" value="Increases the resource output of non-headquarters buildings of the same type on a tile. Decreases the output of non-headquarters buildings of differing types on a tile."/>
+
+	<entry name="SpaceMarines/EmperorsSpecialisation" value="In unity there is strength"/>
+	<entry name="SpaceMarines/EmperorsSpecialisationDescription" value="Increases the resource output of non-headquarters buildings of the same type on a tile."/>
+
+	<entry name="SpaceMarines/DominusAegis" value="Dominus Aegis"/>
+    <entry name="SpaceMarines/DominusAegisDescription" value="Increases ranged damage reduction in range for allied Space Marine infantry."/>
+    <entry name="SpaceMarines/DominusAegisFlavor" value="This artefact takes the form of an ornate tower shield; from its sculpted edge, it projects a hemispherical force field that protects all those within its reach. Carried to war by those kill teams expected toplunge into the heart of the xenos hordes, it has saved countless lives, the bearer and his team fighting to victory as the dome-like force field keeps the worst of the alien scum at bay."/>
+
+	<entry name="LasCannonDoctrine" value="LasCannon Doctrine"/>
+	<entry name="LasCannonDoctrineDescription" value="Increases the accuracy of twin linked LasCannons."/>
+
+	<entry name="SpaceMarines/ShatterDefences" value="&lt;string name='Actions/SpaceMarines/ShatterDefences'/&gt;"/>
+	<entry name="SpaceMarines/ShatterDefencesDescription" value="Reduces the ranged damage reduction."/>
+
+	<entry name="AstraMilitarum/Bayonet" value="Bayonet"/>
+	<entry name="AstraMilitarum/BayonetDescription" value="Reduces ranged damage reduction for opponents when guards hits from the first distance."/>
+
+	<entry name="AstraMilitarum/MeatShield" value="&lt;string name='Actions/AstraMilitarum/MeatShield'/&gt;"/>
+	<entry name="AstraMilitarum/MeatShieldDescription" value="Decreases the range attacks."/>
+
+	<entry name="AstraMilitarum/MoraleLossFactor" value="Time torture"/>
+	<entry name="AstraMilitarum/InstinctiveBehaviourDescription" value="The Bulgrins maintain morale every turn when there are no officers around."/>
+
+	<entry name="AstraMilitarum/DogmaMilitarum" value="Militarum Force"/>
+	<entry name="AstraMilitarum/DogmaMilitarumDescription" value="&lt;string name='Actions/DogmaAstratesDescription'/&gt;"/>
+
+	<entry name="AstraMilitarum/AwakenLeman" value="Improved Machine Awakening"/>
+	<entry name="AstraMilitarum/AwakenLemanDescription" value="After researching the Imperium Support technology, the Awaken Machine ability will give this unit +1 Accuracy and +1 Armor Penetration."/>
+
+    <entry name="AstraMilitarum/AwakenArmored" value="Improved Machine Awakening"/>
+	<entry name="AstraMilitarum/AwakenArmoredDescription" value="After researching the Imperium Support technology, the Awaken Machine ability will give this unit +1 Accuracy and +1 max movement."/>
+
+    <entry name="AstraMilitarum/AwakenScout" value="Improved Machine Awakening"/>
+	<entry name="AstraMilitarum/AwakenScoutDescription" value="After researching the Imperium Support technology, the Awaken Machine ability will give this unit +1 max sight and +1 max movement."/>
+
+	<entry name="AstraMilitarum/DisciplineBullgryn" value="Soldier"/>
+	<entry name="AstraMilitarum/DisciplineBullgrynDescription" value="The unit gains zero morale from the discipline aura, and after researching the Imperium Support technology gains an additional +2 accuracy."/>
+
+    <entry name="AstraMilitarum/DisciplineRatling" value="Soldier"/>
+	<entry name="AstraMilitarum/DisciplineRatlingDescription" value="After researching the Imperium Support technology, the discipline aura will give this unit -33% morale loss and +1 armor penetration."/>
+
+    <entry name="AstraMilitarum/DisciplineHeavy" value="Soldier"/>
+	<entry name="AstraMilitarum/DisciplineHeavyDescription" value="After researching the Imperium Support technology, the discipline aura will give this unit -33% morale loss and +1 accuracy."/>
+
+    <entry name="AstraMilitarum/DisciplineGuardsman" value="Soldier"/>
+	<entry name="AstraMilitarum/DisciplineGuardsmanDescription" value="After researching the Imperium Support technology, the discipline aura will give this unit -33% morale loss and +33% ranged fire damage reduction (Does not work in forests and ruins)."/>
+
+	<entry name="AstraMilitarum/SuperchargedLas" value="Supercharged Las"/>
+    <entry name="AstraMilitarum/SuperchargedLasDescription" value="Increases the attacks of hot shot lasguns."/>
+
+	<entry name="HalfHeavyWeapon" value="Weighty"/>
+	<entry name="HalfHeavyWeaponDescription" value="Reduces accuracy by a quarter after moving."/>
+
+	<entry name="AstraMilitarum/ScionsStrike" value="Tempestus Decree"/>
+	<entry name="AstraMilitarum/ScionsStrikeDescription" value="Increases ranged damage dealt by Astra Militarum tank and aircraft units to this unit's targets."/>
+	<entry name="AstraMilitarum/ScionsStrikeTarget" value="&lt;string name='Traits/AstraMilitarum/ScionsStrike'/&gt;"/>
+	<entry name="AstraMilitarum/ScionsStrikeTargetDescription" value="Increases ranged damage dealt by Astra Militarum tank and aircraft units to this unit."/>
+
+    <entry name="AstraMilitarum/Infantry" value="Infantry"/>
+	<entry name="AstraMilitarum/InfantryDescription" value="Classification"/>
+
+	<entry name="AstraMilitarum/Generalism" value="Aura of the General"/>
+	<entry name="AstraMilitarum/InfantryDescription" value="Increases accuracy and provides additional bonuses to adjacent allied Astra Militarum officers."/>
+
+	<entry name="AstraMilitarum/OfficerScion" value="Officer"/>
+	<entry name="AstraMilitarum/OfficerScionDescription" value="After researching the Imperium Support technology, the generalism aura will give this unit -33% morale loss and +1 armor penetration."/>
+
+	<entry name="AstraMilitarum/OfficerTech" value="Officer"/>
+	<entry name="AstraMilitarum/OfficerTechDescription" value="After researching the Imperium Support technology, the generalism aura will give this unit -33% morale loss and +1 armor."/>
+
+	<entry name="SupportHero" value="Support"/>
+    <entry name="SupportHeroDescription" value="Increases the ranged damage reduction against attacks from range 2 or higher and each adjacent infantry unit increases damage reduction by additional 7.5%."/>
+
+	<entry name="AstraMilitarumVehicleProductionEdict" value="&lt;string name='Actions/AstraMilitarumVehicleProductionEdict'/&gt;"/>
+	<entry name="AstraMilitarumVehicleProductionEdictDescription" value="Increases production output."/>
+	<entry name="AstraMilitarumVehicleProductionEdictFlavor" value="&lt;string name='Actions/AstraMilitarumVehicleProductionEdictFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction1" value="Stronghold Shielding"/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Description" value="Grants +17% invulnerable damage reduction, +2 to max health, and +5% to resources collected from outposts."/>
+
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction2" value="Stronghold Shielding 2"/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Description" value="Grants +17% invulnerable damage reduction, +2 to max health, and +5% to resources collected from outposts."/>
+
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction3" value="Stronghold Shielding 3"/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Description" value="Grants +17% invulnerable damage reduction, +2 to max health, and +10% to resources collected from outposts."/>
+
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction4" value="Stronghold Shielding 4"/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction4Description" value="Grants +20% to max health, +1 armor and an additional Krak missile silos."/>
+
+	<entry name="SpaceMarines/BonusGrowth" value="Emperor's Seed"/>
+	<entry name="SpaceMarines/BonusGrowthDescription" value="Increases population growth by 10% in a Space Marine Fortress City.."/>
+
+	<entry name="SpaceMarines/BonusGrowth2" value="Emperor's Seed"/>
+	<entry name="SpaceMarines/BonusGrowth2Description" value="Increases population growth by 10% in a Space Marine Fortress City."/>
+
+	<entry name="SpaceMarines/BonusGrowth3" value="Emperor's Seed"/>
+	<entry name="SpaceMarines/BonusGrowth3Description" value="Increases population growth by 10% in a Space Marine Fortress City."/>
+
+	<entry name="SpaceMarines/BonusGrowth4" value="Emperor's Seed"/>
+	<entry name="SpaceMarines/BonusGrowth4Description" value="Increases population growth by 10% in a Space Marine Fortress City."/>
+
+	<entry name="AstraMilitarum/WeStandTogetherGuardsman" value="We stand together!"/>
+    <entry name="AstraMilitarum/WeStandTogetherGuardsmanDescription" value="Increases group size."/>
+
+	<entry name="AstraMilitarum/WeStandTogetherScion" value="We stand together!"/>
+    <entry name="AstraMilitarum/WeStandTogetherScionDescription" value="Increases group size."/>
+
+	<entry name="AstraMilitarum/FieldOrdnanceStrike" value="Direct fire"/>
+	<entry name="AstraMilitarum/FieldOrdnanceStrikeDescription" value="Increases ranged damage dealt by Astra Militarum infantry units to this unit's targets."/>
+	<entry name="AstraMilitarum/FieldOrdnanceStrikeTarget" value="&lt;string name='Traits/AstraMilitarum/FieldOrdnanceStrike'/&gt;"/>
+	<entry name="AstraMilitarum/FieldOrdnanceStrikeTargetDescription" value="Increases ranged damage dealt by Astra Militarum infantry units to this unit."/>
+
+	<entry name="RecoveryGear" value="Recovery kits"/>
+	<entry name="RecoveryGearDescription" value="Increases recovery speed."/>
+
+    <entry name="AstraMilitarum/VoidShield" value="Void Shield"/>
+    <entry name="AstraMilitarum/VoidShieldDescription" value="Increases ranged damage reduction by 20%."/>
+
+	<entry name="AstraMilitarum/VoidShielded" value="&lt;string name='Traits/AstraMilitarum/VoidShield'/&gt;"/>
+    <entry name="AstraMilitarum/VoidShieldedDescription" value="&lt;string name='Traits/AstraMilitarum/VoidShieldDescription'/&gt;"/>
+
+	<entry name="AstraMilitarum/InstalledVoidShield" value="Installed Void Shield"/>
+
+	<entry name="AstraMilitarum/Destructive122" value="Artillery guidance"/>
+    <entry name="AstraMilitarum/Destructive122Description" value="Reduces the armor of the attacked enemy unit by 1."/>
+
+	<entry name="AstraMilitarum/Destructive244" value="Piercing through"/>
+    <entry name="AstraMilitarum/Destructive244Description" value="Reduces the armor of the attacked enemy unit by 2."/>
+
+	<entry name="AstraMilitarum/ArmiusMilitarum" value="Artillery guidance"/>
+    <entry name="AstraMilitarum/ArmiusMilitarumDescription" value="Reduces armor by 1."/>
+
+	<entry name="AstraMilitarum/ArmiusMilitarum2" value="Piercing through"/>
+    <entry name="AstraMilitarum/ArmiusMilitarum2Description" value="Reduces armor by 2."/>
+
+	<entry name="AstraMilitarum/VoxCasterDies1Morale" value="Relentless"/>
+    <entry name="AstraMilitarum/VoxCasterDies1MoraleDescription" value="The death of nearby infantry does not reduce morale and enhances the Astra Militarum vehicles, giving them +17% damage."/>
+
+	<entry name="AstraMilitarum/VoxCasterDies15Morale" value="Relentless"/>
+    <entry name="AstraMilitarum/VoxCasterDies15MoraleDescription" value="The death of nearby infantry does not reduce morale and enhances the Astra Militarum vehicles, giving them +17% damage."/>
+
+	<entry name="AstraMilitarum/VoxCasterDies2Morale" value="Relentless"/>
+    <entry name="AstraMilitarum/VoxCasterDies2MoraleDescription" value="The death of nearby infantry does not reduce morale and enhances the Astra Militarum vehicles, giving them +17% damage."/>
+
+	<entry name="AstraMilitarum/VoxCasterDies3Morale" value="Relentless"/>
+    <entry name="AstraMilitarum/VoxCasterDies3MoraleDescription" value="The death of nearby infantry does not reduce morale and enhances the Astra Militarum vehicles, giving them +17% damage."/>
+
+	<entry name="AstraMilitarum/DamageScale" value="Relentless"/>
+    <entry name="AstraMilitarum/DamageScaleDescription" value="Increases damage from the death of nearby infantry."/>
+
+	<entry name="AstraMilitarum/MulBlunt" value="Blunt Charge"/>
+    <entry name="AstraMilitarum/MulBluntDescription" value="Reduces the target's maximum movement after an attack."/>
+
+	<entry name="AstraMilitarum/Contusion" value="Blunt charge"/>
+    <entry name="AstraMilitarum/ContusionDescription" value="Reduces the target's maximum movement.."/>
+
+	<entry name="AstraMilitarum/Ambush" value="Ambush"/>
+    <entry name="AstraMilitarum/AmbushDescription" value="Increases the attacks of overwatch attacks."/>
+
+	<entry name="AstraMilitarum/OverCharging" value="Overcharging"/>
+    <entry name="AstraMilitarum/OverChargingDescription" value="Rapid Fire feature now works from the second range."/>
+
+	<entry name="Purposeful" value="Purposeful"/>
+	<entry name="PurposefulDescription" value="Increases armor penetration and accuracy against vehicles, fortifications and heavy infantry. Reduces accuracy and attacks against light infantry."/>
+
+	<entry name="AstraMilitarum/OfficerBomber" value="Officer"/>
+	<entry name="AstraMilitarum/OfficerBomberDescription" value="After researching the Air Discipline technology, the General's Aura will give this unit +17% Ranged Damage Reduction and +1 Accuracy.."/>
+
+	<entry name="AstraMilitarum/DisciplineThunderbolt" value="Soldier"/>
+	<entry name="AstraMilitarum/DisciplineThunderboltDescription" value="After researching the Air Discipline technology, the discipline aura will give this unit +17% ranged damage reduction and the ability to slow enemy flyers with attacks.и."/>
+
+	<entry name="AstraMilitarum/DisciplineValkyrie" value="Soldier"/>
+	<entry name="AstraMilitarum/DisciplineValkyrieDescription" value="After researching the Air Discipline technology, the discipline aura will give this unit +17% ranged damage reduction and +1 accuracy.."/>
+
+
+	<entry name="AstraMilitarum/ValkyrieStrike" value="Air support"/>
+	<entry name="AstraMilitarum/ValkyrieStrikeDescription" value="Increases ranged damage dealt by Astra Militarum infantry units to this unit's targets."/>
+	<entry name="AstraMilitarum/ValkyrieStrikeTarget" value="&lt;string name='Traits/AstraMilitarum/ValkyrieStrike'/&gt;"/>
+	<entry name="AstraMilitarum/ValkyrieStrikeTargetDescription" value="Increases ranged damage dealt by Astra Militarum infantry units to this unit."/>
+
+	<entry name="AstraMilitarum/MoveMove" value="Forward!"/>
+    <entry name="AstraMilitarum/MoveMoveDescription" value="Increases max movement by 1."/>
+
+	<entry name="AstraMilitarum/ValkyrieTactics" value="Valkyrie Landing"/>
+    <entry name="AstraMilitarum/ValkyrieTacticsDescription" value="Grants bonus features when this unit disembarks from a transport."/>
+	<entry name="AstraMilitarum/ValkyrieTacticsFlavor" value="The landing force is the main key to victory on the planet Gladius, that says it all."/>
+
+	<entry name="AstraMilitarum/VanquisherUpgrade" value="Destroyer weapon"/>
+	<entry name="AstraMilitarum/VanquisherUpgradeDescription" value="increases damage."/>
+
+	<entry name="AstraMilitarum/Skyfighter" value="Skyfire"/>
+	<entry name="AstraMilitarum/SkyfighterDescription" value="Increases the accuracy against flyers. Reduces the accuracy against ground units that are not skimmer, jetbike or jet pack."/>
+	<entry name="AstraMilitarum/SkyfighterFlavor" value="Skyfire weapons excel at shooting down enemy aircraft and skimmers."/>
+
+	<entry name="AstraMilitarum/KillOnSight" value="“Kill on sight!”"/>
+	<entry name="AstraMilitarum/KillOnSightDescription" value="Increases ranged attacks."/>
+
+	<entry name="AstraMilitarum/InfantryCrux" value="Shredder"/>
+	<entry name="AstraMilitarum/InfantryCruxDescription" value="Increases damage dealt to infantry."/>
+
+	<entry name="AstraMilitarum/MoveThrough" value="“Straight ahead!”"/>
+	<entry name="AstraMilitarum/MoveThroughDescription" value="Increases movement."/>
+
+	<entry name="AstraMilitarum/ShutMorale" value="“No losses!”"/>
+	<entry name="AstraMilitarum/ShutMoraleDescription" value="Reduces morale loss."/>
+
+	<entry name="AstraMilitarum/HeavySkyFire" value="Skyfire"/>
+	<entry name="AstraMilitarum/HeavySkyFireDescription" value="Increases the accuracy against flyers."/>
+	<entry name="AstraMilitarum/HeavySkyFireFlavor" value="Skyfire weapons excel at shooting down enemy aircraft."/>
+
+	<entry name="AstraMilitarum/MixCover" value="Shelter from fire"/>
+	<entry name="AstraMilitarum/MixCoverDescription" value="Infantry receives ranged damage reduction."/>
+
+	<entry name="AstraMilitarum/PinShot" value="Clip the wings"/>
+	<entry name="AstraMilitarum/PinShotDescription" value="If the Thunderbolt is within the aura's range, it reduces the maximum movement of Flyers and Skimmers when attacking them."/>
+
+	<entry name="AstraMilitarum/AirStopping" value="Clip the wings"/>
+	<entry name="AstraMilitarum/AirStoppingDescription" value="Reduces the maximum movement of a unit."/>
+
+	<entry name="AstraMilitarum/RevealAcc" value="Sciers Gaze"/>
+	<entry name="AstraMilitarum/RevealAccDescription" value="Reduces accuracy."/>
+
+	<entry name="Shaken" value="Shaken"/>
+	<entry name="ShakenDescription" value="Decreases accuracy."/>
+
+	<entry name="VehicleDamaged" value="Missing 33% hit points"/>
+	<entry name="VehicleDamagedDescription" value="Reduces the movement."/>
+	<entry name="VehicleDescription" value="Negates the penalty for heavy and ordnance weapons. Missing hit points reduces accuracy and movement on single model unit."/>
+	<entry name="VehicleHeavilyDamaged" value="Missing 66% hit points"/>
+	<entry name="VehicleHeavilyDamagedDescription" value="Reduces the accuracy."/>
+
+	<entry name="Road" value="Road"/>
+	<entry name="RoadDescription" value="Removes penalties for moving through forests, ruins and rivers."/>
+
+	<entry name="MonstrousCreatureDamaged" value="Missing 33% hit points"/>
+    <entry name="MonstrousCreatureDamagedDescription" value="Reduces the movement."/>
+    <entry name="MonstrousCreatureDescription" value="Classification. Missing hit points reduces accuracy and movement on single model unit."/>
+    <entry name="MonstrousCreatureHeavilyDamaged" value="Missing 66% hit points"/>
+    <entry name="MonstrousCreatureHeavilyDamagedDescription" value="Reduces the accuracy."/>
+
+	<entry name="AstraMilitarum/Unwavering" value="Immortal Guard"/>
+	<entry name="AstraMilitarum/UnwaveringDescription" value="Increases damage reduction."/>
+
+	<entry name="AstraMilitarum/WarDecide" value="МMaster Tactician"/>
+	<entry name="AstraMilitarum/WarDecideDescription" value="Increases attacks."/>
+
+	<entry name="Necrons/LightDestroyer" value="Doom"/>
+	<entry name="Necrons/LightDestroyerDescription" value="Increases attacks against light infantry."/>
+
+	<entry name="Necrons/ReanimationProtocolsWarrior" value="Reanimation Protocols"/>
+	<entry name="Necrons/ReanimationProtocolsWarriorDescription" value="Restores hitpoints each turn."/>
+
+	<entry name="WarpBlind" value="Blind"/>
+	<entry name="WarpBlindDescription" value="Reduces the accuracy."/>
+
+	<entry name="AstraMilitarum/TankDam" value="Battle tank"/>
+	<entry name="AstraMilitarum/TankDamDescription" value="Increases attacks by 33%."/>
+
+	<entry name="AstraMilitarum/TankSup" value="Support tank"/>
+	<entry name="AstraMilitarum/TankSupDescription" value="Reduces the armor of the attacked enemy unit and reduces the cooldown of abilities."/>
+
+	<entry name="AstraMilitarum/Attacking" value="Equipment setup"/>
+	<entry name="AstraMilitarum/AttackingDescription" value="Increases the accuracy of ranged attacks."/>
+
+	<entry name="AstraMilitarum/DestructiveUltimate" value="Support tank"/>
+    <entry name="AstraMilitarum/DestructiveUltimateDescription" value="Reduces the armor of the attacked enemy unit by 1."/>
+
+	<entry name="AstraMilitarum/ArmiusUltimate" value="Support tank"/>
+    <entry name="AstraMilitarum/ArmiusUltimateDescription" value="Reduces armor by 1."/>
+
+	<entry name="Misfortune" value="Speech of the Warp"/>
+	<entry name="MisfortuneDescription" value="Reduces attack and max movement."/>
+
+	<entry name="Enfeeble" value="Smite"/>
+	<entry name="EnfeebleDescription" value="Applies a destructive effect."/>
+
+	<entry name="AstraMilitarum/Disaster" value="Speech of the Warp"/>
+    <entry name="AstraMilitarum/DisasterDescription" value="Reduces attack and max movement."/>
+
+	<entry name="AstraMilitarum/TankComUpkeep" value="Building up strength"/>
+	<entry name="AstraMilitarum/TankComUpkeepDescription" value="Increases upkeep at levels 2, 4 and 6."/>
+
+	<entry name="AstraMilitarum/AttilanControlZone" value="Breakthrough!"/>
+    <entry name="AstraMilitarum/AttilanControlZoneDescription" value="Increases irreducible damage reduction and allows you to ignore enemy Zone of Control."/>
+    <entry name="AstraMilitarum/AttilanControlZoneFlavor" value="Shock cavalry that charge into battle despite the roar of autocannons and the flash of lascannon fire. These brave warriors ride into battle atop their mounts, slashing at the enemy with deadly melta-tipped spears."/>
+
+		<entry name="SpaceMarines/Skyfighter" value="Skyfire"/>
+	<entry name="SpaceMarines/SkyfighterDescription" value="Increases the accuracy against flyers and monstrous creatures. Reduces the accuracy against ground units that are not skimmer, jetbike or jet pack."/>
+	<entry name="SpaceMarines/SkyfighterFlavor" value="Skyfire weapons excel at shooting down enemy aircraft, skimmers and monsters."/>
+
+	<entry name="SpaceMarines/AntiAirBody" value="Maneuvering"/>
+	<entry name="SpaceMarines/AntiAirBodyDescription" value="Reduces damage taken from flyers and skimmers."/>
+	<entry name="SpaceMarines/AntiAirBodyFlavor" value="The Thunderbolt has always been considered an elite anti-aircraft vehicle of the Space Marines,, which could thin out the enemy's rear and ranks in the air, thereby giving ground forces the opportunity to attack..."/>
+
+	<entry name="SpaceMarines/RangeDeflecting" value="Defense of the Order"/>
+	<entry name="SpaceMarines/RangeDeflectingDescription" value="Reduces ranged attacks."/>
+
+	<entry name="SpaceMarines/BlackTemplarsMove" value="Zeal"/>
+	<entry name="SpaceMarines/BlackTemplarsMoveDescription" value="Increases movement."/>
+
+	<entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocus'/>"/>
+    <entry name="SpaceMarines/DefensiveFocusDescription" value="<string name='Actions/SpaceMarines/DefensiveFocusDescription'/>"/>
+    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocusFlavor'/>"/>
+
+	<entry name="SpaceMarines/DevCover" value="Defense Tactics"/>
+	<entry name="SpaceMarines/DevCoverDescription" value="Increases the invulnerable damage reduction of nearby Space Marine vehicles."/>
+	<entry name="SpaceMarines/DevCoverFlavor" value="One of the military tactics in the codex is to provide cover for infantry units from enemy fire."/>
+
+	<entry name="SpaceMarines/PulseField" value="Force Field"/>
+	<entry name="SpaceMarines/PulseFieldDescription" value="Increases health point regeneration."/>
+
+	<entry name="SpaceMarines/TemplarPresence" value="The Presence of the Black Templars"/>
+	<entry name="SpaceMarines/TemplarPresenceDescription" value="Prevents attacking from overwatch."/>
+	<entry name="SpaceMarines/TemplarPresenceFlavor" value="The mere sight of the elite Astartes vehicles terrifies the enemy."/>
+
+	<entry name="SpaceMarines/PowerUp" value="Strengthening"/>
+	<entry name="SpaceMarines/PowerUpDescription" value="Increases armor."/>
+
+	<entry name="SpaceMarines/BornInFire" value="&lt;string name='Actions/SpaceMarines/BornInFire'/&gt;"/>
+	<entry name="SpaceMarines/BornInFireDescription" value="&lt;string name='Actions/SpaceMarines/BornInFireDescription'/&gt;"/>
+
+	<entry name="SpaceMarines/TerminatorArmourAC" value="&lt;string name='Traits/TerminatorArmour'/&gt;"/>
+	<entry name="SpaceMarines/TerminatorArmourACDescription" value="&lt;string name='Traits/TerminatorArmourDescription'/&gt;"/>
+	<entry name="SpaceMarines/TerminatorArmourACFlavor" value="&lt;string name='Traits/TerminatorArmourFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/TerminatorArmourAss" value="&lt;string name='Traits/TerminatorArmour'/&gt;"/>
+	<entry name="SpaceMarines/TerminatorArmourAssDescription" value="&lt;string name='Traits/TerminatorArmourDescription'/&gt;"/>
+	<entry name="SpaceMarines/TerminatorArmourAssFlavor" value="&lt;string name='Traits/TerminatorArmourFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/Contusion" value="Contusion"/>
+    <entry name="SpaceMarines/ContusionDescription" value="Reduces the target's accuracy and maximum movement."/>
+
+	<entry name="SpaceMarines/PrimarisDefences" value="&lt;string name='Actions/BolsterDefences'/&gt;"/>
+	<entry name="SpaceMarines/PrimarisDefencesDescription" value="Increases ranged damage reduction."/>
+	<entry name="SpaceMarines/PrimarisDefencesFlavor" value="&lt;string name='Actions/BolsterDefencesFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/SpaceMark" value="Priority Target"/>
+	<entry name="SpaceMarines/SpaceMarkDescription" value="Increases accuracy against the target unit and reduces the unit's ranged damage reduction against Space Marine Chapter attacks. Lasts for one attack."/>
+	<entry name="SpaceMarines/SpaceMarkFlavor" value="What sets the Astartes apart on the battlefield is their choice of priorities and targets to eliminate.."/>
+
+	<entry name="SpaceMarines/RavenGuard" value="Raven Guard"/>
+	<entry name="SpaceMarines/RavenGuardDescription" value="Chapter. Increases damage dealt by overwatch. Also after upgrading increases damage reduction if the unit was moving that turn."/>
+	<entry name="SpaceMarines/RavenGuardFlavor" value="The Raven Guard are made of light as well as darkness - swift to bring justice and vengeance to tyrants and oppressors, striking from the shadows with lightning speed and devastating force."/>
+
+	<entry name="SpaceMarines/Salamanders" value="Salamanders"/>
+	<entry name="SpaceMarines/SalamandersDescription" value="Chapter. Provides damage reduction from melee, fire, and meltas."/>
+	<entry name="SpaceMarines/SalamandersFlavor" value="Salamanders are the embodiment of a sense of duty forged on the anvil, skilled craftsmen, and possessors of a fearsome and uncompromising honor. They are prepared for labor and self-sacrifice, and go into battle with the finest weapons and armor, often forged by the Salamanders themselves."/>
+
+	<entry name="SpaceMarines/ImperialFists" value="Imperial Fists"/>
+	<entry name="SpaceMarines/ImperialFistsDescription" value="Chapter"/>
+	<entry name="SpaceMarines/ImperialFistsFlavor" value="The Imperial Fists are second only to the noble Ultramarines in the honours earned through their devotion to the Imperium and humanity. Since the dawn of the Age of Imperium, they have fought unwaveringly against all threats, standing firm where others would retreat, and often ultimately sacrificing themselves in the name of honour and duty."/>
+
+	<entry name="SpaceMarines/IronHands" value="Iron Hands"/>
+	<entry name="SpaceMarines/IronHandsDescription" value="Chapter. Returns damage from ranged weapons that are not explosive, normal, or witchfire to the attacker."/>
+	<entry name="SpaceMarines/IronHandsFlavor" value="The Iron Hands are masters of war machines, using guns and tanks with the skill of a skilled swordsman with a blade. A proud and unyielding Legion, they fought at the forefront of the Great Crusade for many years, winning countless victories, though many considered them as cruel and soulless as the machines the Iron Hands used with such devastating skill."/>
+
+	<entry name="SpaceMarines/BlackTemplars" value="Black Templars"/>
+	<entry name="SpaceMarines/BlackTemplarsDescription" value="Chapter"/>
+	<entry name="SpaceMarines/BlackTemplarsFlavor" value="The Black Templars are a Second Founding Chapter descended from the Imperial Fists of Primarch Rogal Dorn. Dorn himself was long a fierce opponent of the Codex Astartes, which mandated the division of former Legions into Chapters, but eventually relented, not wanting to allow civil war to break out in the Imperium."/>
+
+	<entry name="SpaceMarines/MultiChapter" value="Legion Astartes"/>
+	<entry name="SpaceMarines/MultiChapterDescription" value="Allows this unit to receive bonuses from the abilities and doctrines of different Orders."/>
+	<entry name="SpaceMarines/MultiChapterFlavor" value="The Space Marine Legion is a frontline assault infantry force consisting of tens of thousands (and in some cases many more) of biochemically and surgically enhanced super-warriors, armed and equipped to the highest standards of the Imperium."/>
+
+	<entry name="SpaceMarines/ThunderfireAura" value="Aura of the Omnissiah"/>
+	<entry name="SpaceMarines/ThunderfireAuraDescription" value="Restores health points to allied Space Marine vehicles."/>
+	<entry name="SpaceMarines/ThunderfireAuraFlavor" value="During times of war, the Omnissiah's disciples chant complex war blessings. These are as much optimization subroutines as they are expressions of faith in their all-knowing, all-encompassing deity."/>
+
+	<entry name="SpaceMarines/HellGuard" value="Fist of the Primaris"/>
+	<entry name="SpaceMarines/HellGuardDescription" value="Increases the invulnerable damage reduction of each adjacent allied Astartes unit."/>
+	<entry name="SpaceMarines/HellGuardFlavor" value="Formation is a simple word that can change the outcome of both a local battle and an entire war."/>
+
+	<entry name="SpaceMarines/PulseDefense" value="Protective Layer"/>
+	<entry name="SpaceMarines/PulseDefenseDescription" value="Reduces damage taken from enemy units. Works on one attack, does not work on overwatch."/>
+	<entry name="SpaceMarines/PulseDefenseFlavor" value="Don't forget about the advanced technology of the Space Marines, because it is not only faith in the Emperor and a single goal that makes them stronger."/>
+
+	<entry name="SpaceMarines/Soulless" value="Soulless"/>
+	<entry name="SpaceMarines/SoullessDescription" value="After the death of the Aggressor, allies do not lose morale."/>
+	<entry name="SpaceMarines/SoullessFlavor" value="Death is the only reward for the units of the Iron Fists Chapter, for only in this way do the Space Marine Legions deserve to rest."/>
+
+	<entry name="SpaceMarines/MoraleFisting" value="Presence of the Chapter"/>
+	<entry name="SpaceMarines/MoraleFistingDescription" value="Reduces the morale of adjacent enemy units every turn."/>
+	<entry name="SpaceMarines/MoraleFistingFlavor" value="Not only does power armour withstand blows well, it also makes a fearsome impression on all enemies of the Imperium."/>
+
+	<entry name="SpaceMarines/ShieldUp" value="Fortress of the Imperium"/>
+	<entry name="SpaceMarines/ShieldUpDescription" value="Increases armor and decreases max movement.."/>
+	<entry name="SpaceMarines/ShieldUpFlavor" value="The Imperial Fists moved relentlessly from one war zone to the next, earning the respect of every brother Legion and the praise of many."/>
+
+	<entry name="SpaceMarines/RavenMark" value="&lt;string name='Traits/SpaceMarines/SpaceMark'/&gt;"/>
+	<entry name="SpaceMarines/RavenMarkDescription" value="&lt;string name='Traits/SpaceMarines/SpaceMarkDescription'/&gt;"/>
+	<entry name="SpaceMarines/RavenMarkFlavor" value="&lt;string name='Traits/SpaceMarines/SpaceMarkFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/DevastatorBypass" value="&lt;string name='Actions/SpaceMarines/DevastatorBypass'/&gt;"/>
+	<entry name="SpaceMarines/DevastatorBypassDescription" value="&lt;string name='Actions/SpaceMarines/DevastatorBypassDescription'/&gt;"/>
+	<entry name="SpaceMarines/DevastatorBypassFlavor" value="&lt;string name='Actions/SpaceMarines/DevastatorBypassFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/LandCruiser" value="&lt;string name='Actions/SpaceMarines/LandCruiser'/&gt;"/>
+	<entry name="SpaceMarines/LandCruiserDescription" value="Increases damage reduction from witchfire."/>
+	<entry name="SpaceMarines/LandCruiserFlavor" value="&lt;string name='Actions/SpaceMarines/LandCruiserFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/ArmourContempt" value="&lt;string name='Actions/SpaceMarines/ArmourContempt'/&gt;"/>
+	<entry name="SpaceMarines/ArmourContemptDescription" value="Increases damage reduction."/>
+	<entry name="SpaceMarines/ArmourContemptFlavor" value="&lt;string name='Actions/SpaceMarines/ArmourContemptFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/JinkUp" value="&lt;string name='Actions/Jink'/&gt;"/>
+	<entry name="SpaceMarines/JinkUpDescription" value="&lt;string name='Traits/JinkDescription'/&gt;"/>
+	<entry name="SpaceMarines/JinkUpFlavor" value="&lt;string name='Actions/JinkFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/StormtalonMark" value="Counter-Offensive"/>
+	<entry name="SpaceMarines/StormtalonMarkDescription" value="Increases accuracy against the target unit and reduces the unit's ranged damage reduction against Space Marine attacks. Lasts for one attack."/>
+	<entry name="SpaceMarines/StormtalonMarkFlavor" value="&lt;string name='Traits/SpaceMarines/SpaceMarkFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/FireSkin" value="Salamander Armor"/>
+	<entry name="SpaceMarines/FireSkinDescription" value="Allows you to attack from overwatch with melee weapons."/>
+
+	<entry name="SpaceMarines/BikerMoved" value="Biker Movement"/>
+	<entry name="SpaceMarines/BikerMovedDescription" value="Increases invulnerable damage reduction after movement."/>
+
+	<entry name="SpaceMarines/RavenGlory" value="Glory to the Ravens"/>
+	<entry name="SpaceMarines/RavenGloryDescription" value="Grants influence when killing an enemy."/>
+	<entry name="SpaceMarines/RavenGloryFlavor" value="Raven Guard specialists are not only skilled at eliminating armored, isolated targets, but also at earning a reputation as cold-blooded, fearless killers of all life in the galaxy."/>
+
+	<entry name="SpaceMarines/RavenMelee" value="Raven Wing"/>
+	<entry name="SpaceMarines/RavenMeleeDescription" value="Allows you to attack from overwatch with melee weapons."/>
+
+	<entry name="SpaceMarines/SalamandersDoctrine" value="The Salamanders Doctrine"/>
+	<entry name="SpaceMarines/SalamandersDoctrineDescription" value="Provides damage reduction from ranged fire at first range."/>
+	<entry name="SpaceMarines/SalamandersDoctrineFlavor" value="&lt;string name='Traits/SpaceMarines/SalamandersFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/SalamandersPresence" value="Self-sacrifice"/>
+	<entry name="SpaceMarines/SalamandersPresenceDescription" value="Reduces ranged accuracy."/>
+	<entry name="SpaceMarines/SalamandersPresenceFlavor" value="The Salamanders' beliefs are based on the ancient cult of Prometheus, which preaches independence, devotion and self-sacrifice."/>
+
+	<entry name="SpaceMarines/HonorForge" value="Burning power"/>
+	<entry name="SpaceMarines/HonorForgeDescription" value="Increases damage and armor penetration."/>
+	<entry name="SpaceMarines/HonorForgeFlavor" value="The main symbols of the Prometheus cult are the hammer and the flame. Salamander battle-brothers often bear ritual marks and scars made with fire."/>
+
+	<entry name="SpaceMarines/FortressSupreme" value="Supreme Fortress"/>
+	<entry name="SpaceMarines/FortressSupremeDescription" value="Restores health points every turn, works twice as well on Headquarters."/>
+	<entry name="SpaceMarines/FortressSupremeFlavor" value="Each Chapter of the Adeptus Astartes contains a mighty fortress-monastery, a sanctuary where new generations of Space Marines are trained and where the Chapter's secrets are kept."/>
+
+	<entry name="SpaceMarines/RavenguardDoctrine" value="&lt;string name='Actions/SpaceMarines/RavenguardDoctrine'/&gt;"/>
+	<entry name="SpaceMarines/RavenguardDoctrineDescription" value="Gives movement points after kills."/>
+	<entry name="SpaceMarines/RavenguardDoctrineFlavor" value="&lt;string name='Traits/SpaceMarines/RavenGuardFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/ImperialDoctrine" value="&lt;string name='Actions/SpaceMarines/ImperialDoctrine'/&gt;"/>
+	<entry name="SpaceMarines/ImperialDoctrineDescription" value="Increases damage dealt to vehicles and fortifications, and also provides a permanent damage reduction to allied Order infantry."/>
+	<entry name="SpaceMarines/ImperialDoctrineFlavor" value="&lt;string name='Traits/SpaceMarines/ImperialFistsFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/RangeReduction" value="&lt;string name='Actions/SpaceMarines/RangeReduction'/&gt;"/>
+	<entry name="SpaceMarines/RangeReductionDescription" value="&lt;string name='Actions/SpaceMarines/OmniscopeDescription'/&gt;"/>
+	<entry name="SpaceMarines/RangeReductionFlavor" value="&lt;string name='Actions/SpaceMarines/RangeReductionFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/IronDoctrine" value="&lt;string name='Actions/SpaceMarines/IronDoctrine'/&gt;"/>
+	<entry name="SpaceMarines/IronDoctrineDescription" value="Increases accuracy, max movement and reduces damage taken."/>
+	<entry name="SpaceMarines/IronDoctrineFlavor" value="&lt;string name='Traits/SpaceMarines/IronHandsFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/CoverDestroyer" value="Blind Fury"/>
+	<entry name="SpaceMarines/CoverDestroyerDescription" value="Increases attacks on enemy units with ranged damage reduction."/>
+	<entry name="SpaceMarines/CoverDestroyerFlavor" value="The only weakness of the Imperial Fists is their unwillingness to accept the fact of their own defeat, which sometimes blinds them and can lead to their death."/>
+
+	<entry name="SpaceMarines/IronPresence" value="The Influence of the Iron Hands"/>
+	<entry name="SpaceMarines/IronPresenceDescription" value="Increases health points, damage and returns damage to the attacker from ranged weapons that are not explosive, type or witchfire."/>
+	<entry name="SpaceMarines/IronPresenceFlavor" value="The Iron Hands were confronted by the Cuckold of Khorne, Parasher, aka Racher, who was brutally pierced and raped by a unit of the Chapter, and then hung like a scarecrow from the muzzle of a Baneblade. This was one of the greatest gifts to the Imperial Guard."/>
+
+	<entry name="SpaceMarines/TemplarsDoctrine" value="&lt;string name='Actions/SpaceMarines/TemplarsDoctrine'/&gt;"/>
+	<entry name="SpaceMarines/TemplarsDoctrineDescription" value="Increases damage and damage reduction with Pain Insensitivity for each enemy Psyker in range."/>
+	<entry name="SpaceMarines/TemplarsDoctrineFlavor" value="&lt;string name='Traits/SpaceMarines/BlackTemplarsFlavor'/&gt;"/>
+
+    <entry name="SpaceMarines/DominusAegisSelf" value="<string name='Traits/SpaceMarines/DominusAegis'/>"/>
+    <entry name="SpaceMarines/DominusAegisSelfDescription" value="Increases the armour."/>
+
+	<entry name="SpaceMarines/GoingThrough" value="&lt;string name='Actions/SpaceMarines/GoingThrough'/&gt;"/>
+	<entry name="SpaceMarines/GoingThroughDescription" value="Ignores enemy zone of control, ignores movement penalties on rivers, forests, ruins and increases max movement."/>
+	<entry name="SpaceMarines/GoingThroughFlavor" value="&lt;string name='Actions/SpaceMarines/GoingThroughFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/PulseShielding" value="&lt;string name='Traits/SpaceMarines/PulseDefense'/&gt;"/>
+	<entry name="SpaceMarines/PulseShieldingDescription" value="&lt;string name='Traits/SpaceMarines/PulseDefenseDescription'/&gt;"/>
+	<entry name="SpaceMarines/PulseShieldingFlavor" value="&lt;string name='Traits/SpaceMarines/PulseDefenseFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/AccuracyFuse" value="&lt;string name='Actions/SpaceMarines/AccuracyFuse'/&gt;"/>
+	<entry name="SpaceMarines/AccuracyFuseDescription" value="Limits loss of precision."/>
+	<entry name="SpaceMarines/AccuracyFuseFlavor" value="&lt;string name='Actions/SpaceMarines/AccuracyFuseFlavor'/&gt;"/>
+
+    <entry name="SpaceMarines/VeilOfTime" value="<string name='Actions/SpaceMarines/VeilOfTime'/>"/>
+    <entry name="SpaceMarines/VeilOfTimeDescription" value="<string name='Actions/SpaceMarines/VeilOfTimeDescription'/>"/>
+    <entry name="SpaceMarines/VeilOfTimeFlavor" value="<string name='Actions/SpaceMarines/VeilOfTimeFlavor'/>"/>
+
+	<entry name="SpaceMarines/SpectralBlade" value="Spectral Blade"/>
+    <entry name="SpaceMarines/SpectralBladeDescription" value="Increases Librarian's melee attacks."/>
+    <entry name="SpaceMarines/SpectralBladeFlavor" value="The psyker implants his foe with the psychosomatic suggestion that his weapon is irresistibly sharp, striking them down with the psychic feedback of their own warped perceptions."/>
+
+	<entry name="SpaceMarines/MightOfHeroes" value="Might Of Heroes"/>
+    <entry name="SpaceMarines/MightOfHeroesDescription" value="Temporary increases hit points, the accuracy, the damage and the invulnerable damage reduction of friendly unit."/>
+    <entry name="SpaceMarines/MightOfHeroesFlavor" value="Forward without hesitation."/>
+
+	<entry name="NullZone" value="Null Zone"/>
+    <entry name="NullZoneDescription" value="Removes invulnerable, witchfire and feel no pain damage reduction."/>
+    <entry name="NullZoneFlavor" value="No one is safe beside angered Librarian."/>
+
+	<entry name="SpaceMarines/ChapterMarking" value="Enemy of the Imperium"/>
+	<entry name="SpaceMarines/ChapterMarkingDescription" value="Increases ranged damage dealt by Space Marine Chapters to this unit's targets."/>
+	<entry name="SpaceMarines/ChapterMarkingFlavor" value="To make killing enemies easier, Hunter squads are usually equipped with specially designed ammunition that helps them deal with their prey more effectively."/>
+
+	<entry name="SpaceMarines/ChapterStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+	<entry name="SpaceMarines/ChapterStrikeTargetDescription" value="Increases the ranged damage dealt by Space Marine Chapters to this unit."/>
+	<entry name="SpaceMarines/ChapterStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/HeroicStand" value="Aura of Fortitude"/>
+    <entry name="SpaceMarines/HeroicStandDescription" value="Increases ranged damage reduction against attacks from 2 or more ranges."/>
+    <entry name="SpaceMarines/HeroicStandFlavor" value="Where the Legion places its marks, even the Primarch of the Universe will not be able to build his city."/>
+
+	<entry name="SpaceMarines/ChapterCover" value="Faith and Honor"/>
+	<entry name="SpaceMarines/ChapterCoverDescription" value="Increases ranged damage reduction from each nearby allied Astartes unit."/>
+	<entry name="SpaceMarines/ChapterCoverFlavor" value="Formation is a simple word that can change the outcome of both a local battle and an entire war."/>
+
+	<entry name="SpaceMarines/CaptainBlock" value="&lt;string name='Actions/SpaceMarines/CaptainBlock'/&gt;"/>
+	<entry name="SpaceMarines/CaptainBlockDescription" value="Reduces ranged attacks."/>
+    <entry name="SpaceMarines/CaptainBlockFlavor" value="&lt;string name='Actions/SpaceMarines/CaptainBlockFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/SkySpearRange" value="Stabilization of the Launcher"/>
+	<entry name="SpaceMarines/SkySpearRangeDescription" value="Increases attack range."/>
+
+	<entry name="SpaceMarines/SalamandersFireMarking" value="Flame of the Forge"/>
+    <entry name="SpaceMarines/SalamandersFireMarkingDescription" value="The attacked unit receives periodic damage, reduced healing rate, and cannot restore health points."/>
+    <entry name="SpaceMarines/SalamandersFireMarkingFlavor" value="Where one legion punished with fire, leaving behind a scorched world, though capable of becoming part of humanity's domain in the future, another desecrated and contaminated, leaving behind nothing but a toxic wasteland."/>
+
+	<entry name="SpaceMarines/SalamandersFireEnemy" value="&lt;string name='Traits/SpaceMarines/SalamandersFireMarking'/&gt;"/>
+    <entry name="SpaceMarines/SalamandersFireEnemyDescription" value="Receives periodic damage, reduced healing rate, and cannot regenerate health."/>
+    <entry name="SpaceMarines/SalamandersFireEnemyFlavor" value="&lt;string name='Traits/SpaceMarines/SalamandersFireMarkingFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/TacticalShielding" value="Tactical Shield"/>
+	<entry name="SpaceMarines/TacticalShieldingDescription" value="Reduces damage taken from one attack, does not work on attacks from overwatch."/>
+	<entry name="SpaceMarines/TacticalShieldingFlavor" value="Tactical Squads are the backbone of any Space Marine Legion and are highly flexible infantry units, capable of both attacking and defending, storming or holding fortified positions in almost any conditions."/>
+
+	<entry name="SpaceMarines/DreadForge" value="Thunder and Hammer"/>
+	<entry name="SpaceMarines/DreadForgeDescription" value="Increases damage and armor penetration."/>
+	<entry name="SpaceMarines/DreadForgeFlavor" value="Renowned for their pride, coolness and ruthlessness in battle, the Iron Hands were considered one of the most renowned and feared Legions during the Great Crusade."/>
+
+	<entry name="SpaceMarines/RapidWind" value="&lt;string name='Actions/SpaceMarines/RapidWind'/&gt;"/>
+	<entry name="SpaceMarines/RapidWindDescription" value="The Rapid Fire feature works from range 3 and above."/>
+	<entry name="SpaceMarines/RapidWindFlavor" value="&lt;string name='Actions/SpaceMarines/RapidWindFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/AssignIron" value="Enemy of the Imperium"/>
+    <entry name="SpaceMarines/AssignIronDescription" value="Increases ranged damage dealt by Space Marine Chapters other than Iron Hands to this unit's targets."/>
+    <entry name="SpaceMarines/AssignIronFlavor" value="To assist in killing enemies, Hunter Squads are typically equipped with specially designed ammunition to help them deal with their prey more effectively."/>
+
+    <entry name="SpaceMarines/IronStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+    <entry name="SpaceMarines/IronStrikeTargetDescription" value="Increases ranged damage dealt by Space Marine Chapters other than Iron Hands to this unit's targets."/>
+    <entry name="SpaceMarines/IronStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+    <entry name="SpaceMarines/AssignImperial" value="Enemy of the Imperium"/>
+    <entry name="SpaceMarines/AssignImperialDescription" value="Increases ranged damage dealt by Space Marine Chapters other than Imperial Fists to targets of this unit."/>
+    <entry name="SpaceMarines/AssignImperialFlavor" value="To assist in killing enemies, Hunter Squads are typically equipped with specially designed ammunition to help them deal with their prey more effectively."/>
+
+    <entry name="SpaceMarines/ImperialStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+    <entry name="SpaceMarines/ImperialStrikeTargetDescription" value="Increases ranged damage dealt by Space Marine Chapters other than Imperial Fists against this unit."/>
+    <entry name="SpaceMarines/ImperialStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+    <entry name="SpaceMarines/AssignSalamanders" value="Enemy of the Imperium"/>
+    <entry name="SpaceMarines/AssignSalamandersDescription" value="Increases ranged damage dealt by Space Marine Chapters other than Salamanders against this unit."/>
+    <entry name="SpaceMarines/AssignSalamandersFlavor" value="To assist in killing their enemies, Hunter Squads are typically equipped with specially designed ammunition to help them dispatch their prey more effectively."/>
+
+    <entry name="SpaceMarines/SalamandersStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+    <entry name="SpaceMarines/SalamandersStrikeTargetDescription" value="Increases ranged damage dealt by Space Marine Chapters other than Salamanders to this unit."/>
+    <entry name="SpaceMarines/SalamandersStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+    <entry name="SpaceMarines/AssignTemplars" value="Enemy of the Imperium"/>
+    <entry name="SpaceMarines/AssignTemplarsDescription" value="Increases the damage dealt by Space Marine Chapters other than Black Templars to this unit's targets."/>
+    <entry name="SpaceMarines/AssignTemplarsFlavor" value="To assist in killing enemies, Hunter Squads are typically equipped with specially designed ammunition to help them deal with their prey more effectively."/>
+
+    <entry name="SpaceMarines/TemplarsStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+    <entry name="SpaceMarines/TemplarsStrikeTargetDescription" value="Increases the damage dealt by Space Marine Chapters other than Black Templars to this unit's targets."/>
+    <entry name="SpaceMarines/TemplarsStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+    <entry name="SpaceMarines/AssignRavenguard" value="Enemy of the Imperium"/>
+    <entry name="SpaceMarines/AssignRavenguardDescription" value="Increases damage dealt by Space Marine Chapters other than Raven Guard to this unit's targets."/>
+    <entry name="SpaceMarines/AssignRavenguardFlavor" value="To assist in killing enemies, Hunter Squads are typically equipped with specially designed ammunition to help them deal with their prey more effectively."/>
+
+    <entry name="SpaceMarines/RavenguardStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+    <entry name="SpaceMarines/RavenguardStrikeTargetDescription" value="Increases damage dealt by Space Marine Chapters other than Raven Guard to this unit."/>
+    <entry name="SpaceMarines/RavenguardStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/FlyerSight" value="Astartes X-Ray"/>
+    <entry name="SpaceMarines/FlyerSightDescription" value="Increases the range of the sight and prevents flyers from becoming the target of enemy overwatch attacks."/>
+    <entry name="SpaceMarines/FlyerSightFlavor" value="The unrivaled maneuverability and speed of Adeptus Astartes hover units allows them to strike before they are seen by the enemy."/>
+
+	<entry name="SpaceMarines/NoLosses" value="&lt;string name='Upgrades/SpaceMarines/NoLosses'/&gt;"/>
+	<entry name="SpaceMarines/NoLossesDescription" value="Reduces morale loss."/>
+    <entry name="SpaceMarines/NoLossesFlavor" value="&lt;string name='Upgrades/SpaceMarines/NoLossesFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/NoLossesAura" value="&lt;string name='Upgrades/SpaceMarines/NoLosses'/&gt;"/>
+	<entry name="SpaceMarines/NoLossesAuraDescription" value="Reduces morale loss for allied units."/>
+    <entry name="SpaceMarines/NoLossesAuraFlavor" value="&lt;string name='Upgrades/SpaceMarines/NoLossesFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/InceptorsRage" value="Rage"/>
+	<entry name="SpaceMarines/InceptorsRageDescription" value="Hits multiple soldiers of the target unit and increases damage to vehicles."/>
+
+	<entry name="DozerBladeDescription" value="Reduces the penalty for moving through forests and imperial ruins, but in exchange reduces max movement."/>
+
+    <entry name="SpaceMarines/BlackChampionPresence" value="Black Templar Champion"/>
+    <entry name="SpaceMarines/BlackChampionPresenceDescription" value="There can only be one Black Templar Champion on the battlefield."/>
+
+    <entry name="SpaceMarines/ChampionBlackTemplar" value="Champion of the Black Templars"/>
+    <entry name="SpaceMarines/ChampionBlackTemplarDescription" value="Increases accuracy of fire."/>
+    <entry name="SpaceMarines/ChampionBlackTemplarFlavor" value="Many Chapters have had Space Marines who bear this title in their ranks at various times, most notably the First and Second Founding Chapters, whose history dates back to the Horus Heresy and the Great Scouring."/>
+
+    <entry name="SpaceMarines/ChampionBlackTemplarEnemy" value="Champion of the Black Templars"/>
+    <entry name="SpaceMarines/ChampionBlackTemplarEnemyDescription" value="Decreases accuracy of fire."/>
+    <entry name="SpaceMarines/ChampionBlackTemplarEnemyFlavor" value="Many Chapters have had Space Marines who hold this title at one time or another, most notably the First and Second Founding Chapters, whose history dates back to the Horus Heresy and the Great Scouring."/>
+
+    <entry name="SpaceMarines/ChampionAccuracyAdd" value="Victory Pursuit"/>
+    <entry name="SpaceMarines/ChampionAccuracyAddDescription" value="Increases accuracy."/>
+
+    <entry name="SpaceMarines/ChampionAccuracyMinus" value="Victory Pursuit"/>
+    <entry name="SpaceMarines/ChampionAccuracyMinusDescription" value="Decreases accuracy."/>
+
+    <entry name="SpaceMarines/IronChampionPresence" value="Champion Iron Hands"/>
+    <entry name="SpaceMarines/IronChampionPresenceDescription" value="There can only be one Iron Hands Champion on the battlefield."/>
+
+    <entry name="SpaceMarines/ExploitWeaknesses" value="Breach in Defense"/>
+    <entry name="SpaceMarines/ExploitWeaknessesDescription" value="Reduces the armor of the selected enemy unit."/>
+
+    <entry name="SpaceMarines/WitchDestruction" value="Oath of Abhorrence"/>
+    <entry name="SpaceMarines/WitchDestructionDescription" value="Deals damage to nearby enemy psykers."/>
+    <entry name="SpaceMarines/WitchDestructionFlavor" value="The Black Templars are scattered across the galaxy, for if they were to gather together, nothing in the universe could stop them."/>
+
+	<entry name="SpaceMarines/BolterDisciplineBike" value="Bolter Discipline"/>
+	<entry name="SpaceMarines/BolterDisciplineBikeDescription" value="<string name='Traits/ChaosSpaceMarines/MaliciousVolleysDescription'/>"/>
+	<entry name="SpaceMarines/BolterDisciplineBikeFlavor" value="To a Space Marine, the boltgun is more than a weapon—it is an instrument of Mankind’s divinity, the bringer of death to his foes."/>
+
+	<entry name="Drukhari/PoisonedWeapon" value="Poisoned Weapon"/>
+    <entry name="Drukhari/PoisonedWeaponDescription" value="Poisons the attacked unit and deals damage each turn, the poison is removed by healing."/>
+    <entry name="Drukhari/PoisonedWeaponFlavor" value="When I look at the lesser races, I am filled with disgust. Leave them alone, and they will drag out a pitifully short, utterly meaningless existence. How many generations of them have passed while I was alive?."/>
+
+    <entry name="Drukhari/Poison" value="Poison"/>
+    <entry name="Drukhari/PoisonDescription" value="Deals damage each turn, the poison is removed by healing."/>
+    <entry name="Drukhari/PoisonFlavor" value="Pirates and bandits with black hearts, and for them all the inhabitants of the Galaxy are nothing more than cattle that can be slaughtered whenever they want."/>
+
+    <entry name="SeekerMissileDescription" value="Does not require line of sight to an enemy target when used in conjunction with the Targeting Missile."/>
+
+</language>

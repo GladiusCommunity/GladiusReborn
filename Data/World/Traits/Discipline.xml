@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<noTrait name="Fortification"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+					<noType name="AstraMilitarum/TempestusScion"/>
+					<noType name="AstraMilitarum/Bullgryn"/>
+					<noType name="AstraMilitarum/TechpriestEnginseer"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy add="1"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+		     <conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+		            <type name="AstraMilitarum/Bullgryn"/>
+				</unit>
+			 </conditions>
+					<effects>
+				          <moraleMax max="0"/>
+			        </effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="1">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/Guardsman"/>
+				</unit>
+		</conditions>
+			<effects>
+				<moraleLossFactor add="-0.33"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+                    <allied/>
+                    <faction name="AstraMilitarum"/>
+                    <type name="AstraMilitarum/Guardsman"/>
+                    <noTrait name="Forest"/>
+                    <noTrait name="ImperialRuin"/>
+				</unit>
+		</conditions>
+			<effects>
+                <rangedDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/Ratling"/>
+				</unit>
+		</conditions>
+			<effects>
+				<moraleLossFactor add="-0.33"/>
+				<armorPenetration add="1"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/HeavyWeaponsSquad"/>
+				</unit>
+		</conditions>
+			<effects>
+				<accuracy add="1"/>
+				<moraleLossFactor add="-0.33"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/Bullgryn"/>
+				</unit>
+		</conditions>
+			<effects>
+				<accuracy add="2"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/WyrdvanePsyker"/>
+				</unit>
+		</conditions>
+			<effects>
+				<moraleLossFactor add="-0.33"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/FieldOrdnanceBattery"/>
+				</unit>
+		</conditions>
+			<effects>
+				<accuracy add="1"/>
+				<moraleLossFactor add="-0.33"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AirDiscipline" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/Thunderbolt"/>
+				</unit>
+		</conditions>
+			<effects>
+				<addTrait name="AstraMilitarum/ThunderShot"/>
+				<rangedDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AirDiscipline" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/Valkyrie"/>
+				</unit>
+		</conditions>
+			<effects>
+				<accuracy add="1"/>
+				<rangedDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/Kasrkin"/>
+				</unit>
+		</conditions>
+			<effects>
+				<accuracy add="1"/>
+				<moraleLossFactor add="-0.33"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="AstraMilitarum"/>
+					<type name="AstraMilitarum/WyrdvanePsyker"/>
+				</unit>
+			</conditions>
+			<effects>
+				<invulnerableDamageReduction min="0.17"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/AwakenTheMachine" visible="0">
+		<conditions>
+				<unit>
+					<allied/>
+					<type name="AstraMilitarum/AttilanRoughRider"/>
+				</unit>
+		</conditions>
+			<effects>
+				<moraleLossFactor add="-0.33"/>
+				<armor add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

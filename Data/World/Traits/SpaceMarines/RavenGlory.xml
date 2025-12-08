@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" visible="1">
+	<modifiers>
+		<modifier>
+			<effects>
+				<influencePerKillValue add="2"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="SpaceMarines/PrimarisInceptor">
+			<effects>
+				<influencePerKillValue add="2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

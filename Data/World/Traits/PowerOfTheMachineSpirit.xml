@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/PowerOfTheMachineSpirit">
+    <modifiers>
+        <modifier visible="1">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <noType name="AstraMilitarum/ScoutSentinel"/>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedAccuracy add="1"/>
+            </effects>
+        </modifier>
+         <modifier visible="0">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/ScoutSentinel"/>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedAttacks mul="0.2"/>
+            </effects>
+        </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/Shadowsword"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <moraleLossFactor mul="-0.33"/>
+                </effects>
+            </modifier>
+            <modifier visible="1" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/DevilDog"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/LemanRussBattleTank"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/Hydra"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/ArmoredSentinel"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <moraleLossFactor mul="-0.33"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/Basilisk"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/Chimera"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <movementMax add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/MarauderBomber"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/MarauderDestroyer"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/RogalDornBattleTank"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <moraleLossFactor mul="-0.33"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/ScoutSentinel"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <movementMax add="1"/>
+                    <sight add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/TankCommander"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/Thunderbolt"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/Valkyrie"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/Headquarters"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+            <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/ImperialStrongpoint"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+           <modifier visible="0" requiredUpgrade="AstraMilitarum/AwakenTheMachine">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="AstraMilitarum/FieldOrdnanceBattery"/>
+                </unit>
+            </conditions>
+                <effects>
+                    <rangedAccuracy add="1"/>
+                    <armorPenetration add="1"/>
+                </effects>
+            </modifier>
+    </modifiers>
+</trait>

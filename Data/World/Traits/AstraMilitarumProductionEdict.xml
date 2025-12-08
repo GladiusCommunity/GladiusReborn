@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visibilityCategory="Building" icon="Actions/AstraMilitarumProductionEdict">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<building>
+					<type name="AstraMilitarum/Construction"/>
+				</building>
+			</conditions>
+			<effects>
+				<production mul="0.33"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/ProductionEdict2">
+			<conditions>
+				<building>
+					<type name="AstraMilitarum/Construction"/>
+				</building>
+			</conditions>
+			<effects>
+				<production mul="0.33"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/ProductionEdict3">
+			<conditions>
+				<building>
+					<type name="AstraMilitarum/Construction"/>
+				</building>
+			</conditions>
+			<effects>
+				<production mul="0.34"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

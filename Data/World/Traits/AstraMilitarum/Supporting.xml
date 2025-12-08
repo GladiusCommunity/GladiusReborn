@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait rankMax="2"
+       visible="0">
+    <modifiers>
+        <modifier>
+            <effects>
+                <hitpointsFactorFromMax addMax="0.3"
+                              addMin="0.1"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

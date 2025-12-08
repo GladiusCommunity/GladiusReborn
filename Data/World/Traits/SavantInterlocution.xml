@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent match="Any">
+						<trait name="Flyer"/>
+						<trait name="Skimmer"/>
+					</opponent>
+				</encounter>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<type name="SpaceMarines/Hunter"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAccuracy add="2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<onCombatOpponentModifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<self>
+						<attacking/>
+					</self>
+					<opponent>
+						<noAttacking/>
+						<noTrait name="Fortification"/>
+					</opponent>
+				</encounter>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<type name="SpaceMarines/Hunter"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="SpaceMarines/Contusion" rank="0" duration="1"/>
+			</effects>
+		</modifier>
+	</onCombatOpponentModifiers>
+</trait>

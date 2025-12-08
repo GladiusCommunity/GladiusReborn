@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature category="Forest" visible="1" icon="Features/Road">
+	<model>
+		<simpleModel scale="1.3 1.3 1.0"
+				mesh="Plane" 
+				material="Features/RoadGround"
+				groundMaterial="Features/RoadGround"/>
+	</model>
+	<traits>
+		<trait name="Road"/>
+	</traits>
+</feature>

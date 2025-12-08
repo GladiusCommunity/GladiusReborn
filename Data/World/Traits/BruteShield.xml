@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait>
+	<modifiers>
+		<modifier>
+			<effects>
+				<invulnerableDamageReduction min="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+		<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+					<noTrait name="SpaceMarines/SalamandersFireEnemy"/>
+                </unit>
+            </conditions>
+			<effects>
+				<hitpoints add="4"/>
+			</effects>
+		</modifier>
+			<modifier requiredUpgrade="AstraMilitarum/RecoveryGear">
+				<conditions>
+                <unit>
+                    <noTrait name="SistersOfBattle/HolyFireEnemy"/>
+                    <noTrait name="ChaosSpaceMarines/HellFireEnemy"/>
+					<noTrait name="SpaceMarines/SalamandersFireEnemy"/>
+                </unit>
+            </conditions>
+			<effects>
+				<hitpoints add="4"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

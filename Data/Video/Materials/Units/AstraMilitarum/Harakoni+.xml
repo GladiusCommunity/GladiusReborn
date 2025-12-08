@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/AstraMilitarum/Harakoni+Diffuse"/>
+		<texture name="Units/AstraMilitarum/Harakoni+Normal"/>
+		<texture name="Units/AstraMilitarum/Harakoni+SIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

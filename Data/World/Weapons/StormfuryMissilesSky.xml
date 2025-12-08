@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Weapons/StormfuryMissiles">
+	<model>
+		<missileWeapon fireSound="Weapons/HellstrikeMissile"
+				fireSoundCount="3"/>
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=-3 -->
+				<rangedDamage add="10.5"/> <!-- %rangedDamage add strength=10 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="3"/>
+	<traits>
+		<trait name="SpaceMarines/SkyFighter"/>
+		<trait name="HeavyWeapon"/>
+		<trait name="SpaceMarines/BlastDamage" requiredUpgrade="SpaceMarines/BlastDamage"/>
+	</traits>
+</weapon>

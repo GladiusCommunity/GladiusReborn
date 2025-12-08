@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/SpaceMarines/Soulless">
+	<modifiers>
+		<modifier>
+			<effects>
+				<deathMorale max="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

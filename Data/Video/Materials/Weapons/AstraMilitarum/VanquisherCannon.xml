@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Weapons/AstraMilitarum/VanquisherCannonDiffuse"/>
+		<texture name="Weapons/AstraMilitarum/VanquisherCannonNormal"/>
+		<texture name="Weapons/AstraMilitarum/VanquisherCannonSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

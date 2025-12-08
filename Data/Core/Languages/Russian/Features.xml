@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ShatteredDefences" value="Расколотая защита"/>
+	<entry name="ShatteredDefencesDescription" value="<string name='Traits/SpaceMarines/ShatterDefencesDescription'/>"/>
+
+	<entry name="Road" value="Дорога"/>
+	<entry name="RoadDescription" value="Отменяет штрафы на передвижение по лесам, руинам и рекам."/>
+
+	<entry name="SpaceMarines/PrimarisDefences" value="&lt;string name='Actions/BolsterDefences'/&gt;"/>
+	<entry name="SpaceMarines/PrimarisDefencesDescription" value="&lt;string name='Traits/BolsterDefencesDescription'/&gt;"/>
+	<entry name="SpaceMarines/PrimarisDefencesFlavor" value="&lt;string name='Traits/BolsterDefencesFlavor'/&gt;"/>
+
+
+
+</language>

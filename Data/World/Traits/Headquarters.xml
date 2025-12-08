@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <unitsInRange count="1"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <invulnerableDamageReduction add="0.075"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="2"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <invulnerableDamageReduction add="0.075"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="3"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <invulnerableDamageReduction add="0.075"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="4"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <invulnerableDamageReduction add="0.075"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="5"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <invulnerableDamageReduction add="0.075"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="6"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <invulnerableDamageReduction add="0.075"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+			<effects>
+				<moraleMax base="0"/> <!-- %moraleMax base leadership=8 -->
+			</effects>
+		</modifier>
+    </modifiers>
+</trait>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" icon="Traits/Skyfire">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent match="Any">
+						<trait name="Skimmer"/>
+						<trait name="Jetbike"/>
+						<trait name="JetPack"/>
+						<trait name="MonstrousCreature"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<rangedAccuracy add="2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent match="Any">
+						<trait name="Flyer"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<rangedAccuracy add="3"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<noTrait name="Flyer"/>
+						<noTrait name="JetPack"/>
+						<noTrait name="Jetbike"/>
+						<noTrait name="Skimmer"/>
+						<noTrait name="MonstrousCreature"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<rangedAccuracy mul="-0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

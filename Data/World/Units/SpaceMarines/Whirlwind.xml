@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement12">
+	<model>		
+		<unit mesh="Units/SpaceMarines/Whirlwind"
+				material="Units/SpaceMarines/Whirlwind"
+				idleAnimation="Units/SpaceMarines/WhirlwindIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				scale="1 1 1"
+				explosionsBone="Hull_Shake"
+				uvAnimated="1"/>
+	</model>
+	<weapons>
+        <weapon name="WhirlwindMultipleMissileLauncherIncendiaryCastellan">
+            <model>
+                <missileWeapon fireInterval="1.14"
+                               muzzleBone="Missile"
+                               muzzleCount="4"/>
+            </model>
+        </weapon>
+		<weapon name="None" enabled="0" requiredUpgrade="SpaceMarines/SmokeLauncher">
+			<model>
+				<weapon mesh="Weapons/SpaceMarines/WhirlwindSmokeLauncher"
+						material="Units/SpaceMarines/Whirlwind"
+						bone="Hull_Shake"/>
+			</model>
+		</weapon>
+		<weapon name="None" requiredUpgrade="SpaceMarines/SmokeLauncher">
+			<model>
+				<projectileWeapon mesh="Weapons/SpaceMarines/WhirlwindDozer+"
+						material="Units/SpaceMarines/RazorbackDozer+"
+						bone="Hull_Shake"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
+				<hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=11/11/10 wounds=3 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax base="4"/>
+				<productionCost base="42.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=6 factor=1 -->
+				<requisitionsCost base="60.0"/> <!-- %requisitionsCost base tier=6 factor=1 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/SpaceMarines/WhirlwindAttack"
+						beginFire="0.9"
+						endFire="2.04"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/SpaceMarines/WhirlwindDie0"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action animation="Units/SpaceMarines/WhirlwindMove"
+						sound="Units/SpaceMarines/TankMove"
+						soundCount="3"/>
+			</model>		
+		</move>
+		<createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="5"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="SpaceMarines/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="1" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+		<orbitalDeployment requiredUpgrade="SpaceMarines/OrbitalDeployment">
+			<model>
+				<action sound="Actions/DropPod"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="40"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</orbitalDeployment>
+        <genericUnitAbility name="SpaceMarines/ShatterDefences"
+                            consumedActionPoints="0"
+                            consumedMovement="0"
+                            cooldown="5"
+                            icon="Actions/ChaosSpaceMarines/ShatterDefences"
+                            requiredActionPoints="0">
+            <model>
+                <action sound="Actions/ArmourUp"/>
+            </model>
+            <beginTargets>
+                <target rangeMax="3">
+                    <conditions>
+                        <tile>
+                            <noFeature name="ShatteredDefences"/>
+                        </tile>
+                    </conditions>
+                    <areas>
+                        <area affects="Tile">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addFeature name="ShatteredDefences"
+                                                    duration="1"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </target>
+            </beginTargets>
+        </genericUnitAbility>
+		<genericUnitAbility consumedActionPoints="0"
+				consumedMovement="0"
+				cooldown="3"
+				requiredUpgrade="SpaceMarines/LowTierScale2"
+				icon="Traits/RapidFire"
+				name="SpaceMarines/RapidWind">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="SpaceMarines/RapidWind" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+	<traits>
+		<trait name="SpaceMarines/AssignSalamanders" requiredUpgrade="SpaceMarines/ChapterAssign"/>
+		<trait name="SpaceMarines/Salamanders"/>
+		<trait name="AndTheyShallKnowNoFear"/>
+		<trait name="DozerBlade" requiredUpgrade="SpaceMarines/SmokeLauncher"/>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="SpaceMarines/ExtraVehicleArmour"/>
+		<trait name="LastStand" requiredUpgrade="SpaceMarines/LastStand"/>
+		<trait name="SpaceMarines/SuppressiveBombardment"/>
+		<trait name="Tank"/>
+		<trait name="Vehicle"/>
+	</traits>
+</unit>

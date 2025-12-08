@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff"
+       icon="Units/SpaceMarines/ChampionTerminator">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <allied/>
+                    <type name="SpaceMarines/Headquarters"/>
+                </unit>
+            </conditions>
+            <effects/>
+        </modifier>
+    </modifiers>
+</trait>

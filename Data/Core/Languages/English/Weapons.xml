@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<entry name="RailgunWithSolidShotmk2" value="RailgunM2 with Solid Shot"/>
+	<entry name="RailgunWithSolidShotFlavormk2" value="<string name='Weapons/RailFlavor'/>"/>
+	
+	
+	<entry name="WraithCannon" value="WraithCannon"/>
+	<entry name="WraithCannonFlavormk2" value="Wraithcannon opens a small, temporary rift from realspace into the Warp that tears apart its target through the unleashing of potent gravitic forces and then swallows the remains. "/>
+	
+	<entry name="HavocAutocannon" value="Havoc Autocannon"/>
+	<entry name="HavocAutocannonFlavor" value="<string name='Weapons/AutoFlavor'/>"/>
+	
+	<entry name="HotShotLasgunM" value="Hot-Shot Lasgun(Mars pattern)"/>
+	<entry name="HotShotLasgunMFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+
+	<entry name="TwinLinkedLascannon" value="Twin-Linked Lascannon"/>
+	<entry name="TwinLinkedLascannonFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+
+	<entry name="TwinLinkedLascannonPredator" value="Сдвоенная Лазпушка"/>
+	<entry name="TwinLinkedLascannonPredatorFlavor" value="&lt;string name='Weapons/LasFlavor'/&gt;"/>
+
+	<entry name="BolterArray" value="Heavy Bolter"/>
+	<entry name="BolterArrayFlavor" value="&lt;string name='Weapons/BoltFlavor'/&gt;"/>
+
+	<entry name="TwinLinkedLasMaroder" value="Twin-Linked Lascannon"/>
+	<entry name="TwinLinkedLasMaroderFlavor" value="&lt;string name='Weapons/LasFlavor'/&gt;"/>
+
+	<entry name="TwinLinkedLasThunderBolt" value="Twin-Linked Lascannon"/>
+	<entry name="TwinLinkedLasThunderBoltFlavor" value="&lt;string name='Weapons/LasFlavor'/&gt;"/>
+
+	<entry name="TwinLinkedAutocannonThunderbolt" value="Twin-Linked Autocannon"/>
+	<entry name="TwinLinkedAutocannonThunderboltFlavor" value="&lt;string name='Weapons/AutoFlavor'/&gt;"/>
+
+	<entry name="VanquisherCannon" value="Vanquisher Cannon"/>
+	<entry name="VanquisherCannonFlavor" value="A weapon for the true tank ace, the vanquisher battle cannon is the pinpoint rapier to the battle cannon’s crunching mace, firing shaped, high explosive shells that can punch through the thickest armour to the ruin of their hapless target."/>
+
+	<entry name="VolcanoCannon" value="Volcano Cannon"/>
+	<entry name="VolcanoCannonFlavor" value="The Volcano Cannon is one of the most powerful ground vehicle-mounted laser weapons in the Imperium's arsenal. Developed long ago during the Age of Technology, the Volcano Cannon -- so named, it is generally thought, for its tendency to turn rock and stone into spraying magma where it strikes -- is an apocalyptically powerful laser weapon designed to level the most reinforced fortification and deal fatal blows to the most colossal of enemy war machines."/>
+
+	<entry name="DemolisherShadowCannon" value="Demolisher Cannon"/>
+	<entry name="DemolisherShadowCannonFlavor" value="Short ranged but deadly, the demolisher siege cannon trades reach for power. Each demolisher shell is at least three times the size of a normal battle cannon round, its huge weight and high explosive core ensuring it will annihilate almost anything it hits."/>
+
+    <entry name="GaussReaper" value="Gauss Flayer"/>
+
+	<entry name="TwinBoltRifleATV" value="Twin-Linked Bolt Rifle"/>
+	<entry name="TwinBoltRifleATVFlavor" value="&lt;string name='Weapons/TwinBoltRifleFlavor'/&gt;"/>
+
+	<entry name="OnslaughtGatlingCannonATV" value="<string name='Weapons/OnslaughtGatlingCannon'/>"/>
+	<entry name="OnslaughtGatlingCannonATVFlavor" value="<string name='Weapons/OnslaughtGatlingCannonFlavor'/>"/>
+
+	<entry name="ThunderHammerAss" value="<string name='Weapons/ThunderHammer'/>"/>
+	<entry name="ThunderHammerAssFlavor" value="<string name='Weapons/ThunderHammerFlavor'/>"/>
+
+    <entry name="ThunderstrikeLasTalonSky" value="&lt;string name='Weapons/ThunderstrikeLasTalon'/&gt;"/>
+	<entry name="ThunderstrikeLasTalonSkyFlavor" value="&lt;string name='Weapons/ThunderstrikeLasTalonFlavor'/&gt;"/>
+
+    <entry name="StormfuryMissilesSky" value="&lt;string name='Weapons/StormfuryMissiles'/&gt;"/>
+	<entry name="StormfuryMissilesSkyFlavor" value="&lt;string name='Weapons/StormfuryMissilesFlavor'/&gt;"/>
+
+    <entry name="TwinIcarusRocketPodSky" value="&lt;string name='Weapons/TwinIcarusRocketPod'/&gt;"/>
+	<entry name="TwinIcarusRocketPodSkyFlavor" value="&lt;string name='Weapons/TwinIcarusRocketPodFlavor'/&gt;"/>
+
+    <entry name="KrakMissileLauncherDred" value="&lt;string name='Weapons/KrakMissileLauncher'/&gt;"/>
+	<entry name="KrakMissileLauncherDredFlavor" value="&lt;string name='Weapons/KrakMissileLauncherFlavor'/&gt;"/>
+
+    <entry name="TwinLinkedLascannonDred" value="&lt;string name='Weapons/TwinLinkedLascannon'/&gt;"/>
+	<entry name="TwinLinkedLascannonDredFlavor" value="&lt;string name='Weapons/TwinLinkedLascannonFlavor'/&gt;"/>
+
+    <entry name="PowerFistRedemption" value="&lt;string name='Weapons/PowerFist'/&gt;"/>
+	<entry name="PowerFistRedemptionFlavor" value="&lt;string name='Weapons/PowerFistFlavor'/&gt;"/>
+
+    <entry name="SpeederMelta" value="&lt;string name='Weapons/MultiMelta'/&gt;"/>
+	<entry name="SpeederMeltaFlavor" value="&lt;string name='Weapons/MultiMeltaFlavor'/&gt;"/>
+
+    <entry name="OnslaughtGatlingCannonLand" value="&lt;string name='Weapons/OnslaughtGatlingCannon'/&gt;"/>
+	<entry name="OnslaughtGatlingCannonLandlavor" value="&lt;string name='Weapons/OnslaughtGatlingCannonFlavor'/&gt;"/>
+
+	<entry name="AC" value="<string name='Weapons/AssaultCannon'/>"/>
+	<entry name="ACFlavor" value="<string name='Weapons/AutoFlavor'/>"/>
+	<entry name="ACMortis" value="<string name='Weapons/AssaultCannon'/>"/>
+
+	<entry name="IcarusRocketPodRedemption" value="<string name='Weapons/IcarusRocketPod'/>"/>
+	<entry name="IcarusRocketPodRedemptionFlavor" value="<string name='Weapons/IcarusRocketPodFlavor'/>"/>
+
+    <entry name="OrbitalBombardmentCaptain" value="Orbital Bombardment"/>
+
+	<entry name="HonourGuardBoltgun" value="Boltgun"/>
+    <entry name="HonourGuardBoltgunFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+
+</language>

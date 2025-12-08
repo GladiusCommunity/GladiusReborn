@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="0" category="Buff" icon="Traits/AstraMilitarum/MixCover">
+    <modifiers>
+        <modifier visible="1">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <faction name="AstraMilitarum"/>
+                    <trait name="AstraMilitarum/Infantry"/>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.33"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <allied/>
+                    <faction name="AstraMilitarum"/>
+                    <noTrait name="Tank"/>
+                    <trait name="Hero"/>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.33"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

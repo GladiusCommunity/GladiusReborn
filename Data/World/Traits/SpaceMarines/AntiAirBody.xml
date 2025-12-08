@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1"
+		category="Buff">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<attacking/>
+					</opponent>
+					<opponent match="Any">
+						<trait name="Skimmer"/>
+						<trait name="Jetbike"/>
+						<trait name="JetPack"/>
+						<trait name="Flyer"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damageTaken mul="-0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

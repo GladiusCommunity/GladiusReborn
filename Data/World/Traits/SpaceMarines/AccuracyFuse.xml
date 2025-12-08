@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/SpaceMarines/AccuracyFuse">
+	<modifiers>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<noType name="SpaceMarines/StormtalonGunship"/>
+					<noType name="SpaceMarines/PrimarisInvaderATV"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy min="8"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<type name="SpaceMarines/StormtalonGunship"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy min="6"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<type name="SpaceMarines/PrimarisInvaderATV"/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy min="9"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<weapon match="Any">
+					<trait name="TwinLinked"/>
+				</weapon>
+			</conditions>
+			<effects>
+				<accuracy min="10"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<weapon match="Any">
+					<type name="SkyspearMissileLauncher"/>
+				</weapon>
+			</conditions>
+			<effects>
+				<accuracy min="10"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

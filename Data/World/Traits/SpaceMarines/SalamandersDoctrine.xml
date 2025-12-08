@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/SpaceMarines/SalamandersDoctrine" visible="1">
+	<modifiers>
+		<!-- Визуальная часть, чтобы доктрина отображалась на юнитах -->
+		<modifier visible="0">
+			<effects>
+				<accuracy add="1"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<effects>
+				<accuracy add="-1"/>
+			</effects>
+		</modifier>
+		<!-- Визуальная часть, чтобы доктрина отображалась на юнитах -->
+		<modifier>
+			<conditions>
+				<encounterRange equal="1"/>
+			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="SpaceMarines/Apothecary">
+			<conditions>
+				<encounterRange equal="1"/>
+			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
+
+
+
+
+
+
+					
+					

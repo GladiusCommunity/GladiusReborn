@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon>
+	<model>
+		<projectileWeapon fireSound="Weapons/BanebladeCannon"
+		 		fireSoundCount="3"
+				muzzleFlashesBlueprint="Effects/CannonMuzzleFlashes"/>
+	</model>	
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedArmorPenetration add="2"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+				<rangedDamage add="16.5"/> <!-- %rangedDamage add strength=9 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="3"/>
+	<traits>
+		<trait name="Armourbane"/>
+		<trait name="AstraMilitarum/BlastDamage" requiredUpgrade="AstraMilitarum/BlastDamage"/>
+		<trait name="Ordnance"/>
+		<trait name="AstraMilitarum/VanquisherUpgrade" requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters"/>
+	</traits>
+</weapon>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff"
+       icon="Traits/VehicleDamaged">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <trait name="Vehicle"/>
+                    <noTrait name="MultimodelVehicle"/>
+                </unit>
+            </conditions>
+            <effects>
+                <movementMax add="-1"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

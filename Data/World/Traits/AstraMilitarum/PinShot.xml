@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1">
+		<onCombatOpponentModifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<noAttacking/>
+						<trait name="Flyer"/>
+					</opponent>
+				</encounter>
+				<unit>
+					<allied/>
+					<trait name="Discipline"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="AstraMilitarum/AirStopping" duration="1"/>
+			</effects>
+		</modifier>
+			<modifier visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<noAttacking/>
+						<trait name="JetPack"/>
+					</opponent>
+				</encounter>
+				<unit>
+					<allied/>
+					<trait name="Discipline"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="AstraMilitarum/AirStopping" duration="1"/>
+			</effects>
+		</modifier>
+			<modifier visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<noAttacking/>
+						<trait name="Jetbike"/>
+					</opponent>
+				</encounter>
+				<unit>
+					<allied/>
+					<trait name="Discipline"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="AstraMilitarum/AirStopping" duration="1"/>
+			</effects>
+		</modifier>
+			<modifier visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<noAttacking/>
+						<trait name="Skimmer"/>
+					</opponent>
+				</encounter>
+				<unit>
+					<allied/>
+					<trait name="Discipline"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="AstraMilitarum/AirStopping" duration="1"/>
+			</effects>
+		</modifier>
+	</onCombatOpponentModifiers>
+</trait>

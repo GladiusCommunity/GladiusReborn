@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<actions>
+		<genericUnitAbility name="BuildRoad"
+			icon="Actions/Road"
+			requiredActionPoints="1"
+			consumedActionPoints="0"
+			consumedMovement="0">
+			<model>
+				<action animation="Units/Orks/MekBuild"
+						sound="Actions/Construct"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<oreCost base="5"/>
+						<influenceCost base="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noFeatureCategory name="Resource"/>
+							<noFeatureCategory name="WireWeed"/>
+							
+							
+							<land/>
+							<noFeature name="Outpost"/>
+							<noFeature name="Road"/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="Road"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
+</unit>

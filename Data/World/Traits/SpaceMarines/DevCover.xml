@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<faction name="SpaceMarines"/>
+						<trait name="Vehicle"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<invulnerableDamageReduction min="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

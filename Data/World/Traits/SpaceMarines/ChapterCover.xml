@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="1" category="Buff" icon="Actions/TheFleshIsWeak">
+    <modifiers>
+        <modifier>
+            <conditions>
+                <unit>
+                    <unitsInRange count="1"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.045"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="2"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.045"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="3"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.045"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="4"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.045"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="5"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.045"/>
+            </effects>
+        </modifier>
+        <modifier visible="0">
+            <conditions>
+                <unit>
+                    <unitsInRange count="6"
+                                  range="1">
+                        <allied/>
+                    </unitsInRange>
+                </unit>
+            </conditions>
+            <effects>
+                <rangedDamageReduction add="0.045"/>
+            </effects>
+        </modifier>
+    </modifiers>
+</trait>

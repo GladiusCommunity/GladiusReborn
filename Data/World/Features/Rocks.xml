@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature category="Rocks">
+	<model>
+		<rocks/>
+	</model>
+	<rocks clusterSizeMin="1" clusterSizeMax="1" scaleMin="0.75" scaleMax="1.25"/>
+</feature>

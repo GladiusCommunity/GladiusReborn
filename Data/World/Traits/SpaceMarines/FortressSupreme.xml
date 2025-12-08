@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<trait category="Buff" icon="Upgrades/SpaceMarines/FortressSupreme">
+    <perTurnModifiers>
+    <modifier visible="0">
+        <conditions>
+                <unit>
+                    <type name="SpaceMarines/Headquarters"/>
+                </unit>
+        </conditions>
+            <effects>
+                <hitpoints add="8"/>
+            </effects>
+        </modifier>
+            <modifier>
+        <conditions>
+                <unit>
+                        <type name="SpaceMarines/FortressOfRedemption"/>
+                </unit>
+        </conditions>
+            <effects>
+                <hitpoints add="4"/>
+            </effects>
+        </modifier>
+    </perTurnModifiers>
+</trait>

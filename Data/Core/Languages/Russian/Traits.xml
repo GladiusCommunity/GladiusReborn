@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+    <entry name="SpaceMarines/EmperorsClaims" value="Единство Императора"/>
+	<entry name="SpaceMarines/EmperorsClaimsDescription" value="Увеличивает производство ресурсов для зданий того же типа на плитке, не являющихся штабами. Уменьшает производство на плитке не штабных зданий разных типов."/>
+
+    <entry name="SpaceMarines/EmperorSpecialisation" value="В единстве сила"/>
+	<entry name="SpaceMarines/EmperorSpecialisationDescription" value="Увеличивает производство ресурсов от зданий того же типа на плитке, не являющихся штабами."/>
+
+    <entry name="SpaceMarines/DominusAegis" value="Эгида Доминуса"/>
+    <entry name="SpaceMarines/DominusAegisDescription" value="Увеличивает снижение урона от дальнего огня в радиусе для союзной пехоты Космического Десанта."/>
+    <entry name="SpaceMarines/DominusAegisFlavor" value="Этот артефакт имеет форму богато украшенного башенного щита; из его скульптурного края он проецирует полусферическое силовое поле, которое защищает всех, кто находится в пределах его досягаемости. Переносимый на войну теми командами убийц, которые должны были ворваться в самое сердце орд ксеносов, он спас бесчисленное количество жизней, носитель и его команда сражаются до победы, пока куполообразное силовое поле удерживает худших из инопланетных отбросов на расстоянии."/>
+
+    <entry name="LasCannonDoctrine" value="Энергетическая Доктрина"/>
+	<entry name="LasCannonDoctrineDescription" value="Увеличивает точность сдвоенных энергетических орудий."/>
+
+    <entry name="SpaceMarines/ShatterDefences" value="&lt;string name='Actions/SpaceMarines/ShatterDefences'/&gt;"/>
+	<entry name="SpaceMarines/ShatterDefencesDescription" value="Снижает сокращение дистанц. урона."/>
+
+    <entry name="AstraMilitarum/Bayonet" value="Штык-нож"/>
+	<entry name="AstraMilitarum/BayonetDescription" value="Снижает сокращение дистанционного урона у противников, если гвардейцы бьют с первой дистанции."/>
+
+    <entry name="AstraMilitarum/MeatShield" value="&lt;string name='Actions/AstraMilitarum/MeatShield'/&gt;"/>
+	<entry name="AstraMilitarum/MeatShieldDescription" value="Снижает дальние атаки."/>
+
+    <entry name="AstraMilitarum/MoraleLossFactor" value="Пытка временем"/>
+	<entry name="AstraMilitarum/InstinctiveBehaviourDescription" value="Булгрины теряют мораль каждый ход, когда рядом нет офицеров"/>
+
+    <entry name="AstraMilitarum/DogmaMilitarum" value="Сила Милитарум"/>
+	<entry name="AstraMilitarum/DogmaMilitarumDescription" value="&lt;string name='Actions/DogmaAstratesDescription'/&gt;"/>
+
+    <entry name="AstraMilitarum/AwakenLeman" value="Улучшенное пробуждение машины"/>
+	<entry name="AstraMilitarum/AwakenLemanDescription" value="После изучения технологии Поддержка Империума, способность пробуждение машины даст этому юниту +1 точность и +1 бронепробитие."/>
+
+    <entry name="AstraMilitarum/AwakenArmored" value="Улучшенное пробуждение машины"/>
+	<entry name="AstraMilitarum/AwakenArmoredDescription" value="После изучения технологии Поддержка Империума, способность пробуждение машины даст этому юниту +1 точность и +1 макс движение."/>
+
+    <entry name="AstraMilitarum/AwakenScout" value="Улучшенное пробуждение машины"/>
+	<entry name="AstraMilitarum/AwakenScoutDescription" value="После изучения технологии Поддержка Империума, способность пробуждение машины даст этому юниту +1 макс видимость и +1 макс движение."/>
+
+    <entry name="AstraMilitarum/DisciplineBullgryn" value="Рядовой"/>
+	<entry name="AstraMilitarum/DisciplineBullgrynDescription" value="Юнит получает нулевую мораль от ауры дисциплины, а после изучения технологии Поддержка Империума получает еще +2 точности."/>
+
+    <entry name="AstraMilitarum/DisciplineRatling" value="Рядовой"/>
+	<entry name="AstraMilitarum/DisciplineRatlingDescription" value="После изучения технологии Поддержка Империума, аура дисциплины даст этому юниту -33% потери морали и +1 бронепробитие."/>
+
+    <entry name="AstraMilitarum/DisciplineHeavy" value="Рядовой"/>
+	<entry name="AstraMilitarum/DisciplineHeavyDescription" value="После изучения технологии Поддержка Империума, аура дисциплины даст этому юниту -33% потери морали и +1 точность."/>
+
+    <entry name="AstraMilitarum/DisciplineGuardsman" value="Рядовой"/>
+	<entry name="AstraMilitarum/DisciplineGuardsmanDescription" value="После изучения технологии Поддержка Империума, аура дисциплины даст этому юниту -33% потери морали и +33% снижения урона от дальнего огня(Не работает в лесах и руинах)."/>
+
+    <entry name="AstraMilitarum/SuperchargedLas" value="Заряженный выстрел"/>
+    <entry name="AstraMilitarum/SuperchargedLasDescription" value="Увеличивает атаки пробивного ружья."/>
+
+    <entry name="HalfHeavyWeapon" value="Увесистый"/>
+	<entry name="HalfHeavyWeaponDescription" value="Снижает точность на четверть после перемещения."/>
+
+	<entry name="AstraMilitarum/ScionsStrike" value="Указ Темпестусов"/>
+	<entry name="AstraMilitarum/ScionsStrikeDescription" value="Повышает дистанц. урон, наносимый танковыми и самолетными подразделениями Астра Милитарум целям этого юнита."/>
+	<entry name="AstraMilitarum/ScionsStrikeTarget" value="&lt;string name='Traits/AstraMilitarum/ScionsStrike'/&gt;"/>
+	<entry name="AstraMilitarum/ScionsStrikeTargetDescription" value="Повышает дистанц. урон, наносимый танковыми и самолетными подразделениями Астра Милитарум этому юниту."/>
+
+    <entry name="AstraMilitarum/Infantry" value="Пехота"/>
+	<entry name="AstraMilitarum/InfantryDescription" value="Классификация"/>
+
+    <entry name="AstraMilitarum/Generalism" value="Аура Генерала"/>
+	<entry name="AstraMilitarum/InfantryDescription" value="Повышает точность и дает дополнительные бонусы смежным союзным офицерам Астра Милитарум."/>
+
+    <entry name="AstraMilitarum/OfficerScion" value="Офицер"/>
+	<entry name="AstraMilitarum/OfficerScionDescription" value="После изучения технологии Поддержка Империума, генеральская аура даст этому юниту -33% потери морали и +1 бронепробитие."/>
+
+    <entry name="AstraMilitarum/OfficerTech" value="Офицер"/>
+	<entry name="AstraMilitarum/OfficerTechDescription" value="После изучения технологии Поддержка Империума, генеральская аура даст этому юниту -33% потери морали и +1 броню."/>
+
+	<entry name="AstraMilitarum/OfficerBomber" value="Офицер"/>
+	<entry name="AstraMilitarum/OfficerBomberDescription" value="После изучения технологии Воздушная Дисциплина, генеральская аура даст этому юниту +17% снижения урона от дальнего огня и +1 точность."/>
+
+	<entry name="AstraMilitarum/DisciplineThunderbolt" value="Рядовой"/>
+	<entry name="AstraMilitarum/DisciplineThunderboltDescription" value="После изучения технологии Воздушная Дисциплина, аура дисциплины даст этому юниту юниту +17% снижения урона от дальнего огня и возможность замедлять вражеские флаеры с атаки."/>
+
+	<entry name="AstraMilitarum/DisciplineValkyrie" value="Рядовой"/>
+	<entry name="AstraMilitarum/DisciplineValkyrieDescription" value="После изучения технологии Воздушная Дисциплина, аура дисциплины даст этому юниту юниту +17% снижения урона от дальнего огня и +1 точность."/>
+
+	<entry name="SupportHero" value="Герой Поддержки"/>
+    <entry name="SupportHeroDescription" value="Увеличивает снижение урона от атак с дистанции 2 и выше, а каждый соседний пехотный отряд увеличивает снижение урона еще на 7,5%."/>
+
+    <entry name="AstraMilitarumVehicleProductionEdict" value="&lt;string name='Actions/AstraMilitarumVehicleProductionEdict'/&gt;"/>
+	<entry name="AstraMilitarumVehicleProductionEdictDescription" value="Увеличивает выпуск продукции."/>
+	<entry name="AstraMilitarumVehicleProductionEdictFlavor" value="&lt;string name='Actions/AstraMilitarumVehicleProductionEdictFlavor'/&gt;"/>
+
+    <entry name="AstraMilitarum/BlastDamage" value="Улучшенная оболочка Фраг-гранаты"/>
+	<entry name="AstraMilitarum/BlastDamageDescription" value="Повышает бронебойность."/>
+	<entry name="AstraMilitarum/BlastDamageFlavor" value="Используя более совершенный рисунок гравировки на корпусе, значительно улучшается летальность взрывчатого вещества."/>
+
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction1" value="Щит твердыни"/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction1Description" value="Дает +17% неснижаемого сокращения урона, +2 к макс. здоровью и +5% к собираемым ресурсам с застав."/>
+
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction2" value="Щит твердыни 2"/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction2Description" value="Дает +17% неснижаемого сокращения урона, +2 к макс. здоровью и +5% к собираемым ресурсам с застав."/>
+
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction3" value="Щит твердыни 3"/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction3Description" value="Дает +17% неснижаемого сокращения урона, +2 к макс. здоровью и +10% к собираемым ресурсам с застав."/>
+
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction4" value="Щит твердыни 4"/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction4Description" value="Дает +20% к макс. здоровью, +1 броню и ракетную шахту Крак-шторм."/>
+
+	<entry name="SpaceMarines/BonusGrowth" value="Семя Императора"/>
+	<entry name="SpaceMarines/BonusGrowthDescription" value="Увеличивает рост населения на 10% в городе-крепости Космического Десанта."/>
+
+	<entry name="SpaceMarines/BonusGrowth2" value="Семя Императора"/>
+	<entry name="SpaceMarines/BonusGrowth2Description" value="Увеличивает рост населения на 10% в городе-крепости Космического Десанта."/>
+
+	<entry name="SpaceMarines/BonusGrowth3" value="Семя Императора"/>
+	<entry name="SpaceMarines/BonusGrowth3Description" value="Увеличивает рост населения на 10% в городе-крепости Космического Десанта."/>
+
+	<entry name="SpaceMarines/BonusGrowth4" value="Семя Императора"/>
+	<entry name="SpaceMarines/BonusGrowth4Description" value="Увеличивает рост населения на 10% в городе-крепости Космического Десанта."/>
+
+	<entry name="AstraMilitarum/WeStandTogetherGuardsman" value="Держать строй!"/>
+    <entry name="AstraMilitarum/WeStandTogetherGuardsmanDescription" value="Увеличивает размер группы."/>
+
+	<entry name="AstraMilitarum/WeStandTogetherScion" value="Держать строй!"/>
+    <entry name="AstraMilitarum/WeStandTogetherScionDescription" value="Увеличивает размер группы."/>
+
+	<entry name="AstraMilitarum/FieldOrdnanceStrike" value="Прямая наводка"/>
+	<entry name="AstraMilitarum/FieldOrdnanceStrikeDescription" value="Повышает дистанц. урон, наносимый пехотными подразделениями Астра Милитарум целям этого юнита."/>
+	<entry name="AstraMilitarum/FieldOrdnanceStrikeTarget" value="&lt;string name='Traits/AstraMilitarum/FieldOrdnanceStrike'/&gt;"/>
+	<entry name="AstraMilitarum/FieldOrdnanceStrikeTargetDescription" value="Повышает дистанц. урон, наносимый пехотными подразделениями Астра Милитарум этому юниту."/>
+
+	<entry name="RecoveryGear" value="Комплекты восстановления"/>
+	<entry name="RecoveryGearDescription" value="Увеличивает скорость восстановления."/>
+
+    <entry name="AstraMilitarum/VoidShield" value="Пустотный щит"/>
+    <entry name="AstraMilitarum/VoidShieldDescription" value="Дает 20% сокращение дистанционного урона ближайшим союзным подразделениям Астра Милитарум."/>
+
+	<entry name="AstraMilitarum/VoidShielded" value="&lt;string name='Traits/AstraMilitarum/VoidShield'/&gt;"/>
+    <entry name="AstraMilitarum/VoidShieldedDescription" value="&lt;string name='Traits/AstraMilitarum/VoidShieldDescription'/&gt;"/>
+
+	 <entry name="AstraMilitarum/InstalledVoidShield" value="Установленный Пустотный щит"/>
+
+	<entry name="AstraMilitarum/Destructive122" value="Артиллерийская наводка"/>
+    <entry name="AstraMilitarum/Destructive122Description" value="Понижают броню атакованному вражескому юниту на 1."/>
+
+	<entry name="AstraMilitarum/Destructive244" value="Пробивание насквозь"/>
+    <entry name="AstraMilitarum/Destructive244Description" value="Понижают броню атакованному вражескому юниту на 2."/>
+
+	<entry name="AstraMilitarum/ArmiusMilitarum" value="Артиллерийская наводка"/>
+    <entry name="AstraMilitarum/ArmiusMilitarumDescription" value="Понижают броню на 1."/>
+
+	<entry name="AstraMilitarum/ArmiusMilitarum2" value="Пробивание насквозь"/>
+    <entry name="AstraMilitarum/ArmiusMilitarum22Description" value="Понижают броню на 2."/>
+
+	<entry name="AstraMilitarum/VoxCasterDies1Morale" value="Безжалостный"/>
+    <entry name="AstraMilitarum/VoxCasterDies1MoraleDescription" value="Смерть рядом стоящей пехоты не понижает мораль и усиливает технику Астра Милитарум, давая  ей +17% урона."/>
+
+	<entry name="AstraMilitarum/VoxCasterDies15Morale" value="Безжалостный"/>
+    <entry name="AstraMilitarum/VoxCasterDies15MoraleDescription" value="Смерть рядом стоящей пехоты не понижает мораль и усиливает технику Астра Милитарум, давая  ей +17% урона."/>
+
+	<entry name="AstraMilitarum/VoxCasterDies2Morale" value="Безжалостный"/>
+    <entry name="AstraMilitarum/VoxCasterDies2MoraleDescription" value="Смерть рядом стоящей пехоты не понижает мораль и усиливает технику Астра Милитарум, давая  ей +17% урона."/>
+
+	<entry name="AstraMilitarum/VoxCasterDies3Morale" value="Безжалостный"/>
+    <entry name="AstraMilitarum/VoxCasterDies3MoraleDescription" value="Смерть рядом стоящей пехоты не понижает мораль и усиливает технику Астра Милитарум, давая  ей +17% урона."/>
+
+	<entry name="AstraMilitarum/DamageScale" value="Безжалостный"/>
+    <entry name="AstraMilitarum/DamageScaleDescription" value="Увеличивает урон от смерти рядом стоящей пехоты."/>
+
+	<entry name="AstraMilitarum/MulBlunt" value="Грубый налом"/>
+    <entry name="AstraMilitarum/MulBluntDescription" value="Снижает максимальное движение у цели после атаки."/>
+
+	<entry name="AstraMilitarum/Contusion" value="Грубый налом"/>
+    <entry name="AstraMilitarum/ContusionDescription" value="Снижает максимальное движение у цели."/>
+
+	<entry name="AstraMilitarum/Ambush" value="Засада"/>
+    <entry name="AstraMilitarum/AmbushDescription" value="Увеличивает атаки с дозора."/>
+
+	<entry name="AstraMilitarum/OverCharging" value="Перезагрузка"/>
+    <entry name="AstraMilitarum/OverChargingDescription" value="Особенность быстрый огонь теперь работает со второй дистанции."/>
+
+	<entry name="Purposeful" value="Целеустремленный"/>
+	<entry name="PurposefulDescription" value="Повышает бронебойность и точность против техники, укреплений и тяжелой пехоты.  Снижает точность и атаки против легкой пехоты."/>
+
+	<entry name="AstraMilitarum/ValkyrieStrike" value="Поддержка с воздуха"/>
+	<entry name="AstraMilitarum/ValkyrieStrikeDescription" value="Повышает дистанц. урон, наносимый пехотными подразделениями Астра Милитарум целям этого юнита."/>
+	<entry name="AstraMilitarum/ValkyrieStrikeTarget" value="&lt;string name='Traits/AstraMilitarum/ValkyrieStrike'/&gt;"/>
+	<entry name="AstraMilitarum/ValkyrieStrikeTargetDescription" value="Повышает дистанц. урон, наносимый пехотными подразделениями Астра Милитарум этому юниту."/>
+
+	<entry name="AstraMilitarum/MoveMove" value="Вперед!"/>
+    <entry name="AstraMilitarum/MoveMoveDescription" value="Увеличивает макс. движение на 1."/>
+
+	<entry name="AstraMilitarum/ValkyrieTactics" value="Высадка Валькирии"/>
+    <entry name="AstraMilitarum/ValkyrieTacticsDescription" value="Даёт бонусные особенности, когда это подразделение высаживается из транспорта."/>
+	<entry name="AstraMilitarum/ValkyrieTacticsFlavor" value="Десант - главный ключ к победе на планете Гладиус, этим все сказано."/>
+
+	<entry name="AstraMilitarum/VanquisherUpgrade" value="Оружие Разрушителя"/>
+	<entry name="AstraMilitarum/VanquisherUpgradeDescription" value="Увеличивает урон."/>
+
+	<entry name="AstraMilitarum/Skyfighter" value="Небесный огонь"/>
+	<entry name="AstraMilitarum/SkyfighterDescription" value="Повышает точность против летунов. Снижает точность против наземных подразделений, которые не являются скиммером, реактивным байком или реактивным ранцем."/>
+	<entry name="AstraMilitarum/SkyfighterFlavor" value="Оружие Небесный огонь превосходно подходит для стрельбы по вражеским самолетам и скиммерам."/>
+
+	<entry name="AstraMilitarum/KillOnSight" value="“Убить!”"/>
+	<entry name="AstraMilitarum/KillOnSightDescription" value="Повышает дистанционные атаки."/>
+
+	<entry name="AstraMilitarum/InfantryCrux" value="Шинкователь"/>
+	<entry name="AstraMilitarum/InfantryCruxDescription" value="Увеличивает урон, наносимый пехоте."/>
+
+	<entry name="AstraMilitarum/MoveThrough" value="“Напролом!”"/>
+	<entry name="AstraMilitarum/MoveThroughDescription" value="Увеличивает движение."/>
+
+	<entry name="AstraMilitarum/ShutMorale" value="“Без потерь!”"/>
+	<entry name="AstraMilitarum/ShutMoraleDescription" value="Уменьшает потерю морали."/>
+
+	<entry name="AstraMilitarum/HeavySkyFire" value="Небесный огонь"/>
+	<entry name="AstraMilitarum/HeavySkyFireDescription" value="Повышает точность против летунов."/>
+	<entry name="AstraMilitarum/HeavySkyFireFlavor" value="Оружие Небесный огонь превосходно подходит для стрельбы по вражеским самолетам."/>
+
+	<entry name="AstraMilitarum/MixCover" value="Укрытие от огня"/>
+	<entry name="AstraMilitarum/MixCoverDescription" value="Пехота получает сокращение дистанционного урона."/>
+
+	<entry name="AstraMilitarum/PinShot" value="Подрезать крылья"/>
+	<entry name="AstraMilitarum/PinShotDescription" value="Если истребитель 'Молния' находится в радиусе действия ауры, то при атаке по Летунам и Скиммерам уменьшает их максимальное движение."/>
+
+	<entry name="AstraMilitarum/AirStopping" value="Подрезать крылья"/>
+	<entry name="AstraMilitarum/AirStoppingDescription" value="Снижает максимальное движение у юнита."/>
+
+	<entry name="AstraMilitarum/RevealAcc" value="Взгляд Страха"/>
+	<entry name="AstraMilitarum/RevealAccDescription" value="Снижает точность."/>
+
+	<entry name="Shaken" value="Потрясенный"/>
+	<entry name="ShakenDescription" value="Уменьшает точность."/>
+
+	<entry name="VehicleDamaged" value="Отсутствуют 33% очков здоровья"/>
+	<entry name="VehicleDamagedDescription" value="Снижает макс. движение."/>
+	<entry name="VehicleDescription" value="Отменяет штраф для тяжелого и артиллерийского оружия. Отсутствие очков здоровья снижает точность и движение на одиночной модели юнита."/>
+	<entry name="VehicleHeavilyDamaged" value="Отсутствуют 66% очков здоровья"/>
+	<entry name="VehicleHeavilyDamagedDescription" value="Снижает точность."/>
+
+	<entry name="Road" value="Дорога"/>
+	<entry name="RoadDescription" value="Отменяет штрафы на передвижение по лесам, руинам и рекам."/>
+
+	<entry name="MonstrousCreatureDamaged" value="Отсутствуют 33% очков здоровья"/>
+    <entry name="MonstrousCreatureDamagedDescription" value="Снижает макс. движение."/>
+    <entry name="MonstrousCreatureDescription" value="Классификация. Отсутствие очков здоровья снижает точность и движение на одиночной модели юнита."/>
+    <entry name="MonstrousCreatureHeavilyDamaged" value="Отсутствуют 66% очков здоровья"/>
+    <entry name="MonstrousCreatureHeavilyDamagedDescription" value="Снижает точность."/>
+
+	<entry name="AstraMilitarum/Unwavering" value="Бессмертная гвардия"/>
+	<entry name="AstraMilitarum/UnwaveringDescription" value="Повышает сокращение урона."/>
+
+	<entry name="AstraMilitarum/WarDecide" value="Мастер тактики"/>
+	<entry name="AstraMilitarum/WarDecideDescription" value="Увеличивает атаки."/>
+
+	<entry name="AstraMilitarumDefenseEdict" value="&lt;string name='Actions/AstraMilitarumDefenseEdict'/&gt;"/>
+	<entry name="AstraMilitarumDefenseEdictDescription" value="Увеличивает броню."/>
+
+	<entry name="Necrons/LightDestroyer" value="Погибель"/>
+	<entry name="Necrons/LightDestroyerDescription" value="Повышает атаки против легкой пехоты."/>
+
+	<entry name="Necrons/ReanimationProtocolsWarrior" value="Реанимационные протоколы"/>
+	<entry name="Necrons/ReanimationProtocolsWarriorDescription" value="Восстанавливает очки здоровья каждый ход."/>
+
+	<entry name="WarpBlind" value="Слепой"/>
+	<entry name="WarpBlindDescription" value="Снижает точность."/>
+
+	<entry name="AstraMilitarum/TankDam" value="Боевой танк"/>
+	<entry name="AstraMilitarum/TankDamDescription" value="Дает урон."/>
+
+	<entry name="AstraMilitarum/TankSup" value="Танк поддержки"/>
+	<entry name="AstraMilitarum/TankSupDescription" value="Понижают броню атакованному вражескому юниту и снижает перезарядку способностей."/>
+
+	<entry name="AstraMilitarum/Attacking" value="Наладка оборудования"/>
+	<entry name="AstraMilitarum/AttackingDescription" value="Увеличивает точность дальних атак."/>
+
+	<entry name="AstraMilitarum/DestructiveUltimate" value="Танк поддержки"/>
+    <entry name="AstraMilitarum/DestructiveUltimateDescription" value="Понижают броню атакованному вражескому юниту на 1."/>
+
+	<entry name="AstraMilitarum/ArmiusUltimate" value="Танк поддержки"/>
+    <entry name="AstraMilitarum/ArmiusUltimateDescription" value="Понижают броню на 1."/>
+
+	<entry name="Misfortune" value="Язык Варпа"/>
+	<entry name="MisfortuneDescription" value="Снижает атаки и макс. движение."/>
+
+	<entry name="Enfeeble" value="Кара"/>
+	<entry name="EnfeebleDescription" value="Накладывает разрушающий эффект."/>
+
+	<entry name="AstraMilitarum/Disaster" value="Язык Варпа"/>
+    <entry name="AstraMilitarum/DisasterDescription" value="Снижает атаки и макс. движение."/>
+
+	<entry name="AstraMilitarum/DisasterInfo" value="Язык Варпа"/>
+    <entry name="AstraMilitarum/DisasterInfoDescription" value="Снижает атаки и макс. движение."/>
+
+	<entry name="AstraMilitarum/TankComUpkeep" value="Наращивая силу"/>
+	<entry name="AstraMilitarum/TankComUpkeepDescription" value="Повышает содержание с уровнями 2, 4 и 6."/>
+
+	<entry name="AstraMilitarum/AttilanControlZone" value="На Прорыв!"/>
+	<entry name="AstraMilitarum/AttilanControlZoneDescription" value="Увеличивает неснижаемое сокращение урона и дает возможность игнорировать вражескую зону контроля."/>
+	<entry name="AstraMilitarum/AttilanControlZoneFlavor" value="Ударная кавалерия, которая идёт в бой несмотря на грохот автопушек и вспышки выстрелов лазпушек. Храбрецы несутся в бой верхом на своих скакунах, поражая врага смертельно опасными копьями с мельта-наконечниками."/>
+
+		<entry name="SpaceMarines/SkyFighter" value="Небесный огонь"/>
+	<entry name="SpaceMarines/SkyFighterDescription" value="Повышает точность против летунов и монструозных созданий. Снижает точность против наземных подразделений, которые не являются скиммером, реактивным байком или реактивным ранцем."/>
+	<entry name="SpaceMarines/SkyFighterFlavor" value="Оружие Небесный огонь превосходно подходит для стрельбы по вражеским самолетам, скиммерам и монстрам."/>
+
+	<entry name="SpaceMarines/AntiAirBody" value="Маневрирование"/>
+	<entry name="SpaceMarines/AntiAirBodyDescription" value="Снижает получаемый урон от флаеров и скиммеров."/>
+	<entry name="SpaceMarines/AntiAirBodyFlavor" value="Громобой всегда считался элитной противовоздушной техникой Десанта, которая могла прорядить тыл и ряды противника в воздушном пространстве, тем самым давая возможность для наступления наземным силам…"/>
+
+	<entry name="SpaceMarines/RangeDeflecting" value="&lt;string name='Actions/SpaceMarines/RangeDeflecting'/&gt;"/>
+	<entry name="SpaceMarines/RangeDeflectingDescription" value="Снижает дальние атаки."/>
+
+	<entry name="SpaceMarines/BlackTemplarsMove" value="Рвение"/>
+	<entry name="SpaceMarines/BlackTemplarsMoveDescription" value="Увеличивает движение."/>
+
+	<entry name="SpaceMarines/TemplarPresence" value="Присутствие Темных Темпларов"/>
+	<entry name="SpaceMarines/TemplarPresenceDescription" value="Запрещает атаковать из дозора."/>
+	<entry name="SpaceMarines/TemplarPresenceFlavor" value="Один только вид элитной техники Астартес приводит в ужас врагов."/>
+
+	<entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocus'/>"/>
+    <entry name="SpaceMarines/DefensiveFocusDescription" value="<string name='Actions/SpaceMarines/DefensiveFocusDescription'/>"/>
+    <entry name="SpaceMarines/DefensiveFocus" value="<string name='Actions/SpaceMarines/DefensiveFocusFlavor'/>"/>
+
+	<entry name="SpaceMarines/DevCover" value="Тактика Обороны"/>
+	<entry name="SpaceMarines/DevCoverDescription" value="Увеличивает неснижаемое сокращение урона от рядом стоящей техники Космического Десанта."/>
+	<entry name="SpaceMarines/DevCoverFlavor" value="Одна из военных тактик в кодексе - это прикрытие пехотных боевых единиц от вражеского огня."/>
+
+	<entry name="SpaceMarines/PulseField" value="Силовое Поле"/>
+	<entry name="SpaceMarines/PulseFieldDescription" value="Увеличивает регенерацию очков здоровья."/>
+
+	<entry name="SpaceMarines/PowerUp" value="Укрепление"/>
+	<entry name="SpaceMarines/PowerUpDescription" value="Увеличивает броню."/>
+
+	<entry name="SpaceMarines/BornInFire" value="&lt;string name='Actions/SpaceMarines/BornInFire'/&gt;"/>
+	<entry name="SpaceMarines/BornInFireDescription" value="&lt;string name='Actions/SpaceMarines/BornInFireDescription'/&gt;"/>
+
+	<entry name="SpaceMarines/TerminatorArmourAC" value="&lt;string name='Traits/TerminatorArmour'/&gt;"/>
+	<entry name="SpaceMarines/TerminatorArmourACDescription" value="&lt;string name='Traits/TerminatorArmourDescription'/&gt;"/>
+	<entry name="SpaceMarines/TerminatorArmourACFlavor" value="&lt;string name='Traits/TerminatorArmourFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/TerminatorArmourAss" value="&lt;string name='Traits/TerminatorArmour'/&gt;"/>
+	<entry name="SpaceMarines/TerminatorArmourAssDescription" value="&lt;string name='Traits/TerminatorArmourDescription'/&gt;"/>
+	<entry name="SpaceMarines/TerminatorArmourAssFlavor" value="&lt;string name='Traits/TerminatorArmourFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/Contusion" value="Контузия"/>
+    <entry name="SpaceMarines/ContusionDescription" value="Снижает точность и максимальное движение у цели."/>
+
+	<entry name="SpaceMarines/PrimarisDefences" value="&lt;string name='Actions/BolsterDefences'/&gt;"/>
+	<entry name="SpaceMarines/PrimarisDefencesDescription" value="Повышает сокращение дистанц. урона."/>
+	<entry name="SpaceMarines/PrimarisDefencesFlavor" value="&lt;string name='Actions/BolsterDefencesFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/SpaceMark" value="Приоритетная Цель"/>
+	<entry name="SpaceMarines/SpaceMarkDescription" value="Повышает точность стрельбы по указанному подразделению и снижает сокращение дистанц. урона подразделения против атак Ордена Космического Десанта. Действует на одну атаку."/>
+	<entry name="SpaceMarines/SpaceMarkFlavor" value="Что отличает Астартес на поле боя, так это выбор приоритетных задач и целей для устранения."/>
+
+	<entry name="SpaceMarines/RavenGuard" value="Гвардия Ворона"/>
+	<entry name="SpaceMarines/RavenGuardDescription" value="Орден. Повышает урон наносимый отрядом из дозора. Также после улучшения повышает сокращение урона, если подразделение двигалось в этот ход."/>
+	<entry name="SpaceMarines/RavenGuardFlavor" value="Гвардия Ворона состоит из света, равно как из тьмы — она быстра на правосудие и месть тиранам и угнетателям, наносит удары из тени со скоростью молнии и обескураживающей мощью."/>
+
+	<entry name="SpaceMarines/Salamanders" value="Саламандры"/>
+	<entry name="SpaceMarines/SalamandersDescription"
+		   value="Орден. Даёт сокращение урона от ближнего боя, от огня и от мельт."/>
+	<entry name="SpaceMarines/SalamandersFlavor" value="Саламандры — воплощение закаленного на наковальне чувства долга, искусные мастера, а также обладатели грозной и бескомпромиссной чести. Они готовы к труду и самопожертвованию, и идут в бой с наилучшим оружием и доспехами, зачастую выкованными самими же Саламандрами."/>
+
+	<entry name="SpaceMarines/ImperialFists" value="Имперские Кулаки"/>
+	<entry name="SpaceMarines/ImperialFistsDescription" value="Орден."/>
+	<entry name="SpaceMarines/ImperialFistsFlavor" value="Имперские Кулаки уступают только благородным Ультрамаринам в почестях, обретённых преданностью Империуму и человечеству. С самого начала Эры Империума они непоколебимо сражались со всеми угрозами, оставаясь несгибаемыми там, где отступали остальные, и часто в конечном итоге жертвовали собой во имя чести и долга."/>
+
+	<entry name="SpaceMarines/IronHands" value="Железные Руки"/>
+	<entry name="SpaceMarines/IronHandsDescription" value="Орден. Возвращает атакующему урон от дистанционного оружия, которое не является разрывным, типовым или колдовским огнём."/>
+	<entry name="SpaceMarines/IronHandsFlavor" value="Железные Руки — мастера боевых машин, использующие орудия и танки с умением опытного мечника, орудующего клинком. Гордый и непреклонный легион много лет сражался на передовой Великого крестового похода и одержал бесчисленные победы, хотя многие считали их столь же жестокими и бездушными, как машины, которые с таким разрушительным мастерством использовали Железные Руки."/>
+
+	<entry name="SpaceMarines/BlackTemplars" value="Чёрные Храмовники"/>
+	<entry name="SpaceMarines/BlackTemplarsDescription" value="Орден"/>
+	<entry name="SpaceMarines/BlackTemplarsFlavor" value="Чёрные Храмовники — орден Второго Основания, происходящий от Имперских Кулаков примарха Рогала Дорна. Сам Дорн долго был яростным противником Кодекса Астартес, предписывающего разделение бывших легионов на ордены, но в конечном итоге смирился, не желая допускать гражданской войны в Империуме."/>
+
+	<entry name="SpaceMarines/MultiChapter" value="Легион Астартес"/>
+	<entry name="SpaceMarines/MultiChapterDescription" value="Даёт возможность этому юниту получать бонусы от способностей и доктрин разных Орденов."/>
+	<entry name="SpaceMarines/MultiChapterFlavor" value="Легион космодесанта — передовые войска штурмовой пехоты, состоящие из десятков тысяч (а в некоторых случаях гораздо больше) биохимически и хирургически улучшенных сверхвоинов, вооружённых и оснащённых по самым лучшим стандартам Империума."/>
+
+	<entry name="SpaceMarines/ThunderfireAura" value="Аура Омниссии"/>
+	<entry name="SpaceMarines/ThunderfireAuraDescription" value="Восстанавливает очки здоровья  союзной технике Космического Десанта."/>
+	<entry name="SpaceMarines/ThunderfireAuraFlavor" value="Во время войны ученики Омниссии распевают сложные военные благословения. Это на столько же подпрограммы оптимизации, на сколько выражение веры в свое всезнающее, всеобъемлющее божество."/>
+
+	<entry name="SpaceMarines/HellGuard" value="Кулак Примарисов"/>
+	<entry name="SpaceMarines/HellGuardDescription" value="Увеличивает неснижаемое сокращение урона от каждого рядом стоящего союзного подразделения Астартес."/>
+	<entry name="SpaceMarines/HellGuardFlavor" value="Строй - простое слово, которое может перевернуть исход как локальной битвы, так и целой войны."/>
+
+	<entry name="SpaceMarines/PulseDefense" value="Защитный Слой"/>
+	<entry name="SpaceMarines/PulseDefenseDescription" value="Уменьшает получаемый урон от вражеских подразделений. Действует на одну атаку, не работает на дозор."/>
+	<entry name="SpaceMarines/PulseDefenseFlavor" value="Не стоит забывать про передовые технологии Космического Десанта, ведь не только вера в Императора и единая цель делает их сильнее."/>
+
+	<entry name="SpaceMarines/Soulless" value="Бездушный"/>
+	<entry name="SpaceMarines/SoullessDescription" value="После смерти Агрессора союзники не теряют мораль."/>
+	<entry name="SpaceMarines/SoullessFlavor" value="Смерть - единственная награда для подразделений ордена Железных Кулаков, ведь только так, легионы Космодесанта заслуживают себе отдых."/>
+
+	<entry name="SpaceMarines/MoraleFisting" value="Присутствие Ордена"/>
+	<entry name="SpaceMarines/MoraleFistingDescription" value="Снижает мораль смежных вражеских подразделений каждый ход."/>
+	<entry name="SpaceMarines/MoraleFistingFlavor" value="Силовая броня не только хорошо выдерживает удар, но и производит устращающее впечатление на всех врагов Империума."/>
+
+	<entry name="SpaceMarines/ShieldUp" value="Крепость Империума"/>
+	<entry name="SpaceMarines/ShieldUpDescription" value="Увеличивает броню и снижает макс. движение."/>
+	<entry name="SpaceMarines/ShieldUpFlavor" value="Имперские Кулаки неумолимо двигались от одной зоны боевых действий к другой, заслужив уважение каждого братского легиона и от многих получив высокую оценку."/>
+
+	<entry name="SpaceMarines/RavenMark" value="&lt;string name='Traits/SpaceMarines/SpaceMark'/&gt;"/>
+	<entry name="SpaceMarines/RavenMarkDescription" value="&lt;string name='Traits/SpaceMarines/SpaceMarkDescription'/&gt;"/>
+	<entry name="SpaceMarines/RavenMarkFlavor" value="&lt;string name='Traits/SpaceMarines/SpaceMarkFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/DevastatorBypass" value="&lt;string name='Actions/SpaceMarines/DevastatorBypass'/&gt;"/>
+	<entry name="SpaceMarines/DevastatorBypassDescription" value="&lt;string name='Actions/SpaceMarines/DevastatorBypassDescription'/&gt;"/>
+	<entry name="SpaceMarines/DevastatorBypassFlavor" value="&lt;string name='Actions/SpaceMarines/DevastatorBypassFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/LandCruiser" value="&lt;string name='Actions/SpaceMarines/LandCruiser'/&gt;"/>
+	<entry name="SpaceMarines/LandCruiserDescription" value="Повышает сокращение урона от колдовского огня."/>
+	<entry name="SpaceMarines/LandCruiserFlavor" value="&lt;string name='Actions/SpaceMarines/LandCruiserFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/ArmourContempt" value="&lt;string name='Actions/SpaceMarines/ArmourContempt'/&gt;"/>
+	<entry name="SpaceMarines/ArmourContemptDescription" value="Повышает сокращение урона."/>
+	<entry name="SpaceMarines/ArmourContemptFlavor" value="&lt;string name='Actions/SpaceMarines/ArmourContemptFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/JinkUp" value="&lt;string name='Actions/Jink'/&gt;"/>
+	<entry name="SpaceMarines/JinkUpDescription" value="&lt;string name='Traits/JinkDescription'/&gt;"/>
+	<entry name="SpaceMarines/JinkUpFlavor" value="&lt;string name='Actions/JinkFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/StormtalonMark" value="Контрнаступление"/>
+	<entry name="SpaceMarines/StormtalonMarkDescription" value="Повышает точность стрельбы по указанному подразделению и снижает сокращение дистанц. урона подразделения против атак Космического Десанта. Действует на одну атаку."/>
+	<entry name="SpaceMarines/StormtalonMarkFlavor" value="Что отличает Астартес на поле боя, так это выбор приоритетных задач и целей для устранения."/>
+
+	<entry name="SpaceMarines/FireSkin" value="Броня Саламандр"/>
+	<entry name="SpaceMarines/FireSkinDescription" value="Позволяет атаковать из дозора оружием ближнего боя."/>
+
+	<entry name="SpaceMarines/BikerMoved" value="Движение Байкеров"/>
+	<entry name="SpaceMarines/BikerMovedDescription" value="Увеличивает неснижаемое сокр. урона после движения."/>
+
+	<entry name="SpaceMarines/RavenGlory" value="Слава Воронам"/>
+	<entry name="SpaceMarines/RavenGloryDescription" value="Приносит влияние при убийство врага."/>
+	<entry name="SpaceMarines/RavenGloryFlavor" value="Специалисты из Гвардии Ворона хороши не только в устранении ронированных одиночных целей, но и в том, чтобы зарабатывать славу как хладнокровные и не знающие страха убийцы всего живого в галактике."/>
+
+	<entry name="SpaceMarines/RavenMelee" value="Крылья Ворона"/>
+	<entry name="SpaceMarines/RavenMeleeDescription" value="Позволяет атаковать из дозора оружием ближнего боя."/>
+
+	<entry name="SpaceMarines/SalamandersDoctrine" value="&lt;string name='Actions/SpaceMarines/SalamandersDoctrine'/&gt;"/>
+	<entry name="SpaceMarines/SalamandersDoctrineDescription" value="Дает сокращение урона от дальнего огня с первой дистанции."/>
+	<entry name="SpaceMarines/SalamandersDoctrineFlavor" value="&lt;string name='Traits/SpaceMarines/SalamandersFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/SalamandersPresence" value="Самопожертвование"/>
+	<entry name="SpaceMarines/SalamandersPresenceDescription" value="Снижает точность дальнего огня."/>
+	<entry name="SpaceMarines/SalamandersPresenceFlavor" value="В основе верований Саламандр лежит древний культ Прометея, который проповедует независимость, преданность и самопожертвование."/>
+
+	<entry name="SpaceMarines/HonorForge" value="Обжигающая сила"/>
+	<entry name="SpaceMarines/HonorForgeDescription" value="Увеличивает урон и бронебойность."/>
+	<entry name="SpaceMarines/HonorForgeFlavor" value="Основными символами культа Прометея являются молот и пламя. Боевые братья Саламандры часто носят ритуальные клейма и шрамы, нанесенные с помощью огня."/>
+
+	<entry name="SpaceMarines/FortressSupreme" value="Верховная Крепость"/>
+	<entry name="SpaceMarines/FortressSupremeDescription" value="Восстанавливает  очки здоровья каждый ход, на Штаб работает с удвоенной силой."/>
+	<entry name="SpaceMarines/FortressSupremeFlavor" value="Каждый орден Адептус Астартес содержит могущественную крепость-монастырь, святилище, где обучается новые поколения космических десантников и где хранятся тайны ордена."/>
+
+	<entry name="SpaceMarines/RavenguardDoctrine" value="&lt;string name='Actions/SpaceMarines/RavenguardDoctrine'/&gt;"/>
+	<entry name="SpaceMarines/RavenguardDoctrineDescription" value="Дает очки движения после убийств."/>
+	<entry name="SpaceMarines/RavenguardDoctrineFlavor" value="&lt;string name='Traits/SpaceMarines/RavenGuardFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/ImperialDoctrine" value="&lt;string name='Actions/SpaceMarines/ImperialDoctrine'/&gt;"/>
+	<entry name="SpaceMarines/ImperialDoctrineDescription" value="Увеличивает наносимый урон по технике и фортификациям, а также дает неснижаемое сокращение урона союзной пехоте Ордена."/>
+	<entry name="SpaceMarines/ImperialDoctrineFlavor" value="&lt;string name='Traits/SpaceMarines/ImperialFistsFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/RangeReduction" value="&lt;string name='Actions/SpaceMarines/RangeReduction'/&gt;"/>
+	<entry name="SpaceMarines/RangeReductionDescription" value="&lt;string name='Actions/SpaceMarines/OmniscopeDescription'/&gt;"/>
+	<entry name="SpaceMarines/RangeReductionFlavor" value="&lt;string name='Actions/SpaceMarines/RangeReductionFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/IronDoctrine" value="&lt;string name='Actions/SpaceMarines/IronDoctrine'/&gt;"/>
+	<entry name="SpaceMarines/IronDoctrineDescription" value="Увеличивает точность, макс. движение и снижает получаемый урон."/>
+	<entry name="SpaceMarines/IronDoctrineFlavor" value="&lt;string name='Traits/SpaceMarines/IronHandsFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/CoverDestroyer" value="Слепая Ярость"/>
+	<entry name="SpaceMarines/CoverDestroyerDescription" value="Увеличивает атаки по вражеским подразделениям с сокращением урона от дальнего огня."/>
+	<entry name="SpaceMarines/CoverDestroyerFlavor" value="Единственной слабостью Имперских Кулаков является их нежелание принимать факт собственного поражения, что иногда ослепляет их и может стать причиной гибели."/>
+
+	<entry name="SpaceMarines/IronPresence" value="Влияние Железных Рук"/>
+	<entry name="SpaceMarines/IronPresenceDescription" value="Увеличивает очки здоровья, урон и возвращает атакующему урон от дистанционного оружия, которое не является разрывным, типовым или колдовским огнём."/>
+	<entry name="SpaceMarines/IronPresenceFlavor" value="В бою против Железных Рук сошелся Куколд Кхорна - Парашер, он же Рейчер, который был жестоко продырявлен и изнасилован подразделением Ордена, а после висел как чучело на дуле Гибельного Клинка. Это был один из главных подарков для Имперской Гвардии."/>
+
+	<entry name="SpaceMarines/TemplarsDoctrine" value="&lt;string name='Actions/SpaceMarines/TemplarsDoctrine'/&gt;"/>
+	<entry name="SpaceMarines/TemplarsDoctrineDescription" value="Повышает урон и сокр. урона нечувствительностью к боли за каждого стоящего в радиусе вражеского Псайкера."/>
+	<entry name="SpaceMarines/TemplarsDoctrineFlavor" value="&lt;string name='Traits/SpaceMarines/BlackTemplarsFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/DominusAegisSelf" value="<string name='Traits/SpaceMarines/DominusAegis'/>"/>
+    <entry name="SpaceMarines/DominusAegisSelfDescription" value="Увеличивает броню."/>
+
+	<entry name="SpaceMarines/GoingThrough" value="&lt;string name='Actions/SpaceMarines/GoingThrough'/&gt;"/>
+	<entry name="SpaceMarines/GoingThroughDescription" value="Игнорирует вражескую зону контроля, игнорирует штрафы на передвижение по рекам, лесам, руинам и увеличивает макс. движение."/>
+	<entry name="SpaceMarines/GoingThroughFlavor" value="&lt;string name='Actions/SpaceMarines/GoingThroughFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/PulseShielding" value="&lt;string name='Traits/SpaceMarines/PulseDefense'/&gt;"/>
+	<entry name="SpaceMarines/PulseShieldingDescription" value="&lt;string name='Traits/SpaceMarines/PulseDefenseDescription'/&gt;"/>
+	<entry name="SpaceMarines/PulseShieldingFlavor" value="&lt;string name='Traits/SpaceMarines/PulseDefenseFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/AccuracyFuse" value="&lt;string name='Actions/SpaceMarines/AccuracyFuse'/&gt;"/>
+	<entry name="SpaceMarines/AccuracyFuseDescription" value="Ограничивает потерю точности."/>
+	<entry name="SpaceMarines/AccuracyFuseFlavor" value="&lt;string name='Actions/SpaceMarines/AccuracyFuseFlavor'/&gt;"/>
+
+    <entry name="SpaceMarines/VeilOfTime" value="<string name='Actions/SpaceMarines/VeilOfTime'/>"/>
+    <entry name="SpaceMarines/VeilOfTimeDescription" value="<string name='Actions/SpaceMarines/VeilOfTimeDescription'/>"/>
+    <entry name="SpaceMarines/VeilOfTimeFlavor" value="<string name='Actions/SpaceMarines/VeilOfTimeFlavor'/>"/>
+
+	<entry name="SpaceMarines/SpectralBlade" value="Спектральный Клинок"/>
+    <entry name="SpaceMarines/SpectralBladeDescription" value="Увеличивает атаки в ближнем бою у Библиария."/>
+    <entry name="SpaceMarines/SpectralBladeFlavor" value="Псайкер внушает своему врагу психосоматическую мысль, что его оружие невероятно острое, поражая его психической обратной связью его собственного извращенного восприятия."/>
+
+	<entry name="SpaceMarines/MightOfHeroes" value="Мощь Героев"/>
+    <entry name="SpaceMarines/MightOfHeroesDescription" value="Временно увеличивает очки жизни, точность, урон и неснижаемое сокращение урона дружественного отряда."/>
+    <entry name="SpaceMarines/MightOfHeroesFlavor" value="Вперед без колебаний."/>
+
+	<entry name="NullZone" value="Нулевая зона"/>
+    <entry name="NullZoneDescription" value="Убирает неуязвимость, колдовской огонь и снижение урона от нечувствительности к боли."/>
+    <entry name="NullZoneFlavor" value="Никто не в безопасности рядом с разгневанным Библиарием."/>
+
+	<entry name="SpaceMarines/ChapterMarking" value="Враг Империума"/>
+	<entry name="SpaceMarines/ChapterMarkingDescription" value="Повышает дистанц. урон, наносимый Орденами Космического Десанта целям этого юнита."/>
+	<entry name="SpaceMarines/ChapterMarkingFlavor" value="Для облегчения убийства врагов отделения охотников обычно экипируются специально разработанными боеприпасами, которые помогают им эффективнее расправляться с жертвой."/>
+
+	<entry name="SpaceMarines/ChapterStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+	<entry name="SpaceMarines/ChapterStrikeTargetDescription" value="Повышает дистанц. урон, наносимый Орденами Космического Десанта этому юниту."/>
+	<entry name="SpaceMarines/ChapterStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/HeroicStand" value="Аура Стойкости"/>
+    <entry name="SpaceMarines/HeroicStandDescription" value="Повышает сокращение дистанц. урона против атак с дистанции 2 и более."/>
+    <entry name="SpaceMarines/HeroicStandFlavor" value="Там, где стоят метки Легиона, не сможет поставить свой город даже Примарх Вселенной."/>
+
+	<entry name="SpaceMarines/ChapterCover" value="Вера и Честь"/>
+	<entry name="SpaceMarines/ChapterCoverDescription" value="Увеличивает сокращение урона от дальнего огня от каждого рядом стоящего союзного подразделения Астартес."/>
+	<entry name="SpaceMarines/ChapterCoverFlavor" value="Строй - простое слово, которое может перевернуть исход как локальной битвы, так и целой войны."/>
+
+	<entry name="SpaceMarines/CaptainBlock" value="&lt;string name='Actions/SpaceMarines/CaptainBlock'/&gt;"/>
+	<entry name="SpaceMarines/CaptainBlockDescription" value="Снижает дальние атаки."/>
+    <entry name="SpaceMarines/CaptainBlockFlavor" value="&lt;string name='Actions/SpaceMarines/CaptainBlockFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/SkySpearRange" value="Стабилизация Установки"/>
+	<entry name="SpaceMarines/SkySpearRangeDescription" value="Увеличивает дистанцию атаки."/>
+
+	<entry name="SpaceMarines/SalamandersFireMarking" value="Пламя Кузни"/>
+    <entry name="SpaceMarines/SalamandersFireMarkingDescription" value="Атакуемый юнит получает периодический урон, сниженную скорость исцеления и не может восстанавливать очки здоровья."/>
+    <entry name="SpaceMarines/SalamandersFireMarkingFlavor" value="Там, где один легион карал огнём, оставляя после себя выжженный мир, впрочем, способный в будущем стать частью владений человечества, другой осквернял и заражал, не оставлял за собой ничего, кроме токсичной пустоши."/>
+
+	<entry name="SpaceMarines/SalamandersFireEnemy" value="&lt;string name='Traits/SpaceMarines/SalamandersFireMarking'/&gt;"/>
+    <entry name="SpaceMarines/SalamandersFireEnemyDescription" value="Получает периодический урон, сниженную скорость исцеления и не может восстанавливать очки здоровья."/>
+    <entry name="SpaceMarines/SalamandersFireEnemyFlavor" value="&lt;string name='Traits/SpaceMarines/SalamandersFireMarkingFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/TacticalShielding" value="Тактический Щит"/>
+	<entry name="SpaceMarines/TacticalShieldingDescription" value="Снижает получаемый урон от одной атаки, не работает на атаки с дозора."/>
+	<entry name="SpaceMarines/TacticalShieldingFlavor" value="Тактические отделения – костяк любого Легиона Космодесанта и крайне гибкие пехотные боевые единицы. Им под силу и атаковать, и защищаться, штурмовать укреплённые позиции или удерживать их в практически любых условиях."/>
+
+	<entry name="SpaceMarines/DreadForge" value="Гром и Молот"/>
+	<entry name="SpaceMarines/DreadForgeDescription" value="Увеличивает урон и бронебойность."/>
+	<entry name="SpaceMarines/DreadForgeFlavor" value="Известные гордостью, хладнокровием и безжалостностью в битве, Железные Руки считались одним из самых прославленных и грозных легионов в годы Великого крестового похода."/>
+
+	<entry name="SpaceMarines/RapidWind" value="&lt;string name='Actions/SpaceMarines/RapidWind'/&gt;"/>
+	<entry name="SpaceMarines/RapidWindDescription" value="Особенность Быстрый Огонь действует с третьей дистанции и выше."/>
+	<entry name="SpaceMarines/RapidWindFlavor" value="&lt;string name='Actions/SpaceMarines/RapidWindFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/AssignIron" value="Враг Империума"/>
+	<entry name="SpaceMarines/AssignIronDescription" value="Повышает дистанц. урон, наносимый Орденами Космического Десанта, кроме Железных Рук, целям этого юнита."/>
+	<entry name="SpaceMarines/AssignIronFlavor" value="Для облегчения убийства врагов отделения охотников обычно экипируются специально разработанными боеприпасами, которые помогают им эффективнее расправляться с жертвой."/>
+
+	<entry name="SpaceMarines/IronStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+	<entry name="SpaceMarines/IronStrikeTargetDescription" value="Повышает дистанц. урон, наносимый Орденами Космического Десанта, кроме Железных Рук, этому юниту."/>
+	<entry name="SpaceMarines/IronStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/AssignImperial" value="Враг Империума"/>
+	<entry name="SpaceMarines/AssignImperialDescription" value="Повышает дистанц. урон, наносимый Орденами Космического Десанта, кроме Имперских Кулаков, целям этого юнита."/>
+	<entry name="SpaceMarines/AssignImperialFlavor" value="Для облегчения убийства врагов отделения охотников обычно экипируются специально разработанными боеприпасами, которые помогают им эффективнее расправляться с жертвой."/>
+
+	<entry name="SpaceMarines/ImperialStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+	<entry name="SpaceMarines/ImperialStrikeTargetDescription" value="Повышает дистанц. урон, наносимый Орденами Космического Десанта, кроме Имперских Кулаков, этому юниту."/>
+	<entry name="SpaceMarines/ImperialStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/AssignSalamanders" value="Враг Империума"/>
+	<entry name="SpaceMarines/AssignSalamandersDescription" value="Повышает дистанц. урон, наносимый Орденами Космического Десанта, кроме Саламандр, целям этого юнита."/>
+	<entry name="SpaceMarines/AssignSalamandersFlavor" value="Для облегчения убийства врагов отделения охотников обычно экипируются специально разработанными боеприпасами, которые помогают им эффективнее расправляться с жертвой."/>
+
+	<entry name="SpaceMarines/SalamandersStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+	<entry name="SpaceMarines/SalamandersStrikeTargetDescription" value="Повышает дистанц. урон, наносимый Орденами Космического Десанта, кроме Саламандр, этому юниту."/>
+	<entry name="SpaceMarines/SalamandersStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/AssignTemplars" value="Враг Империума"/>
+	<entry name="SpaceMarines/AssignTemplarsDescription" value="Повышает урон, наносимый Орденами Космического Десанта, кроме Черных Храмовников, целям этого юнита."/>
+	<entry name="SpaceMarines/AssignTemplarsFlavor" value="Для облегчения убийства врагов отделения охотников обычно экипируются специально разработанными боеприпасами, которые помогают им эффективнее расправляться с жертвой."/>
+
+	<entry name="SpaceMarines/TemplarsStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+	<entry name="SpaceMarines/TemplarsStrikeTargetDescription" value="Повышает урон, наносимый Орденами Космического Десанта, кроме Черных Храмовников, этому юниту."/>
+	<entry name="SpaceMarines/TemplarsStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/AssignRavenguard" value="Враг Империума"/>
+	<entry name="SpaceMarines/AssignRavenguardDescription" value="Повышает урон, наносимый Орденами Космического Десанта, кроме Гвардии Ворона, целям этого юнита."/>
+	<entry name="SpaceMarines/AssignRavenguardFlavor" value="Для облегчения убийства врагов отделения охотников обычно экипируются специально разработанными боеприпасами, которые помогают им эффективнее расправляться с жертвой."/>
+
+	<entry name="SpaceMarines/RavenguardStrikeTarget" value="&lt;string name='Traits/SpaceMarines/ChapterMarking'/&gt;"/>
+	<entry name="SpaceMarines/RavenguardStrikeTargetDescription" value="Повышает урон, наносимый Орденами Космического Десанта, кроме Гвардии Ворона,  этому юниту."/>
+	<entry name="SpaceMarines/RavenguardStrikeTargetFlavor" value="&lt;string name='Traits/SpaceMarines/ChapterMarkingFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/FlyerSight" value="Рентген Астартес"/>
+	<entry name="SpaceMarines/FlyerSightDescription" value="Увеличивает радиус обзора и позволяет летунам не становиться целью вражеских атак с дозора."/>
+    <entry name="SpaceMarines/FlyerSightFlavor" value="Непревзойдённая маневренность и скорость парящих подразделений Адептус Астартес позволяет нанести удар первее, чем они будут замечены противником."/>
+
+	<entry name="SpaceMarines/NoLosses" value="&lt;string name='Upgrades/SpaceMarines/NoLosses'/&gt;"/>
+	<entry name="SpaceMarines/NoLossesDescription" value="Уменьшает потерю морали."/>
+    <entry name="SpaceMarines/NoLossesFlavor" value="&lt;string name='Upgrades/SpaceMarines/NoLossesFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/NoLossesAura" value="&lt;string name='Upgrades/SpaceMarines/NoLosses'/&gt;"/>
+	<entry name="SpaceMarines/NoLossesAuraDescription" value="Уменьшает потерю морали для союзных подразделений."/>
+    <entry name="SpaceMarines/NoLossesAuraFlavor" value="&lt;string name='Upgrades/SpaceMarines/NoLossesFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/InceptorsRage" value="Ярость"/>
+	<entry name="SpaceMarines/InceptorsRageDescription" value="Бьёт по нескольким солдатам целевого подразделения и увеличивает урон по технике."/>
+
+	<entry name="DozerBladeDescription" value="Уменьшает штраф за движение по лесам и имперским руинам, но взамен понижает макс. движение."/>
+
+	<entry name="SpaceMarines/BlackChampionPresence" value="Чемпион Черных Храмовников"/>
+	<entry name="SpaceMarines/BlackChampionPresenceDescription" value="На поле боя может быть только один Чемпион Черных Храмовников."/>
+
+	<entry name="SpaceMarines/ChampionBlackTemplar" value="Чемпион Черных Храмовников"/>
+	<entry name="SpaceMarines/ChampionBlackTemplarDescription" value="Увеличивает точность огня."/>
+	<entry name="SpaceMarines/ChampionBlackTemplarFlavor" value="Многие ордены в разное время имели в своих рядах космодесантников, носивших этот титул, особенно это касается орденов Первого и Второго Оснований, чья история восходит ко временам Ереси Хоруса и Великого Очищения."/>
+
+	<entry name="SpaceMarines/ChampionBlackTemplarEnemy" value="Чемпион Черных Храмовников"/>
+	<entry name="SpaceMarines/ChampionBlackTemplarEnemyDescription" value="Уменьшает точность огня."/>
+	<entry name="SpaceMarines/ChampionBlackTemplarEnemyFlavor" value="Многие ордены в разное время имели в своих рядах космодесантников, носивших этот титул, особенно это касается орденов Первого и Второго Оснований, чья история восходит ко временам Ереси Хоруса и Великого Очищения."/>
+
+	<entry name="SpaceMarines/ChampionAccuracyAdd" value="Стремление к Победе"/>
+	<entry name="SpaceMarines/ChampionAccuracyAddDescription" value="Повышает точность."/>
+
+	<entry name="SpaceMarines/ChampionAccuracyMinus" value="Стремление к Победе"/>
+	<entry name="SpaceMarines/ChampionAccuracyMinusDescription" value="Уменьшает точность."/>
+
+	<entry name="SpaceMarines/IronChampionPresence" value="Чемпион Железных Рук"/>
+	<entry name="SpaceMarines/IronChampionPresenceDescription" value="На поле боя может быть только один Чемпион Железных Рук."/>
+
+	<entry name="SpaceMarines/ExploitWeaknesses" value="Брешь в Обороне"/>
+	<entry name="SpaceMarines/ExploitWeaknessesDescription" value="Снижают броню выбранного вражеского подразделения."/>
+
+	<entry name="SpaceMarines/ChampionIron" value="Чемпион Железных Рук"/>
+
+	<entry name="SpaceMarines/ChampionTemplars" value="Чемпион Черных Храмовников"/>
+
+	<entry name="SpaceMarines/WitchDestruction" value="Клятва отвращения"/>
+	<entry name="SpaceMarines/WitchDestructionDescription" value="Yаносит урон рядом стоящим вражеским псайкерам."/>
+    <entry name="SpaceMarines/WitchDestructionFlavor" value="Чёрные Храмовники разбросаны по всей галактике, ибо соберись они все вместе — ничто во вселенной не сможет их остановить."/>
+
+	<entry name="SpaceMarines/BolterDisciplineBike" value="Болтер Дисциплина"/>
+	<entry name="SpaceMarines/BolterDisciplineBikeDescription" value="&lt;string name='Traits/ChaosSpaceMarines/MaliciousVolleysDescription'/&gt;"/>
+	<entry name="SpaceMarines/BolterDisciplineBikeFlavor" value="Для космодесантника болтер—больше, чем оружие—это инструмент божественности Человечества, несущий смерть его врагам."/>
+
+	<entry name="Drukhari/PoisonedWeapon" value="Отравленное Оружие"/>
+	<entry name="Drukhari/PoisonedWeaponDescription" value="Отравляет атакуемого юнита и наносит урон каждый ход, яд снимается лечением."/>
+	<entry name="Drukhari/PoisonedWeaponFlavor" value="Когда я смотрю на низшие расы, меня наполняет отвращение. Оставь их в покое, и они будут влачить ничтожно короткое совершенно бесцельное существование. Сколько их поколений минуло, пока я живу?."/>
+
+	<entry name="Drukhari/Poison" value="Яд"/>
+	<entry name="Drukhari/PoisonDescription" value="Наносит урон каждый ход, яд снимается лечением."/>
+	<entry name="Drukhari/PoisonFlavor" value="Пираты и разбойники с чёрным сердцем, и для них все обитатели Галактики не более чем скот, который можно забивать, когда вздумается."/>
+
+    <entry name="SeekerMissileDescription" value="Не требует прямой видимости против вражеской цели при работе вместе с целеуказателем."/>
+
+	<entry name="Eldar/MoveThroughCover" value="Проход сквозь укрытия"/>
+	<entry name="Eldar/MoveThroughCoverDescription" value="Отменяет штраф за движение в лесах и по Имперским руинам."/>
+	<entry name="Eldar/MoveThroughCoverFlavor" value="Некоторые воины умеют двигаться по сложной и засоренной местности."/>
+
+
+
+
+</language>

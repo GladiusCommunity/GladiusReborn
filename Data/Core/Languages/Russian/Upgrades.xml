@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+    <entry name="AstraMilitarum/ProductionEdict" value="<string name='Actions/AstraMilitarumProductionEdict'/>"/>
+	<entry name="AstraMilitarum/ProductionEdictDescription" value="<string name='Actions/AstraMilitarumProductionEdictDescription'/>"/>
+	<entry name="AstraMilitarum/ProductionEdictFlavor" value="<string name='Actions/AstraMilitarumProductionEdictFlavor'/>"/>
+	
+	<entry name="SpaceMarines/EmperorsClaims" value="&lt;string name='Upgrades/ResBonus2'/&gt;"/>
+	<entry name="SpaceMarines/EmperorsClaimsDescription" value="&lt;string name='Upgrades/ResBonus2Description'/&gt;"/>
+
+	<entry name="SpaceMarines/EmperorsSpecialisation" value="&lt;string name='Upgrades/ResBonus1'/&gt;"/>
+	<entry name="SpaceMarines/EmperorsSpecialisationDescription" value="&lt;string name='Upgrades/ResBonus1Description'/&gt;"/>
+	
+	<entry name="AstraMilitarum/MarauderDestroyer" value="<string name='Units/AstraMilitarum/MarauderDestroyer'/>"/>
+	<entry name="AstraMilitarum/MarauderDestroyerDescription" value="<string name='Units/AstraMilitarum/MarauderDestroyerDescription'/>"/>
+	<entry name="AstraMilitarum/MarauderDestroyerFlavor" value="<string name='Units/AstraMilitarum/MarauderDestroyerFlavor'/>"/>
+	
+	<entry name="AstraMilitarum/ArmoredSentinel" value="<string name='Units/AstraMilitarum/ArmoredSentinel'/>"/>
+	<entry name="AstraMilitarum/ArmoredSentinelDescription" value="<string name='Units/AstraMilitarum/ArmoredSentinelDescription'/>"/>
+	<entry name="AstraMilitarum/ArmoredSentinelFlavor" value="<string name='Units/AstraMilitarum/ArmoredSentinelFlavor'/>"/>
+	
+	<entry name="AstraMilitarum/Kasrkin" value="&lt;string name='Units/AstraMilitarum/Kasrkin'/&gt;"/>
+	<entry name="AstraMilitarum/KasrkinDescription" value="&lt;string name='Units/AstraMilitarum/KasrkinDescription'/&gt;"/>
+	<entry name="AstraMilitarum/KasrkinFlavor" value="&lt;string name='Units/AstraMilitarum/KasrkinFlavor'/&gt;"/>
+	
+	<entry name="SpaceMarines/AssTerminator" value="Assault Terminators"/>
+	<entry name="SpaceMarines/AssTerminatorDescription" value="Elite tactical formation of the Adeptus Astartes."/>
+	<entry name="SpaceMarines/AssTerminatorFlavor" value="Wielding the most ferocious weapons their Chapter can provide, these elite Veterans quickly overwhelm all who stand before them."/>
+	
+	<entry name="Tau/HammerheadGunshipmk2" value="TX7-M2 Hammerhead Gunship"/>
+	<entry name="Tau/HammerheadGunshipmk2Description" value="Skimmer tank unit with powerfull weaponry."/>
+	<entry name="Tau/HammerheadGunshipmk2Flavor" value="Hammerhead Gunships glide into battle like predatory beasts. As they advance, their massive turret armaments traverse smoothly, railguns and ion cannons sweeping left and right as they hunt for targets. The moment a suitable victim presents itself, firing solutions are calculated in the blink of an eye. Power surges as gravitic stabilisers kick in with a bass hum and the Hammerheads loose the lethal fury of their arsenal upon the foe."/>
+	
+	<entry name="SpaceMarines/FortressOfRedemptionMissileSilo" value="Missile Silos"/>
+	<entry name="SpaceMarines/FortressOfRedemptionMissileSiloDescription" value="Grants Fortresses of Redemption and Land raider a krakstorm missile silos."/>
+	<entry name="SpaceMarines/FortressOfRedemptionMissileSiloFlavor" value="<string name='Weapons/KrakstormMissileSiloFlavor'/>"/>
+
+
+	<entry name="SistersOfBattle/SmokeLauncher" value="&lt;string name='Upgrades/SmokeLauncher'/&gt;"/>
+	<entry name="SistersOfBattle/SmokeLauncherDescription" value="&lt;string name='Upgrades/SmokeLauncherDescription'/&gt;"/>
+	<entry name="SistersOfBattle/SmokeLauncherFlavor" value="&lt;string name='Upgrades/SmokeLauncherFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/SmokeLauncher" value="&lt;string name='Upgrades/SmokeLauncher'/&gt;"/>	
+	<entry name="SpaceMarines/SmokeLauncherDescription" value="&lt;string name='Upgrades/SmokeLauncherDescription'/&gt;"/>
+	<entry name="SpaceMarines/SmokeLauncherFlavor" value="&lt;string name='Upgrades/SmokeLauncherFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarum/SmokeLauncher" value="&lt;string name='Upgrades/SmokeLauncher'/&gt;"/>
+	<entry name="AstraMilitarum/SmokeLauncherDescription" value="&lt;string name='Upgrades/SmokeLauncherDescription'/&gt;"/>
+	<entry name="AstraMilitarum/SmokeLauncherFlavor" value="&lt;string name='Upgrades/SmokeLauncherFlavor'/&gt;"/>
+
+	<entry name="ChaosSpaceMarines/SmokeLauncher" value="&lt;string name='Upgrades/SmokeLauncher'/&gt;"/>
+
+	<entry name="AstraMilitarum/BanebladeLascannon" value="&lt;string name='Upgrades/BanebladeLascannon'/&gt;"/>
+	<entry name="AstraMilitarum/BanebladeLascannonDescription" value="&lt;string name='Upgrades/BanebladeLascannonDescription'/&gt;"/>
+	<entry name="AstraMilitarum/BanebladeLascannonFlavor" value="&lt;string name='Upgrades/BanebladeLascannonFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarum/AwakenTheMachine" value="&lt;string name='Upgrades/AwakenTheMachine'/&gt;"/>
+	<entry name="AstraMilitarum/AwakenTheMachineDescription" value="&lt;string name='Upgrades/AwakenTheMachineDescription'/&gt;"/>
+	<entry name="AstraMilitarum/AwakenTheMachineFlavor" value="&lt;string name='Upgrades/AwakenTheMachineFlavor'/&gt;"/>
+
+	<entry name="ChaosSpaceMarines/HammerOfWrath" value="&lt;string name='Upgrades/HammerOfWrath'/&gt;"/>
+	<entry name="ChaosSpaceMarines/HammerOfWrathDescription" value="&lt;string name='Upgrades/HammerOfWrathDescription'/&gt;"/>
+	<entry name="ChaosSpaceMarines/HammerOfWrathTheMachineFlavor" value="&lt;string name='Upgrades/HammerOfWrathFlavor'/&gt;"/>
+
+
+	<!-- Other -->
+	<entry name="SmokeLauncher" value="Дымовой гранатомёт/Лезвие бульдозера"/>
+	<entry name="SmokeLauncherDescription" value="Даёт наземной технике возможность ставить дымовую завесу и добавляет лезвие бульдозера."/>
+
+	
+	<entry name="BanebladeLascannon" value="Перегрузка двигателей"/>
+	<entry name="BanebladeLascannonDescription" value="Даёт всей технике Астра Милитарум +1 максимальное движение."/>
+
+    <entry name="AwakenTheMachine" value="Поддержка Империума"/>
+	<entry name="AwakenTheMachineDescription" value="Усиливает эффект пробуждения машины(+1 точность и +1 бронепробитие) и предоставляет псайкерам возможность проклинать вражеские подразделения."/>
+    <entry name="AwakenTheMachineFlavor" value="БейнБлейд, Рогал Дорн = +1 макс. движение. Сентинели = +1 макс. обзор. Леман Русс, Девил Дог, Василиск, Самолеты = +1 бронепробитие."/>
+
+    <entry name="HammerOfWrath" value="Молот Гнева/Дымовой гранатомёт"/>
+	<entry name="HammerOfWrathDescription" value="Даёт молот гнева юнитам хаоса(изверги, облитератор, хельбрут, освернитель, скорпион, ползун, демон принц, варповый коготь) и дымовую завесу освернителю, лендрейдеру и носорогу Хаоса."/>
+
+	<entry name="SpaceMarines/ResBonus1" value="В единстве сила"/>
+	<entry name="SpaceMarines/ResBonus1Description" value="Увеличивает производство ресурсов от зданий того же типа на плитке, не являющихся штабами."/>
+
+	<entry name="SpaceMarines/ResBonus2" value="Увеличенный сбор"/>
+	<entry name="SpaceMarines/ResBonus2Description" value="Увеличивает проценты получаемые с застав."/>
+
+	<entry name="SpaceMarines/UnityDropPod" value="Поддержка Астартес"/>
+	<entry name="SpaceMarines/UnityDropPodDescription" value="Дает возможность призывать Лендрейдер и Центуриона с флота Астартес."/>
+
+	<entry name="SpaceMarines/LasCannonDoctrine" value="Энергетическая Доктрина"/>
+	<entry name="SpaceMarines/LasCannonDoctrineDescription" value="Увеличивает точность сдвоенных энергетических орудий."/>
+
+	<entry name="SpaceMarines/PredatorLascannon" value="Дополнительное вооружение"/>
+	<entry name="SpaceMarines/PredatorLascannonDescription" value="Даёт Хищникам дополнительную сдвоеннуя лазпушку,но повышает содержание на 1. Крепостям Искупления и Мегапушкам Аквила даёт дополнительные тяжелые болтеры."/>
+	<entry name="SpaceMarines/PredatorLascannonFlavor" value="&lt;string name='Weapons/HeavyBolterFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarum/ProductionEdict2" value="Массовое строительство"/>
+	<entry name="AstraMilitarum/ProductionEdict2Description" value="Эдикт, увеличивающий производительность кранов в городе и повышающий рост населения."/>
+	<entry name="AstraMilitarum/ProductionEdict2Flavor" value="Edict, Departmento Munitorum: to all manufactory overseers: servitors are required to be run continuously for this cycle. Burnouts / fatalities are to be replaced from the lower ranks of the penal and labour corps."/>
+
+	<entry name="AstraMilitarum/ProductionEdict3" value="Массовое строительство 2"/>
+	<entry name="AstraMilitarum/ProductionEdict3Description" value="Эдикт, увеличивающий производительность кранов в городе и повышающий рост населения."/>
+	<entry name="AstraMilitarum/ProductionEdict3Flavor" value="Edict, Departmento Munitorum: to all manufactory overseers: servitors are required to be run continuously for this cycle. Burnouts / fatalities are to be replaced from the lower ranks of the penal and labour corps."/>
+
+	<entry name="AstraMilitarum/Psykers" value="&lt;string name='Buildings/AstraMilitarum/Psykers'/&gt;"/>
+	<entry name="AstraMilitarum/PsykersDescription" value="&lt;string name='Buildings/AstraMilitarum/PsykersDescription'/&gt;"/>
+	<entry name="AstraMilitarum/PsykersFlavor" value="&lt;string name='Buildings/AstraMilitarum/PsykersFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarum/BlastDamage" value="&lt;string name='Traits/AstraMilitarum/BlastDamage'/&gt;"/>
+	<entry name="AstraMilitarum/BlastDamageDescription" value="Увеличивает бронебойность гранат, ракет и разрывного вооружения."/>
+	<entry name="AstraMilitarum/BlastDamageFlavor" value="&lt;string name='Traits/AstraMilitarum/BlastDamageFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarum/WeStandTogether" value="Держать строй!"/>
+    <entry name="AstraMilitarum/WeStandTogetherDescription" value="Увеличивает размер группы пехотных подразделений Астра Милитарум, кроме Булгринов."/>
+    <entry name="AstraMilitarum/WeStandTogetherFlavor" value="Старший командующий кампанией обозначил предстоящее сражение как настолько важное, что все свои ресурсы и активы будут направлены на обеспечение победы, отказавшись от экономного управления логистикой в ​​пользу подавляющей силы. Старший командующий кампанией обозначил предстоящее сражение как настолько важное, что все свои ресурсы и активы будут направлены на обеспечение победы, отказавшись от экономного управления логистикой в ​​пользу подавляющей силы."/>
+
+	<entry name="AstraMilitarum/Scouting" value="Специалисты разведки"/>
+	<entry name="AstraMilitarum/ScoutingDescription" value="Дает возможность Ратлингам и Разведывательным Часовым раскрывать вокруг себя плитки в области, а также дает им способность проходить через леса и руины без штрафа."/>
+
+	<entry name="AstraMilitarum/Experienced" value="Опытный глаз"/>
+	<entry name="AstraMilitarum/ExperiencedDescription" value="Наделяет способностью подсвечивать вражеские юниты при атаке Полевой Артиллерией и Темпестусами, тем самым повышая дист. урон против них."/>
+
+	<entry name="AstraMilitarum/RecoveryGear" value="&lt;string name='Traits/RecoveryGear'/&gt;"/>
+	<entry name="AstraMilitarum/RecoveryGearDescription" value="Уменьшает перезарядку медпакета у пехоты, увеличивает лечение на 4хп от Благословения Омниссии(Техножрец) и ускоряет восстановление очков здоровья для подразделений Астра Милитарум."/>
+	<entry name="AstraMilitarum/RecoveryGearFlavor" value="&lt;string name='Traits/RecoveryGearFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarum/VoidShieldGenerator" value="&lt;string name='Units/AstraMilitarum/VoidShieldGenerator'/&gt;"/>
+	<entry name="AstraMilitarum/VoidShieldGeneratorDescription" value="Дает возможность улучшить имперский бастион и установить генератор щита, который дает сокращение дистанц. урона подразделениям в радиусе действия."/>
+
+	<entry name="AstraMilitarum/VoxCaster" value="Безжалостный"/>
+    <entry name="AstraMilitarum/VoxCasterDescription" value="Смерть рядом стоящей пехоты не понижает мораль и усиливает технику Астра Милитарум, давая  ей +17% урона."/>
+
+	<entry name="AstraMilitarum/SastraMilitaries" value="Военные силы Милитарум"/>
+    <entry name="AstraMilitarum/SastraMilitariesDescription" value="Дает пехоте Астра Милитарум бонусы, усиливающие их в бою. Гвардейцы 100% атак со второй дистанции, отд. тяж. оружия не теряют точность после перемещения, способность темпестусов +1 дистанция к атаке, ратлинги +1 макс. движение, быкрины снижают макс передвижение с атаки, псайкеры +1 длительность способностей."/>
+
+	<entry name="AstraMilitarum/AirDiscipline" value="Воздушная Дисциплина"/>
+    <entry name="AstraMilitarum/AirDisciplineDescription" value="Дает возможность самолетам получать бонусы от офицерской и генеральской ауры."/>
+
+	<entry name="AstraMilitarum/SkystrikeMissile" value="Небесный удар"/>
+	<entry name="AstraMilitarum/SkystrikeMissileDescription" value="Дает Валькирии возможность подсвечивать наземные цели, повышая урон наносимый пехотой, высаживать Касркинов и Темпестусов давая им +1 макс. движение и игнорирование дозора, а также даёт Удару молнии возможность стрелять ракетами по воздушным целям."/>
+	<entry name="AstraMilitarum/SkystrikeMissileFlavor" value="Далеко не всем известная группа поддержки Небесный удар творила чудеса на поле боя, уничтожая авиацию ксеносов и высаживая ударный десант прямо в сердце роя."/>
+
+	<entry name="AstraMilitarum/AdditionalHeavyBolters" value="Дополнительное тяжелое вооружение"/>
+	<entry name="AstraMilitarum/AdditionalHeavyBoltersDescription" value="Позволяет установить на Гибельный клинок,Дьявольский Пес, боевой танк Рогал Дорн,Валькирию дополнительные Тяжелые болтеры дает Василискам способность снижать броню и увеличивает урон Пушки Победителя у танка Леман Русс."/>
+	<entry name="AstraMilitarum/AdditionalHeavyBoltersFlavor" value="&lt;string name='Weapons/HeavyBolterFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarum/Baneblade" value="<string name='Units/AstraMilitarum/Shadowsword'/>"/>
+	<entry name="AstraMilitarum/BanebladeDescription" value="<string name='Units/AstraMilitarum/ShadowswordDescription'/>"/>
+	<entry name="AstraMilitarum/BanebladeFlavor" value="<string name='Units/AstraMilitarum/ShadowswordFlavor'/>"/>
+
+	<entry name="AstraMilitarum/DisciplineMove" value="Дисциплина превыше всего"/>
+	<entry name="AstraMilitarum/DisciplineMoveDescription" value="Все офицеры получают +1 к радиусу действия ауры Дисциплины. Вся пехота в радиусе ауры не получает штраф к передвижению по лесам, руинам и рекам. Отд. тяжелого оружия получают способность, увеличивающую урон по воздушным целям."/>
+	<entry name="AstraMilitarum/DisciplineMoveFlavor" value="Каждый солдат, кто потерял веру в Императора, потерял и себя."/>
+
+	<entry name="AstraMilitarum/MixCover" value="Укрытие от огня"/>
+	<entry name="AstraMilitarum/MixCoverDescription" value="Пехота начинает укрываться от огня за союзной техникой Астра Милитарум, от чего получает 33% сокращения дистанционного урона."/>
+
+	<entry name="AstraMilitarum/PsykersPower" value="Колдунство"/>
+	<entry name="AstraMilitarum/PsykersPowerDescription" value="Псайкеры получают возможность использовать свои способности без траты действий."/>
+
+	<entry name="AstraMilitarum/MediPack" value="&lt;string name='Actions/MediPack'/&gt;"/>
+	<entry name="AstraMilitarum/MediPackDescription" value="Даёт Гвардейцам, Отпрыскам Темпестус, Касркинам и Отд. тяжелого оружия способность исцелять себя во время боя."/>
+	<entry name="AstraMilitarum/MediPackFlavor" value="&lt;string name='Actions/MediPackFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/BolterDiscipline" value="Болтер Дисциплина"/>
+	<entry name="SpaceMarines/BolterDisciplineDescription" value="Дает Тактическому отделению новую особенность - если отряд остается неподвижным, он стреляет из скорострельного оружия, проводя усиленную атаку на всех дистанциях."/>
+	<entry name="SpaceMarines/BolterDisciplineFlavor" value="Для космодесантника болтер—больше, чем оружие—это инструмент божественности Человечества, несущий смерть его врагам."/>
+
+	<entry name="SpaceMarines/MultiChapter" value="&lt;string name='Traits/SpaceMarines/MultiChapter'/&gt;"/>
+	<entry name="SpaceMarines/MultiChapterDescription" value="Даёт возможность базовым юнитам Космодесанта получать бонусы от способностей и доктрин разных Орденов, а также даёт указатель, увеличивающий урон подразделениям Орденов по цели."/>
+	<entry name="SpaceMarines/MultiChapterFlavor" value="&lt;string name='Traits/SpaceMarines/MultiChapterFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/IronHands1" value="Мото Отделение Скаутов"/>
+	<entry name="SpaceMarines/IronHands1Description" value="Мобильный разведывательный юнит Ордена Железных Рук."/>
+	<entry name="SpaceMarines/IronHands1Flavor" value="&lt;string name='Units/SpaceMarines/ScoutBikerFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/OrbitalUpgrade" value="Продвинутое Сканирование"/>
+	<entry name="SpaceMarines/OrbitalUpgradeDescription" value="Снижает перезарядку и увеличивает радиус сканирования."/>
+	<entry name="SpaceMarines/OrbitalUpgradeFlavor" value="&lt;string name='Actions/OrbitalScanFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/AdvancedPool" value="Ферментационный Сбор"/>
+	<entry name="SpaceMarines/AdvancedPoolDescription" value="Увеличивает собираемые ресурсы с особенности местности 'Ферментационный Бассейн'."/>
+	<entry name="SpaceMarines/AdvancedPoolFlavor" value="&lt;string name='Features/FermentationPoolFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/FortressSupreme" value="Верховная Крепость"/>
+	<entry name="SpaceMarines/FortressSupremeDescription" value="Позволяет установить на Штаб Космодесанта дополнительные болтеры и Лазпушку, а также  восстанавливает очки здоровья Штабу и Крепостям Искупления каждый ход."/>
+	<entry name="SpaceMarines/FortressSupremeFlavor" value="Каждый орден Адептус Астартес содержит могущественную крепость-монастырь, святилище, где обучается новые поколения космических десантников и где хранятся тайны ордена."/>
+
+	<entry name="SpaceMarines/NoFear" value="Бесстрашие"/>
+	<entry name="SpaceMarines/NoFearDescription" value="Снижает потерю морали и наделяет иммунитетом к страху и сковыванию для пехотных подразделений Космического Десанта."/>
+	<entry name="SpaceMarines/NoFearFlavor" value="&lt;string name='Traits/AndTheyShallKnowNoFear'/&gt;"/>
+
+	<entry name="SpaceMarines/ChapterMasters" value="Мастера Ордена"/>
+	<entry name="SpaceMarines/ChapterMastersDescription" value="Добавляет героям новые способности. Библиарий получает способность 'Левитировать', Капитан - 'Броня Капитана'(Снижает дальние атаки смежным юнитам), Капеллан - 'Аура Стойкости'(Повышает сокр. дистанционного урона и не может стать целью атак из дозора), и дает возможность героям получать бонусы от доктрин разных Орденов."/>
+	<entry name="SpaceMarines/ChapterMastersFlavor" value="'Они станут моими лучшими воинами, полностью преданными мне, будто из глины я слеплю их и обожгу в горниле войны.'"/>
+
+	<entry name="SpaceMarines/LowTierScale" value="Подкрепление Легиона"/>
+	<entry name="SpaceMarines/LowTierScaleDescription" value="Добавляет Мото Отделению Скаутов +3 макс. здоровья и Болтер Дисциплину, Охотнику +1 дистанцию атаки, Щит Штурмовикам Космодесанта, способность Сигнум для Скаутов, добавляет штормовой Болтер Секачу, щит Тактическому Отделению и Интерцессоры получают новую особенность 'Пламя Кузни', наносящая переодический урон и блокирующая любое лечение."/>
+	<entry name="SpaceMarines/LowTierScaleFlavor" value="Почти каждый космодесантник, сотворённый с момента Первого Основания, имеет девятнадцать специализированных имплантатов, однако у их собратьев примарисов на 3 уникальных органа больше."/>
+
+	<entry name="SpaceMarines/LandSpeederDescription" value="Открывает Доктрину Гвардии Ворона и мобильную парящую машину, которая может перемещаться даже по воде."/>
+	<entry name="SpaceMarines/PrimarisInvaderATVDescription" value="Открывает Доктрину Черных Храмовников и быструю технику, оснащённую гатлинг-пушкой."/>
+	<entry name="SpaceMarines/ThunderfireCannonDescription" value="Открывает Доктрину Железных Рук и пушку, обеспечивающую дальнюю огневую поддержку."/>
+	<entry name="SpaceMarines/WhirlwindDescription" value="Открывает Доктрину Саламандр м артиллерийский танк с арсеналом ракет для обстрела вражеских позиций с большого расстояния."/>
+	<entry name="SpaceMarines/PrimarisAggressorDescription" value="Открывает Доктрину Имперских Кулаков и противопехотное подразделение ближнего боя, вооружённое перчатками «Пламенный шторм»."/>
+	<entry name="SpaceMarines/ApothecaryDescription" value="Улучшает Доктрину и открывает пехоту, которая лечит союзную пехоту."/>
+	<entry name="SpaceMarines/DreadnoughtDescription" value="Улучшает Доктрину и открывает тяжелую шагающую машину, сокрушающую противников."/>
+	<entry name="SpaceMarines/PredatorDescription" value="Улучшает Доктрину и открывает основной боевой танк Астартес."/>
+	<entry name="SpaceMarines/PrimarisInceptorDescription" value="Улучшает Доктрину и открывает мощное подразделение ближнего боя, оснащённое прыжковыми ранцами."/>
+	<entry name="SpaceMarines/StormSpeederThunderstrikeDescription" value="Улучшает Доктрину и открывает быструю штурмовую технику с мощным противотанковым оружием."/>
+	<entry name="SpaceMarines/PrimarisHellblasterDescription" value="Улучшает особенность Ордена и открывает тяжёлую бронебойную стрелковую пехоту."/>
+	<entry name="SpaceMarines/DevastatorSpaceMarineDescription" value="Улучшает особенность Ордена и открывает пехоту, вооруженную для борьбы с тяжелыми боевыми машинами."/>
+	<entry name="SpaceMarines/AssaultTerminatorDescription" value="Улучшает особенность Ордена и открывает тяжёлую пехоту рукопашного боя с мощным оружием и щитами."/>
+	<entry name="SpaceMarines/RedemptorDreadnoughtDescription" value="Улучшает особенность Ордена и открывает мощный шагоход с широким арсеналом оружия."/>
+	<entry name="SpaceMarines/StormravenGunshipDescription" value="Улучшает особенность Ордена и открывает тяжеловооруженный и бронированный воздушный транспорт."/>
+
+	<entry name="SpaceMarines/LowTierScale2" value="Остов Верности"/>
+	<entry name="SpaceMarines/LowTierScale2Description" value="Добавляют Хищнику, Лендспидеру и Крепости Искупления дополнительное тяжелое вооружение, Дредноуту новую способность 'Гром и Молот', Вихрю способность 'Указатель', увеличивает макс. здоровье Апотекариям и делает Заступников дешевле."/>
+	<entry name="SpaceMarines/LowTierScale2Flavor" value="Почти каждый космодесантник, сотворённый с момента Первого Основания, имеет девятнадцать специализированных имплантатов, однако у их собратьев примарисов на 3 уникальных органа больше."/>
+
+	<entry name="SpaceMarines/ChapterAssign" value="Организованные Армии"/>
+	<entry name="SpaceMarines/ChapterAssignDescription" value="Подразделения Орденов Космического Десанта получают новую особенность, позволяющую увеличивать урон по атакуемым целям для других Орденов."/>
+	<entry name="SpaceMarines/ChapterAssignFlavor" value="Изначально ордены были организационной единицей армии Громовых Воинов. Во время Великого крестового похода космодесант был разделен на легионы, которые в свою очередь состояли из рот."/>
+
+	<entry name="SpaceMarines/FlyerSight" value="Рентген Астартес"/>
+	<entry name="SpaceMarines/FlyerSightDescription" value="Увеличивает радиус обзора летунов и скиммеров Космического Десанта и позволяет летунам не становиться целью вражеских атак с дозора."/>
+    <entry name="SpaceMarines/FlyerSightFlavor" value="&lt;string name='Traits/SpaceMarines/FlyerSightFlavor'/&gt;"/>
+
+	<entry name="SpaceMarines/NoLosses" value="Без Потерь"/>
+	<entry name="SpaceMarines/NoLossesDescription" value="Уменьшает потерю морали для пехотных подразделений и они получают новую способность, снижающую потерю морали для союзников."/>
+    <entry name="SpaceMarines/NoLossesFlavor" value="В Галактике, окутанной тьмой, мы должны стать светом. Во времена, когда волны отчаяния вздымаются высоко, мы должны вознестись ещё выше. В эпоху, когда разум и надежда обращены в бегство, мы должны стоять насмерть."/>
+
+	<entry name="SpaceMarines/TacticalSolution" value="Тактические Решения"/>
+	<entry name="SpaceMarines/TacticalSolutionDescription" value="Уменьшает перезарядку для Скана, Крепости Искупления и Орбитальной Бомбардировки."/>
+    <entry name="SpaceMarines/TacticalSolutionFlavor" value="Ордены по своей природе напоминают монашеские общины, для большинства космодесантников орденом ограничивается весь их мир, а с чужаками они контактируют только в битве."/>
+
+	<entry name="SpaceMarines/DoctrineMasters" value="Приказ Императора"/>
+	<entry name="SpaceMarines/DoctrineMastersDescription" value="Уменьшает перезарядку для доктрин всех Орденов."/>
+
+	<entry name="SpaceMarines/Heroes" value="&lt;string name='Units/SpaceMarines/Captain'/&gt;"/>
+	<entry name="SpaceMarines/HeroesDescription" value="&lt;string name='Units/SpaceMarines/CaptainDescription'/&gt;"/>
+	<entry name="SpaceMarines/HeroesFlavor" value="&lt;string name='Units/SpaceMarines/CaptainFlavor'/&gt;"/>
+
+	<entry name="Drukhari/Heroes" value="&lt;string name='Units/Drukhari/Archon'/&gt;"/>
+	<entry name="Drukhari/HeroesDescription" value="&lt;string name='Units/Drukhari/ArchonDescription'/&gt;"/>
+	<entry name="Drukhari/HeroesFlavor" value="&lt;string name='Units/Drukhari/ArchonFlavor'/&gt;"/>
+
+	<entry name="ChaosSpaceMarines/Heroes" value="&lt;string name='Units/ChaosSpaceMarines/ChaosLord'/&gt;"/>
+	<entry name="ChaosSpaceMarines/HeroesDescription" value="&lt;string name='Units/ChaosSpaceMarines/ChaosLordDescription'/&gt;"/>
+	<entry name="ChaosSpaceMarines/HeroesFlavor" value="&lt;string name='Units/ChaosSpaceMarines/ChaosLordFlavor'/&gt;"/>
+
+	<entry name="Necrons/Heroes" value="&lt;string name='Units/Necrons/Lord'/&gt;"/>
+	<entry name="Necrons/HeroesDescription" value="&lt;string name='Units/Necrons/LordDescription'/&gt;"/>
+	<entry name="Necrons/HeroesFlavor" value="&lt;string name='Units/Necrons/LordFlavor'/&gt;"/>
+
+	<entry name="Orks/Heroes" value="&lt;string name='Units/Orks/Warboss'/&gt;"/>
+	<entry name="Orks/HeroesDescription" value="&lt;string name='Units/Orks/WarbossDescription'/&gt;"/>
+	<entry name="Orks/HeroesFlavor" value="&lt;string name='Units/Orks/WarbossFlavor'/&gt;"/>
+
+	<entry name="Tau/Heroes" value="&lt;string name='Units/Tau/CadreFireblade'/&gt;"/>
+	<entry name="Tau/HeroesDescription" value="&lt;string name='Units/Tau/CadreFirebladeDescription'/&gt;"/>
+	<entry name="Tau/HeroesFlavor" value="&lt;string name='Units/Tau/CadreFirebladeFlavor'/&gt;"/>
+
+	<entry name="Eldar/Heroes" value="&lt;string name='Units/Eldar/Autarch'/&gt;"/>
+	<entry name="Eldar/HeroesDescription" value="&lt;string name='Units/Eldar/AutarchDescription'/&gt;"/>
+	<entry name="Eldar/HeroesFlavor" value="&lt;string name='Units/Eldar/AutarchFlavor'/&gt;"/>
+
+	<entry name="AstraMilitarumAircraftProductionEdict" value="Энергетический Приказ"/>
+	<entry name="AstraMilitarumAircraftProductionEdictDescription" value="Эдикты, увеличивающие выход продукции Пустотного порта в городе и производство энергии."/>
+	<entry name="AstraMilitarumAircraftProductionEdictFlavor" value="Эдикт, Департаменто Муниторум: для всех Мастеров Пустотных портов. Цикл сна рабочих сокращается вдвое до дальнейшего уведомления, производственные задания увеличены. Арбитры направлены во все сектора для обеспечения соблюдения эдикта."/>
+
+	<entry name="Tau/BondingKnifeRitualDescription" value="Предоставляет Воинам Огня, Командам прорыва воинов Огня, Следопытам, БСК XV25 Невидимка, БСК XV8 Кризис и БСК XV8 Залп возможность восстановить свою мораль."/>
+
+
+
+
+	<entry name="Missing" value="Missing"/>
+</language>

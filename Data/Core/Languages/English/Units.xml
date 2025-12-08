@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<entry name="AstraMilitarum/MarauderDestroyer" value="Marauder Destroyer"/>
+	<entry name="AstraMilitarum/MarauderDestroyerDescription" value="Super-heavy aircraft unit that obliterates ground targets with overwhelming direct firepower."/>
+	<entry name="AstraMilitarum/MarauderDestroyerFlavor" value="Sturdily built and boasting a colossal payload for its size, the Marauder is the archetypal super-heavy aircraft of the Imperium. Powerful engines and capacious fuel tanks give the Marauder a substantial operational reach and, furthermore, allow squadrons to operate effectively in times of sporadic resupply."/>
+	
+	
+	<entry name="AstraMilitarum/ArmoredSentinel" value="Armoured Sentinels"/>
+	<entry name="AstraMilitarum/ArmoredSentinelDescription" value="Heavy armoured walker unit specialized in focusing fortified or armored targets."/>
+	<entry name="AstraMilitarum/ArmoredSentinelFlavor" value="The Sentinel is a fast-moving combat walker employed to scout dense terrain and provide close infantry fire support. With surprising speed and locomotive dexterity, Sentinels can traverse terrain that would confound other armoured vehicles. The armoured  Sentinels, in particular, are used to engage fortified or heavy armored targets."/>
+	
+	<entry name="AstraMilitarum/Kasrkin" value="Kasrkin"/>
+	<entry name="AstraMilitarum/KasrkinDescription" value="Elite infantry unit of the Astra Militarum."/>
+	<entry name="AstraMilitarum/KasrkinFlavor" value="When veteran Guardsmen flee, the Kasrkin stand. When victory is near, the Kasrkin seize it. When the Archenemy attacks, the Kasrkin Elite are the rock upon which traitors shall break."/>
+	
+	<entry name="SpaceMarines/AssTerminator" value="Assault Terminators"/>
+	<entry name="SpaceMarines/AssTerminatorDescription" value="Elite tactical formation of the Adeptus Astartes."/>
+	<entry name="SpaceMarines/AssTerminatorFlavor" value="Wielding the most ferocious weapons their Chapter can provide, these elite Veterans quickly overwhelm all who stand before them."/>
+	
+	
+	<entry name="Tau/HammerheadGunshipmk2" value="TX7-M2 Hammerhead Gunship"/>
+	<entry name="Tau/HammerheadGunshipmk2Description" value="Skimmer tank unit with powerfull weaponry."/>
+	<entry name="Tau/HammerheadGunshipmk2Flavor" value="Hammerhead Gunships glide into battle like predatory beasts. As they advance, their massive turret armaments traverse smoothly, railguns and ion cannons sweeping left and right as they hunt for targets. The moment a suitable victim presents itself, firing solutions are calculated in the blink of an eye. Power surges as gravitic stabilisers kick in with a bass hum and the Hammerheads loose the lethal fury of their arsenal upon the foe."/>
+	
+	<entry name="ChaosSpaceMarines/Poxwalker" value="Poxwalkers"/>
+	<entry name="ChaosSpaceMarines/PoxwalkerDescription" value="Light melee infantry unit able to regenerate in combat."/>
+	<entry name="ChaosSpaceMarines/PoxwalkerFlavor" value="Poxwalkers are victims of the Walking Pox, a cruel virulence that rots the infected to death whilst keeping them conscious. They are terror troops, their ceaseless groaning the vector by which they infect the living. In battle they drown their foes in a sea of decaying flesh, clawing hands and gnashing teeth."/>
+	
+	<entry name="Eldar/Wraithguards" value="Wraithguards"/>
+	<entry name="Eldar/WraithguardsDescription" value="Formidable constructs, ancient and mysterious."/>
+	<entry name="Eldar/WraithguardsFlavor" value="Heavily armored infantry units for the Eldar race. Crafted from the essence of Wraithbone, a psychic substance that resonates with the Eldar's psychic energies, Wraithguard are both a technological marvel and a manifestation of the Eldar's psychic mastery.."/>
+	
+	<entry name="Neutral/VaulScoutingDevice2" value="Vaul Device"/>
+	<entry name="Neutral/VaulScoutingDevice2Description" value="Ancient  device."/>
+	
+	<entry name="AdeptusMechanicus/SkorpiusDuneriderMk2" value="Armoured Dunerider"/>
+	<entry name="AdeptusMechanicus/SkorpiusDuneriderMk2Description" value="Doctrina Imperatives armored vehicle."/>
+	<entry name="AdeptusMechanicus/SkorpiusDuneriderMk2Flavor" value="Armoured Duneriders engage enemis in the front lines, overwhelming the foe. Armoured Duneriders sweep onto enemy defences in a cloud of chemical smoke, saturating the area with heavy calibre shot."/>
+
+	<entry name="SpaceMarines/LandRaiderInf" value="Land Raider"/>
+	<entry name="SpaceMarines/LandRaiderInfDescription" value="Massively armoured and heavily armed transport unit."/>
+	<entry name="SpaceMarines/LandRaiderInfFlavor" value="The ground trembles and enemies flee in fear as the mighty Land Raider advances into battle. Massively armoured and all but unstoppable, the noble war engine smashes through walls and grinds over wreckage while drumming volley after volley of fire into the foe. Beams of incandescent energy slam into enemy tanks, knifing through their armoured hulls and reducing them to blazing fireballs. Thudding bolt shells punch into the flesh of the foe before detonating in shocking sprays of gore. The kill count climbs with each passing moment as the Land Raider advances across the war zone, especially once the tank's assault ramp slams down and its Adeptus Astartes passengers charge out to add to the carnage."/>
+
+	<entry name="SpaceMarines/DevastatorCenturionInf" value="Devastator Centurions"/>
+	<entry name="SpaceMarines/DevastatorCenturionInfDescription" value="Very bulky infantry unit with massive armaments."/>
+	<entry name="SpaceMarines/DevastatorCenturionInfFlavor" value="Devastator Centurions pound their enemies with a remorseless, relentless rain of fire. Bloody havoc is wrought upon anything that falls within the Centurions’ targeting reticules. The pilots’ marksmanship is augmented by the grim machine spirits of their warsuits, decimator protocols guiding servo-assisted recoil absorption and oracular auto-targeting to ensure the Centurions maintain a punishing rate of fire. Return fire is a futile gesture, akin to flinging stones at a fortress, for should the enemy launch an assault in an attempt to silence the Devastator Centurions’ guns they must contend with the suits’ massive strength and the pilots’ skill at arms."/>
+
+	<entry name="AstraMilitarum/Shadowsword" value="Shadowsword"/>
+	<entry name="AstraMilitarum/ShadowswordDescription" value="Super-heavy tank unit with a devastating long range weapon."/>
+	<entry name="AstraMilitarum/ShadowswordFlavor" value="The Shadowsword is designed to bring a swift and crushing end to drawn out engagements against the most titanic opposition. Its volcano cannon emits a laser beam so powerful that enemy infantry and vehicles are atomised, while its favoured super-heavy prey are cored and toppled by the lance of thrumming energy."/>
+
+    <entry name="SpaceMarines/HonourGuard" value="Honour Guard"/>
+    <entry name="SpaceMarines/HonourGuardDescription" value="Elite cadre of Veteran Space Marines."/>
+
+	<entry name="SpaceMarines/ChampionTerminator" value="Champion of the Black Templars"/>
+	<entry name="SpaceMarines/ChampionTerminatorDescription" value="Heavy melee infantry with powerful weapons and shields."/>
+	<entry name="SpaceMarines/ChampionTerminatorFlavor" value="The first veterans to become Terminator Assault Squads eschew ranged combat, preferring to blaze a trail with thunder hammers and deflect enemy fire with massive assault shields. This combination is particularly effective in the cramped confines of boarding parties, corridors or tunnels, where a single squad can destroy many times the number of foes without suffering a single casualty."/>
+
+<entry name="SpaceMarines/Dreadnought" value="Dreadnought"/>
+<entry name="SpaceMarines/DreadnoughtDescription" value="A heavy walker that crushes foes at range."/>
+<entry name="SpaceMarines/DreadnoughtFlavor" value="The ground trembles as the Space Marine Dreadnought advances. With a powerful power arm and blazing heavy weapons, this armoured war machine carves a path through its foes."/>
+
+<entry name="SpaceMarines/ChampionDreadnought" value="Champion of the Iron Hands"/>
+<entry name="SpaceMarines/ChampionDreadnoughtDescription" value="A heavy walker that crushes foes at range."/>
+<entry name="SpaceMarines/ChampionDreadnoughtFlavor" value="The ground trembles as a Space Marine Dreadnought advances. With a powerful power arm and blazing heavy weapons, this armoured war machine carves a path through the ranks of its foes."/>
+
+
+
+</language>

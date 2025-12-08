@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon>
+	<model>
+		<beamWeapon fireSound="Weapons/HeavyDScythe"
+				fireSoundCount="1"
+				muzzleFlashesBlueprint="Effects/IonMuzzleFlashes"
+				muzzleFlashesEmitterBlueprint="Effects/DScytheMuzzleFlashesEmitter"
+		 		beamsBlueprint="Effects/IonBeams"
+		 		beamsEmitterBlueprint="Effects/DScytheBeamsEmitter"
+				explosionsBlueprint="Effects/DScytheExplosions"
+				explosionsEmitterBlueprint="Effects/DScytheExplosionsEmitter"
+				displaceExplosions="0"
+				fireInterval="10.0"/>
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedArmorPenetration add="8"/> <!-- %rangedArmorPenetration add armorPiercing= -4 -->
+				<rangedDamage add="16"/> <!-- %rangedDamage add strength=10 D3+3 (SIC!) -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="2"/>
+	<traits>
+		<trait name="Eldar/HeavyWeaponBonus" requiredUpgrade="Eldar/HeavyWeaponBonus"/>
+		<trait name="HeavyWeapon"/>
+	</traits>
+</weapon>

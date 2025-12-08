@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/SpaceMarines/HellfireDreadnoughtDiffuse"/>
+		<texture name="Units/SpaceMarines/HellfireDreadnoughtNormal"/>
+		<texture name="Units/SpaceMarines/HellfireDreadnoughtSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade icon="Units/AstraMilitarum/VoidShieldGenerator" position="5" dlc="Supplement4">
+	<requiredUpgrades>
+		<upgrade name="AstraMilitarum/ImperialStrongpoint"/>
+	</requiredUpgrades>
+</upgrade>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Weapons/AstraMilitarum/BlankDiffuse"/>
+		<texture name="Weapons/AstraMilitarum/BlankCannonNormal"/>
+		<texture name="Weapons/AstraMilitarum/BlankCannonSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

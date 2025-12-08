@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/TankCommander"
+				material="Units/AstraMilitarum/TankCommander"
+				idleAnimation="Units/AstraMilitarum/TankCommanderIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				scale="1.3 1.3 1.3"
+				explosionsBone="Hull"
+				bloodBone="Bone016"
+				uvAnimated="1"/>
+	</model>
+	<weapons>
+		<weapon name="BattleCannon">
+			<model>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon"
+						material="Weapons/AstraMilitarum/LemanRussBattleTankBattleCannon"
+						bone=".BarrelAttachment"
+						muzzleBone="BarrelMuzzle0"
+						fireInterval="0.8"/>
+			</model>
+		</weapon>
+		<weapon name="Lascannon">
+			<model>
+				<beamWeapon muzzleBone=".FrontTurretMuzzle0"/>
+			</model>
+		</weapon>
+		<weapon name="HeavyBolter" count="2"
+				requiredUpgrade="AstraMilitarum/AdditionalHeavyBolters">
+			<model>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters"
+						material="Weapons/AstraMilitarum/LemanRussBattleTankHeavyBolters"
+						bone=".SideGunsAttachment"
+						muzzleBone="SideGunsMuzzle"
+						muzzleCount="2"/>
+			</model>
+		</weapon>
+		<weapon name="RollOverThem" slotName="RollOverThem" enabled="0"/>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="9"/> <!-- %armor base armor=14/13/10 -->
+				<hitpointsMax base="48.0"/> <!-- %hitpointsMax base armor=14/13/10 wounds=3 -->
+				<influenceUpkeep base="3.0"/> <!-- %influenceUpkeep base tier=8 factor=1.5 -->
+				<influenceCost base="120.0"/> <!-- %influenceCost base tier=8 factor=1.5 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+				<meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=6 -->
+				<meleeAttacks base="3"/>
+				<strengthDamage base="4"/> <!-- %strengthDamage base strength=7 -->
+				<!-- <meleeInitiative base="3"/> -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax base="3"/>
+				<oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=8 factor=1 -->
+				<oreCost base="80.0"/> <!-- %oreCost base tier=8 factor=1 -->
+				<productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="AstraMilitarum/BanebladeLascannon">
+		    <effects>
+				<movementMax add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/AstraMilitarum/TankCommanderAttack"
+						beginFire="0.7"
+						endFire="2.6"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/TankCommanderDie"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0.2"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/TankCommanderMove"
+						sound="Units/AstraMilitarum/TankMove"
+						soundCount="3"/>
+			</model>				
+		</move>
+		<createSmokeScreen consumedActionPoints="0"
+                           consumedMovement="0"
+                           cooldown="5"
+                           icon="Traits/SmokeScreen"
+                           requiredActionPoints="0"
+                           requiredUpgrade="AstraMilitarum/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="1" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+		<fullThrottle cooldownMax="3" cooldownMin="5"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				shoutString="Actions/FullThrottle">
+			<model>
+				<action animation="Units/AstraMilitarum/TankCommanderAbility"
+						bone="Bone016"
+						sound="Actions/AstraMilitarumBuff"/>
+			</model>
+			<modifiers>
+			<modifier visible="0">
+				<conditions>
+					<unit>
+						<trait name="AstraMilitarum/TankSup"/>
+					</unit>
+				</conditions>
+				<effects>
+					<cooldown add="-1"/>
+				</effects>
+			</modifier>
+			</modifiers>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<movement greater="0"/>
+											<trait name="Tank"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="1" name="FullThrottle"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</fullThrottle>
+		<gunnersKillOnSight	cooldownMax="3" cooldownMin="5"
+				levelUpPriority="0.15"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0" consumedMovement="0"
+				shoutString="Actions/GunnersKillOnSight">
+			<model>
+				<action animation="Units/AstraMilitarum/TankCommanderAbility"
+						bone="Bone016"
+						sound="Actions/AstraMilitarumBuff"/>
+			</model>
+			<modifiers>
+			<modifier visible="0">
+				<conditions>
+					<unit>
+						<trait name="AstraMilitarum/TankSup"/>
+					</unit>
+				</conditions>
+				<effects>
+					<cooldown add="-1"/>
+				</effects>
+			</modifier>
+			</modifiers>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="Tank"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="1" name="GunnersKillOnSight"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</gunnersKillOnSight>
+		<genericUnitAbility name="AstraMilitarum/Attacking"
+                            passive="1"
+							rank="-1"
+				            rankMax="2"
+                            icon="Traits/AstraMilitarum/Attacking">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/Attacking"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+		<genericUnitAbility name="AstraMilitarum/TankDam"
+							charges="1"
+				            rank="-1"
+				            rankMax="0"
+							consumedActionPoints="0" consumedMovement="0"
+							elite="1"
+                            icon="Traits/AstraMilitarum/TankDam">
+            <beginTargets>
+                <selfTarget>
+					<conditions>
+						<unit>
+							<noTrait name="AstraMilitarum/TankSup"/>
+						</unit>
+					</conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/TankDam"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+		<genericUnitAbility name="AstraMilitarum/TankSup"
+				elite="1"
+				charges="1"
+				consumedActionPoints="0" consumedMovement="0"
+				levelUpPriority="1"
+				rank="-1"
+				rankMax="0" icon="Traits/AstraMilitarum/TankSup">
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<noTrait name="AstraMilitarum/TankDam"/>
+						</unit>
+					</conditions>
+                    <areas>
+                        <area affects="Unit">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/TankSup"/>
+                                    </effects>
+                                </modifier>
+								<modifier visible="0">
+                                    <effects>
+										<addTrait name="AstraMilitarum/DestructiveUltimate"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<levelUp/>
+		<shop/>
+		<genericUnitAbility name="AstraMilitarum/MixCover"
+                            passive="1"
+                            icon="Traits/AstraMilitarum/MixCover" requiredUpgrade="AstraMilitarum/MixCover">
+            <beginTargets>
+                <selfTarget>
+                    <areas>
+                        <area affects="Tile" radius="1">
+                            <modifiers>
+                                <modifier>
+                                    <effects>
+                                        <addTrait name="AstraMilitarum/MixCover"/>
+                                    </effects>
+                                </modifier>
+                            </modifiers>
+                        </area>
+                    </areas>
+                </selfTarget>
+            </beginTargets>
+        </genericUnitAbility>
+	</actions>
+	<traits>
+		<trait name="CamoNetting" requiredUpgrade="AstraMilitarum/CamoNetting"/>
+		<trait name="DozerBlade" requiredUpgrade="AstraMilitarum/SmokeLauncher"/>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="AstraMilitarum/ExtraVehicleArmour"/>
+		<trait name="Hero"/>
+		<trait name="RecoveryGear" requiredUpgrade="AstraMilitarum/RecoveryGear"/>
+		<trait name="RelicPlating" requiredUpgrade="AstraMilitarum/RelicPlating"/>
+		<trait name="Tank"/>
+		<trait name="Vehicle"/>
+		<trait name="AstraMilitarum/AwakenLeman"/>
+		<trait name="AstraMilitarum/TankDebuff"/>
+		<trait name="AstraMilitarum/TankComUpkeep"/>
+	</traits>
+</unit>

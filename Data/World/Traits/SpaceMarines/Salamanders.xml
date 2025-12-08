@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<trait alwaysVisible="1">
+	<modifiers>
+		<modifier>
+			<effects>
+				<meleeDamageReduction add="0.07"/>
+			</effects>
+		</modifier>
+        <modifier requiredUpgrade="SpaceMarines/RedemptorDreadnought">
+            <effects>
+				<meleeDamageReduction add="0.10"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<attacking/>
+					</opponent>
+					<weapon match="Any">
+						<trait name="Flame"/>
+                        <trait name="Melta"/>
+					</weapon>
+				</encounter>
+			</conditions>
+			<effects>
+				<damageTaken mul="-0.07"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="SpaceMarines/RedemptorDreadnought" visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<attacking/>
+					</opponent>
+					<weapon match="Any">
+						<trait name="Flame"/>
+                        <trait name="Melta"/>
+					</weapon>
+				</encounter>
+			</conditions>
+			<effects>
+				<damageTaken mul="-0.10"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
