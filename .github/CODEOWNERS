@@ -1,0 +1,3 @@
+X# .github/CODEOWNERS
+ # Требовать аппрув от любого члена команды qa или admins
+ *    @GladiusCommunity/qa @GladiusCommunity/admins
